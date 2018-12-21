@@ -1,0 +1,53 @@
+*
+{
+  padding:0px;
+  margin:0px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box; 
+}
+
+/*-----------------
+    video
+-------------------*/
+video
+{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------
+    fin video
+---------------------*/
+
+/*--------------------
+    conocenos
+----------------------*/
+#conocenos
+{
+    position: relative;
+}
+
+.texto-conocenos
+{
+    position: absolute;
+}
+
+.texto-conocenos h1
+{
+    color: #c68659;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    padding: 150px 0px 0px;
+}
+
+.texto-conocenos p
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding: 50px 0px 150px;
+}
+/*---------------------
+    fin conocenos
+-----------------------*/
