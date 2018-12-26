@@ -1,11 +1,185 @@
 @import "variables";
+
 #seccion-bienestar
 {
-            background: url(../img/cb/bannerbienestar.jpg);
+        background: url(../img/cb/bannerbienestar.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
         max-width: 100%; 
         margin-top: -8px;
+        .link-bienestar
+        {
+            color: #876bb2;
+        }
+        video
+        {
+            margin-top: 200px;
+            position: relative;
+            margin-left: -70px;
+        }    
+        h1
+        {
+            color:$titulos-bienestar;
+            text-align: center;
+            font-family: $tipografia;
+            padding: 150px 0px 30px;
+        }
+        h2
+        {
+            font-family: $tipografia;
+            color: $titulos-bienestar;
+            text-align: center;
+            font-size: 22px;
+        }
+        .cuadrobienestar
+        {
+            background-color: white;
+            margin-top: -20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 60px 1px #afafaf;
+            width: 800px;
+            max-width: 90%;
+            margin:30px;
+            height: auto;
+            margin-bottom: 150px;
+            ul.cir_b
+            {
+                width: 100%;
+                list-style: none; 
+                position: relative
+                /*display: iline-block; Alinea las imagenes verticalmente*/
+            }
+            ul.cir_b li
+            {
+                width:150px;
+                margin-left: -115px;
+                margin-top: 10px;
+            }
+            ul.cir_b li a
+            {
+                color:#fff;
+                text-decoration: none;
+                display: block;
+                padding: 5px 0px;   
+            }
+            .circulos-secciones_bienestar
+            {
+                width: 100%;
+                position: absolute; 
+                height: auto;
+                article
+                {
+                    position: relative;
+                    margin-left: 50px; 
+                    margin-top: -500px; 
+                    margin-bottom: 150px;
+                    padding: 0px 20px; 
+                    h1
+                    {
+                        position: relative;
+                        text-align: center; 
+                        margin-top: -350px; 
+                        margin-bottom: 10px;
+                        font-size: 25px;  
+                        font-weight: bold;
+                    }
+                    p
+                    {
+                        font-family: $tipografia;
+                         color: $contenidos-bienestar;
+                         padding: 10px 50px;
+                         font-size: 14px;
+                         text-align: justify;
+                    }
+                }
+            }
+        }
+        .cuadrobelleza1
+        {
+            background-color: white;
+            margin-top: -20px;
+            margin-bottom: 150px;
+            box-shadow: 0 0 60px 1px #afafaf;
+            width: 800px;
+            max-width: 90%;
+            margin:30px;
+            height: auto;
+        }
+        .slider2
+        {
+            width: 100%;
+            margin: auto;
+            display: block;
+            padding: 20px;
+            h1
+            {
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                font-weight: bold;
+                 padding: 50px 0 10px;
+            }
+            p
+            {
+                text-align: justify;
+                padding: 0px 20px 0px;
+                font-family: $tipografia;
+            }
+        }
+}
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+     #seccion-bienestar
+    {
+        video
+        {
+            margin-top:0px;
+            position: relative;
+            margin-left:0px;
+            width: 500px;
+        }
+    } 
+}
+
+
+@media (max-width:768px)
+{
+    #seccion-bienestar
+    {
+        video
+        {
+            margin-top:0px;
+            position: relative;
+            margin-left:0px;
+            width: 100%;
+        }
+    } 
+  
+}
+
+@media (max-width:576px)
+{
+ 
+    #seccion-bienestar
+    {
+        video
+        {
+            margin-top:0px;
+            position: relative;
+            margin-left:0px;
+            width: 100%;
+        }
+    } 
+    
 }
