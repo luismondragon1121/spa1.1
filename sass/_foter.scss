@@ -1,0 +1,87 @@
+@import "variables";
+.foter
+{
+    font-family: $tipografia;
+    background-color: #664936;
+    ul
+    {
+        list-style: none;
+        padding: 40px 0px 40px;
+        li a
+        {
+            list-style: none;
+            margin-top: 10px;
+            font-size: 14px;
+            color: white;  
+            padding: 5px;
+        }
+    }
+    
+    #foter-redes
+    {
+        background-color: #664936;
+        padding: 10px 60px 10px;
+        ul
+        {
+            list-style: none;
+            margin: 5px;
+            margin-top: 0px;
+            float: right;
+            font-family: $tipografia;
+        }
+        a 
+        {
+            list-style: none;
+            margin: 5px;
+            margin-top: 0px;
+        }
+        li 
+        {
+            margin-left: 20px;
+            margin-top: 10px;
+            color: white;
+            font-size: 12px;
+        }
+    }
+}
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   .foter
+    {
+        text-align: left;
+    }
+
+}
+
+@media (max-width:992px)
+{
+ .foter
+    {
+        text-align: left;
+    }
+}
+
+
+@media (max-width:768px)
+{
+     .foter li
+    {
+        text-align: center;
+        #foter-redes
+        {
+           padding: 0px 50px;
+             margin-left: -5px;
+        }
+    }
+    
+}
+
+@media (max-width:576px)
+{
+  
+    
+}
