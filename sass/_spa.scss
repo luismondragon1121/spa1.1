@@ -1,39 +1,44 @@
 @import "variables";
-#centrobelleza
+#seccion-spa
 {
-    background: url(../img/cb/bannerbelleza.jpg);
+    background: url(../img/cb/bannerspa.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
     max-width: 100%;
+    margin-top: -8px;
     video
     {
         margin-top: 150px;
         position: relative;
         margin-left: -70px;
     }
+    .link-spa
+    {
+        color: #c68659;
+    }
     
     h1
     {
-        color: $titulos-belleza;
-        font-family: $tipografia;
+        color:$color-titulos;
+        font-family:$tipografia;
         text-align: center;
         padding: 150px 0px 30px;
+        font-weight: bold;
     }
     h2
     {
-        color: $contenidos-belleza;
         font-family: $tipografia;
+        color: $color-titulos;
         text-align: center;
         font-size: 22px;
-        padding: 0px 0px 20px;
     }
-    .cuadrosbelleza
+    .cuadrospa
     {
         background-color: white;
-        margin-top: 20px;
-        margin-bottom: 150px;
+        margin-top: -20px;
+        margin-bottom: 20px;
         box-shadow: 0 0 60px 1px #afafaf;
         width: 800px;
         max-width: 90%;
@@ -41,64 +46,64 @@
         height: auto;
         margin-bottom: 150px;
         position: relative;
-        
-         ul.cir_be
+        ul.cir
         {
             width: 100%;
+            list-style: none; 
+            /*display: iline-block; Alinea las imagenes verticalmente*/
+        }
+         ul.cir
+        {
+           width: 100%;
             list-style: none; 
             position: relative
         /*display: iline-block; Alinea las imagenes verticalmente*/
         }
-        ul.cir_be li
+        ul.cir li
         {
             width:150px;
             margin-left: -115px;
             margin-top: 10px;
         }
-        ul.cir_be li a
+        ul.cir li a
         {
             color:#fff;
             text-decoration: none;
             display: block;
             padding: 5px 0px;   
         }
-        .circulos-secciones_belleza
+        .circulos-secciones
         {
             width: 100%;
             position: absolute; 
             height: auto;
             article
             {
-                position: relative;
+                position: absolute;
                 margin-left: 50px; 
-                margin-top: -450px; 
+                margin-top: -50px; 
                 margin-bottom: 150px;
                 padding: 0px 20px; 
                 h1
                 {
-                      position: relative;
-                      text-align: center; 
-                      margin-top: -550px; 
-                      margin-bottom: 10px;
-                      font-size: 25px;   
+                   position: relative;
+                   text-align: center; 
+                   margin-top: -650px; 
+                   margin-bottom: 10px;
+                   font-size: 25px;  
                 }
                 p
                 {
                      font-family: $tipografia;
-                     color: $contenidos-belleza;
                      padding: 10px 50px;
                      font-size: 14px;
                      text-align: justify;
                 }
-                a
-                {
-                    text-align: center;
-                }
             }
         }
-    } 
+    }
     
-    .cuadrobelleza1
+      .cuadrobelleza1
     {
         background-color: white;
         margin-top: -20px;
@@ -108,39 +113,31 @@
         max-width: 90%;
         margin:30px;
         height: auto;
+        .link-spa
+        {
+            color: #c68659;
+        }
     }
-    
-    .slider
+    .slider1
     {
         width: 100%;
         margin: auto;
         display: block;
         padding: 20px;
-        margin-bottom: 50px;
-    }
-
-    .slider img
-    {
-        margin: auto;
-        left: 0;
-        top: 0;
-    }
-
-    .slider p
-    {
-        text-align: justify;
-        padding: 0px 20px 0px;
-        font-family: 'Poppins', sans-serif;
-    }
-    .slider h1
-    {
-        font-family: 'Poppins', sans-serif;
-        font-size: 28px;
-        text-align: center;
-        color: #7aa9da;
-        font-weight: bold;
-        margin-bottom: 10px;
-        padding: 50px 0 10px;
+        h1
+        {
+            font-size: 20px;
+            text-align: center;
+            color: #c68659;
+            font-weight: bold;
+            padding: 50px 0 10px;
+        }
+        p
+        {
+            text-align: justify;
+            padding: 0px 20px 0px;
+            font-family: $tipografia;
+        }
     }
 
 }
@@ -155,7 +152,7 @@
 
 @media (max-width:992px)
 {
-     #centrobelleza
+     #seccion-spa
     {
         video
         {
@@ -170,7 +167,7 @@
 
 @media (max-width:768px)
 {
-    #centrobelleza
+    #seccion-spa
     {
         video
         {
