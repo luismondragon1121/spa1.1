@@ -138,13 +138,13 @@ video {
     color: #7aa9da;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    padding: 150px 0px 30px; }
+    padding: 150px 0px 10px; }
   #centrobelleza h2 {
     color: #4f6a90;
     font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 22px;
-    padding: 0px 0px 20px; }
+    padding: 0px 0px 10px; }
   #centrobelleza .cuadrosbelleza {
     background-color: white;
     margin-top: 20px;
@@ -270,7 +270,7 @@ video {
     color: #c68659;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    padding: 150px 0px 30px;
+    padding: 150px 0px 10px;
     font-weight: bold; }
   #seccion-spa h2 {
     font-family: "Poppins", sans-serif;
@@ -397,7 +397,7 @@ video {
     color: #876bb2;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    padding: 150px 0px 30px; }
+    padding: 150px 0px 10px; }
   #seccion-bienestar h2 {
     font-family: "Poppins", sans-serif;
     color: #876bb2;
