@@ -604,6 +604,13 @@ video {
     -moz-box-sizing: border-box;
     margin-top: 50px; }
 
+<<<<<<< HEAD
+#nav-menu {
+  background-color: #b1875a; }
+
+#navbarSupportedContent ul {
+  margin: 0 auto; }
+=======
 .foter {
   font-family: "Poppins", sans-serif;
   background-color: #664936; }
@@ -652,3 +659,4 @@ video {
     .foter li #foter-redes {
       padding: 0px 50px;
       margin-left: -5px; } }
+>>>>>>> 682f5e9b27d025c3fab92398bf1f8b2052dd85a5
