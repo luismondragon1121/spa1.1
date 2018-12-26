@@ -604,13 +604,38 @@ video {
     -moz-box-sizing: border-box;
     margin-top: 50px; }
 
-<<<<<<< HEAD
 #nav-menu {
   background-color: #b1875a; }
+  #nav-menu .navbar-brand {
+    position: absolute;
+    text-align: center;
+    width: 100%; }
 
 #navbarSupportedContent ul {
-  margin: 0 auto; }
-=======
+  margin: 0 auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  margin-top: 60px; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 992px) {
+  #nav-menu .navbar-brand {
+    position: relative;
+    width: 0%; }
+  #navbarSupportedContent ul {
+    margin-top: 0px; } }
+
+@media (max-width: 768px) {
+  #nav-menu .navbar-brand {
+    position: relative;
+    width: 0%; }
+  #navbarSupportedContent ul {
+    margin-top: 0px; } }
+
 .foter {
   font-family: "Poppins", sans-serif;
   background-color: #664936; }
@@ -659,4 +684,3 @@ video {
     .foter li #foter-redes {
       padding: 0px 50px;
       margin-left: -5px; } }
->>>>>>> 682f5e9b27d025c3fab92398bf1f8b2052dd85a5
