@@ -1,3 +1,4 @@
+@import "variables";
 #texto-aviso
 {
     h1 
@@ -26,6 +27,74 @@
         font-family: 'Poppins', sans-serif;
         margin-bottom: 30px;
         font-size: 16px;
-        text-align: justify
+        text-align: justify;
+        padding: 20px 20px;
     }
+}
+
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+   
+
+}
+@media (max-width:768px)
+{
+    #texto-aviso
+    {
+        h1 
+        {
+            text-align: center;
+            color: $color-titulos;
+            font-weight: bold;
+            margin-top:-100px; 
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    }
+  
+}
+
+@media (max-width:576px)
+{
+    #texto-aviso
+    {
+        h1 
+        {
+            text-align: center;
+            color: $color-titulos;
+            font-weight: bold;
+            margin-top:-50px; 
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    .cuadro-politicas
+    {
+        background-color: white;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 60px 1px #afafaf;
+        max-width: 100%;
+        max-width: 90%;
+        margin:20px;
+        height: auto;
+        .contenido-politicas
+        {
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 30px;
+            font-size: 16px;
+            text-align: justify;
+            padding: 20px 20px;
+        }
+    }
+
 }

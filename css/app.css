@@ -747,6 +747,9 @@ video {
 .galeria__img {
   cursor: pointer; }
 
+.galeria {
+  padding: 0px 10px 100px; }
+
 .modal__galeria {
   position: fixed;
   width: 100%;
@@ -888,6 +891,9 @@ video {
 -------------------------------*/
 .galeria__img {
   cursor: pointer; }
+
+.galeria {
+  padding: 0px 10px 100px; }
 
 .modal__galeria {
   position: fixed;
@@ -1199,13 +1205,132 @@ video {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
     font-size: 16px;
-    text-align: justify; }
+    text-align: justify;
+    padding: 20px 20px; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 768px) {
+  #texto-aviso h1 {
+    text-align: center;
+    color: #c68659;
+    font-weight: bold;
+    margin-top: -100px;
+    padding: 10px;
+    margin-bottom: 20px; } }
+
+@media (max-width: 576px) {
+  #texto-aviso h1 {
+    text-align: center;
+    color: #c68659;
+    font-weight: bold;
+    margin-top: -50px;
+    padding: 10px;
+    margin-bottom: 20px; }
+  .cuadro-politicas {
+    background-color: white;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 0 60px 1px #afafaf;
+    box-shadow: 0 0 60px 1px #afafaf;
+    max-width: 100%;
+    max-width: 90%;
+    margin: 20px;
+    height: auto; }
+    .cuadro-politicas .contenido-politicas {
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 30px;
+      font-size: 16px;
+      text-align: justify;
+      padding: 20px 20px; } }
 
 #politica-cancelacion p {
   padding: 50px 10px 50px; }
 
 #politica-salud p {
   padding: 50px 10px 50px; }
+
+#texto-preguntas h1 {
+  color: #c68659;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -230px;
+  padding: 10px; }
+
+.aticulos-preguntas {
+  width: 100%;
+  position: relative; }
+  .aticulos-preguntas article {
+    position: relative; }
+  .aticulos-preguntas .preguntas-reponsive {
+    padding: 50px 10px 0; }
+    .aticulos-preguntas .preguntas-reponsive li {
+      list-style: none; }
+  .aticulos-preguntas .pregun {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    color: #d1ae85;
+    font-weight: bold;
+    font-size: 18px; }
+  .aticulos-preguntas .respuesta {
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 16px; }
+  .aticulos-preguntas a {
+    color: #c68659;
+    list-style: none; }
+  .aticulos-preguntas a:hover {
+    font-weight: bold; }
+  .aticulos-preguntas a:link {
+    list-style: none;
+    color: #c68659; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 768px) {
+  #texto-preguntas h1 {
+    color: #c68659;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    padding: 10px; }
+  .aticulos-preguntas .pregun {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    color: #d1ae85;
+    font-weight: bold;
+    font-size: 16px; }
+  .aticulos-preguntas .respuesta {
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px; } }
+
+@media (max-width: 576px) {
+  #texto-preguntas h1 {
+    color: #c68659;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    padding: 10px; }
+  .aticulos-preguntas .pregun {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    color: #d1ae85;
+    font-weight: bold;
+    font-size: 16px; }
+  .aticulos-preguntas .respuesta {
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 0px 10px;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px; } }
 
 body {
   font-family: 'Poppins', sans-serif; }
