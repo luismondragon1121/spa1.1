@@ -64,10 +64,11 @@
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
-    background: none;
+
+    background-color: red;
     color: inherit;
     border: none;
-    padding: 0 !important;
+    padding: 20px !important;
     font: inherit; }
   .owl-carousel.owl-loaded {
     display: block; }

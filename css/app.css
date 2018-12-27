@@ -2,6 +2,23 @@
 /*------------------
 importando variables
 --------------------*/
+.owl-carousel .owl-nav button {
+  font-size: 40px !important;
+  font-weight: bold !important;
+  color: #664936 !important;
+  background-color: transparent !important; }
+
+.owl-carousel .owl-nav button:focus {
+  outline: 0px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  color: transparent; }
+
+.owl-theme .owl-dot span {
+  background-color: #d1ae85 !important; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #664936 !important; }
+
 /*--------------------------
     media querys
 ---------------------------*/
