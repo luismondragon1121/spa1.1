@@ -29,7 +29,7 @@ date_default_timezone_set("America/Mexico_City");
 		$mail->SMTPAuth = true;
 	    $mail->Mailer = 'smtp';
 		$mail->Username = 'luismondragon545@gmail.com'; // Correo completo a utilizar
-		$mail->Password = 'ing12345678'; // Contraseña
+		$mail->Password = '*********'; // Contraseña
         $mail->SMTPSecure = 'tls';
 		$mail->Port = 587; // Puerto a utilizar
 		$mail->From = 'luismondragon545@gmail.com';

@@ -6,7 +6,8 @@
     ul
     {
         list-style: none;
-        padding: 40px 0px 40px;
+        padding: 40px 10px 40px;
+        display: inline-block;
         li a
         {
             list-style: none;
@@ -63,25 +64,44 @@
     {
         text-align: left;
     }
+    ul
+    {
+        list-style: none;
+        padding: 10px 0px 10px;
+        display:block;
+        text-align: center;
+    }
 }
 
 
 @media (max-width:768px)
 {
-     .foter li
+    .foter
     {
+    font-family: $tipografia;
+    background-color: #664936;
+    ul
+    {
+        list-style: none;
+        padding: 20px 0px 10px;
+        display:block;
         text-align: center;
-        #foter-redes
-        {
-           padding: 0px 50px;
-             margin-left: -5px;
-        }
+    } 
     }
-    
 }
 
 @media (max-width:576px)
-{
-  
-    
+{ 
+    .foter
+    {
+    font-family: $tipografia;
+    background-color: #664936;
+    ul
+    {
+        list-style: none;
+        padding: 20px 10px 10px;
+        display:block;
+        text-align: center;
+    } 
+    }
 }

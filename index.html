@@ -379,10 +379,10 @@
             <div class="col-md-5 wow animated fadeIn" data-wow-duration = "2s" data-wow-delay = "1s">
              <form action="correo/enviar.php" method="POST" onSubmit="return Valida(this);">
                <b class="titulo-contacto wow animated fadeInDown" data-wow-duration = "1s" data-wow-delay = "1s">Contacto</b>
-                <input style="margin-bottom: 10px;" class="con" type="text" name="Nombre" placeholder="*Nombre" required><br>
-                <input style="margin-bottom: 10px;" class="con" type="text" name="Correo" placeholder="*Correo" required>
-                <input style="margin-bottom: 10px;" class="con" type="name" name="Telefono" placeholder="*Teléfono" required onSubmit="return Valida(this);"> <br><br>
-                <textarea  class="con" name="mensaje" placeholder="*Escriba aquí su mensaje"required></textarea>
+                <input class="con" style="margin-bottom: 10px;" id="pnombre" type="text" name="Nombre" placeholder="* Nombre" required><br>
+                <input class="con" style="margin-bottom: 10px;"  type="text" name="Correo" placeholder="* Correo" required>
+                <input class="con" style="margin-bottom: 10px;"  type="name" name="Telefono" placeholder="* Teléfono" required onSubmit="return Valida(this);"> <br><br>
+                <textarea  class="con" name="mensaje" placeholder="* Escriba aquí su mensaje"required></textarea>
                 <label class="textos-contacto">Fecha de preferencia de cita</label>
                 <input class="con" type="date" name="cita" step="1" min="2018-10-16" max="2019-12-31" required>
                 <label class="textos-contacto">Horario de preferencia de cita</label>
@@ -406,23 +406,19 @@
 <!--footer-->
 <section class="container-fluid foter">
     <div class="row">
-           <div class="col-md-1"></div>
-    <div class="col-md-2">
+    <div class="col-md-6">
       <ul>
            <li><a href="aviso.html">Aviso de Privacidad</a></li>
            <li><a data-toggle="modal" data-target=".bd-example-modal-lg" href="#">Convenios</a></li>
            <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
       </ul>
-    </div>
-
-        <div class="col-md-2">
-          <ul>
-               <li><a href="politicas.html#politica-cancelacion">Política de Cancelación</a></li>
-               <li><a href="salud.html">Política de Salud</a></li>
-               <li><a data-toggle="modal" data-target=".bd-example-modal-lg1" href="#ban2">BLOG</a></li>
-          </ul> 
+      <ul>
+            <li><a href="politicas.html#politica-cancelacion">Política de Cancelación</a></li>
+            <li><a href="salud.html">Política de Salud</a></li>
+            <li><a data-toggle="modal" data-target=".bd-example-modal-lg1" href="#ban2">BLOG</a></li>
+      </ul>
         </div>
-        <div class="col-md-7" id="foter-redes">
+        <div class="col-md-6" id="foter-redes">
           <ul>
               <a href="https://www.facebook.com/centrocsc/" target="new"><img src="img/fb.png"></a>
               <a href="https://twitter.com/CSCSpa" target="new"><img src="img/tw.png"></a>

@@ -18,13 +18,15 @@
     }
     .textos-contacto
     {
-        color: $textos-contacto;
+        color: #664936;
         font-family: $tipografia;
     }
     .con
     {
         font-family:$tipografia;
+        color:#664936;
     }
+
     form
     {
         max-width: 100%;
@@ -58,10 +60,11 @@
        input
     {
        width: 100%;
+       color: #664936;
     }
     .colorform
     {
-        color: white;
+        color: #664936;
     }
     form h3
     {
@@ -86,8 +89,9 @@
         border-spacing: 10px;
         margin-right: 200px;
         font-family: 'Questrial', sans-serif;
-        background: rgba(209, 174, 133, 0.8);
-        color: white;
+        background: transparent;
+        color: $color-titulos;
+        border: 1px solid #664936;
     }
     textarea
     {
@@ -95,7 +99,18 @@
         max-height: 200px;
         max-width: 100%;
         border-bottom: 10px;
+        border-bottom: 1px solid #664936;
     }
+    input::placeholder
+     {
+        color: #664936;
+     }
+
+     textarea::placeholder
+     {
+        color: #664936;
+     }
+    
     #btn
     {
         background: #b1875a;

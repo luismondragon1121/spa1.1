@@ -694,10 +694,11 @@ video {
     font-weight: bold;
     text-transform: uppercase; }
   #contacto .textos-contacto {
-    color: #b1875a;
+    color: #664936;
     font-family: "Poppins", sans-serif; }
   #contacto .con {
-    font-family: "Poppins", sans-serif; }
+    font-family: "Poppins", sans-serif;
+    color: #664936; }
   #contacto form {
     max-width: 100%;
     margin: auto;
@@ -722,9 +723,10 @@ video {
   #contacto input select {
     margin-bottom: 30px; }
   #contacto input {
-    width: 100%; }
+    width: 100%;
+    color: #664936; }
   #contacto .colorform {
-    color: white; }
+    color: #664936; }
   #contacto form h3 {
     color: black;
     font-size: 24px;
@@ -744,13 +746,31 @@ video {
     border-spacing: 10px;
     margin-right: 200px;
     font-family: 'Questrial', sans-serif;
-    background: rgba(209, 174, 133, 0.8);
-    color: white; }
+    background: transparent;
+    color: #c68659;
+    border: 1px solid #664936; }
   #contacto textarea {
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
-    border-bottom: 10px; }
+    border-bottom: 10px;
+    border-bottom: 1px solid #664936; }
+  #contacto input::-webkit-input-placeholder {
+    color: #664936; }
+  #contacto input:-ms-input-placeholder {
+    color: #664936; }
+  #contacto input::-ms-input-placeholder {
+    color: #664936; }
+  #contacto input::placeholder {
+    color: #664936; }
+  #contacto textarea::-webkit-input-placeholder {
+    color: #664936; }
+  #contacto textarea:-ms-input-placeholder {
+    color: #664936; }
+  #contacto textarea::-ms-input-placeholder {
+    color: #664936; }
+  #contacto textarea::placeholder {
+    color: #664936; }
   #contacto #btn {
     background: #b1875a;
     color: #fff;
@@ -830,7 +850,8 @@ video {
   background-color: #664936; }
   .foter ul {
     list-style: none;
-    padding: 40px 0px 40px; }
+    padding: 40px 10px 40px;
+    display: inline-block; }
     .foter ul li a {
       list-style: none;
       margin-top: 10px;
@@ -865,14 +886,32 @@ video {
 
 @media (max-width: 992px) {
   .foter {
-    text-align: left; } }
+    text-align: left; }
+  ul {
+    list-style: none;
+    padding: 10px 0px 10px;
+    display: block;
+    text-align: center; } }
 
 @media (max-width: 768px) {
-  .foter li {
-    text-align: center; }
-    .foter li #foter-redes {
-      padding: 0px 50px;
-      margin-left: -5px; } }
+  .foter {
+    font-family: "Poppins", sans-serif;
+    background-color: #664936; }
+    .foter ul {
+      list-style: none;
+      padding: 20px 0px 10px;
+      display: block;
+      text-align: center; } }
+
+@media (max-width: 576px) {
+  .foter {
+    font-family: "Poppins", sans-serif;
+    background-color: #664936; }
+    .foter ul {
+      list-style: none;
+      padding: 20px 10px 10px;
+      display: block;
+      text-align: center; } }
 
 .imagen-galeria {
   width: 100%;
@@ -984,7 +1023,8 @@ video {
   background-color: #664936; }
   .foter ul {
     list-style: none;
-    padding: 40px 0px 40px; }
+    padding: 40px 10px 40px;
+    display: inline-block; }
     .foter ul li a {
       list-style: none;
       margin-top: 10px;
@@ -1019,14 +1059,32 @@ video {
 
 @media (max-width: 992px) {
   .foter {
-    text-align: left; } }
+    text-align: left; }
+  ul {
+    list-style: none;
+    padding: 10px 0px 10px;
+    display: block;
+    text-align: center; } }
 
 @media (max-width: 768px) {
-  .foter li {
-    text-align: center; }
-    .foter li #foter-redes {
-      padding: 0px 50px;
-      margin-left: -5px; } }
+  .foter {
+    font-family: "Poppins", sans-serif;
+    background-color: #664936; }
+    .foter ul {
+      list-style: none;
+      padding: 20px 0px 10px;
+      display: block;
+      text-align: center; } }
+
+@media (max-width: 576px) {
+  .foter {
+    font-family: "Poppins", sans-serif;
+    background-color: #664936; }
+    .foter ul {
+      list-style: none;
+      padding: 20px 10px 10px;
+      display: block;
+      text-align: center; } }
 
 .imagen-galeria {
   width: 100%;
