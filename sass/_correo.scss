@@ -1,0 +1,154 @@
+.imagen-correo
+{
+    width: 100%;
+    height: 10%;
+}
+
+#textp-correo
+{
+    h1
+    {
+        text-align: center;
+        color: $color-titulos;
+        margin-bottom: 20px;
+        font-family: $tipografia;
+        margin-top: -200px;
+    }
+    h2 
+    {
+        text-align: center;
+        font-size: 22px;
+        font-family: $tipografia;
+        color: #664936;
+        margin-bottom: 0px 0px 100px;
+    }
+}
+
+
+#boton
+{
+    .btn_1
+    {
+        background-color: #fff;
+        border: 1px solid #664936;
+        color: #664936;
+        font-size: 18px;
+        font-family:'Poppins', sans-serif;
+        margin-bottom: 150px;
+        margin-top: 50px;
+        position: relative;
+    }
+    
+    .btn_1:hover
+    {
+        background-color: #d1ae85;
+        border: 1px solid #664936;
+        color: #fff;
+        font-size: 22px;
+        font-family:'Poppins', sans-serif;
+    }
+}
+
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (min-width:1201px)
+{
+    #boton
+    {
+    .btn_1
+    {
+
+        margin-bottom:400px;
+      
+    } 
+    }
+    #textp-correo
+    {
+        h1
+        {
+            margin-top: 10px;
+        }
+    }   
+}
+@media (max-width:1200px)
+{
+    #boton
+    {
+    .btn_1
+    {
+
+        margin-bottom:200px;
+      
+    } 
+    }
+    #textp-correo
+    {
+        h1
+        {
+            margin-top: 50px;
+        }
+    }  
+}
+
+@media (max-width:992px)
+{
+    #boton
+    {
+        .btn_1
+        {
+            margin-bottom: 300px;
+        } 
+    }
+
+}
+@media (max-width:768px)
+{
+    #textp-correo
+    {
+        h1
+        {
+            margin-top: 100px;
+        }
+        h2 
+        {
+            font-size: 18px;
+        }
+    }  
+    #boton
+    {
+        .btn_1
+        {
+            margin-bottom: 200px;
+        } 
+    } 
+}
+
+
+@media (max-width:576px)
+{
+    .imagen-correo
+    {
+        margin-top: 0px;
+    }
+    #textp-correo
+    {
+        h1
+        {
+            margin-top: 50px;
+        }
+        h2 
+        {
+            font-size: 16px;
+        }
+    }   
+
+    #boton
+    {
+        .btn_1
+        {
+            margin-bottom: 100px;
+        } 
+    }
+}
