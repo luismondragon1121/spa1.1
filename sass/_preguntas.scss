@@ -1,0 +1,142 @@
+#texto-preguntas
+{
+    h1
+    {
+        color: $color-titulos;
+        text-align: center;
+        font-weight: bold;
+        margin-top:-230px; 
+        padding: 10px;
+    }
+}
+
+.aticulos-preguntas
+{
+    width: 100%;
+    position: relative;  
+    article
+    {
+        position: relative;
+    }
+    .preguntas-reponsive
+    {
+        padding: 50px 10px 0;
+        li
+        {
+            list-style: none;
+        }
+    }
+    .pregun
+    {
+        font-family:$tipografia;
+        margin-bottom: 10px;
+        color:$texto-preguntas;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .respuesta
+    {
+        margin-bottom: 20px;
+        font-family:$tipografia;
+        font-size: 13px;
+        padding: 0px 0px 10px;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 16px;
+    }
+    a 
+    {
+        color:$color-titulos;
+        list-style: none;
+    }
+    a:hover 
+    {
+        font-weight: bold;
+    }
+    a:link 
+    {
+        list-style: none;
+        color:$color-titulos;
+    }
+}
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+   
+
+}
+@media (max-width:768px)
+{
+    #texto-preguntas
+    {
+    h1
+    {
+        color: $color-titulos;
+        text-align: center;
+        font-weight: bold;
+        margin-top:-50px; 
+        padding: 10px;
+    }
+    }
+    .aticulos-preguntas
+    {
+    .pregun
+    {
+        font-family:$tipografia;
+        margin-bottom: 10px;
+        color:$texto-preguntas;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .respuesta
+    {
+        margin-bottom: 20px;
+        font-family:$tipografia;
+        padding: 0px 0px 10px;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 14px;
+    }
+    }
+}
+
+@media (max-width:576px)
+{
+    
+    #texto-preguntas
+    {
+    h1
+    {
+        color: $color-titulos;
+        text-align: center;
+        font-weight: bold;
+        margin-top:-50px; 
+        padding: 10px;
+    }
+    }
+    .aticulos-preguntas
+    {
+    .pregun
+    {
+        font-family:$tipografia;
+        margin-bottom: 10px;
+        color:$texto-preguntas;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .respuesta
+    {
+        margin-bottom: 20px;
+        font-family:$tipografia;
+        padding: 0px 0px 10px;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 14px;
+    }
+    }   
+}

@@ -2,6 +2,7 @@
 {
     width: 100%;  
     height: 10%;
+    margin-top: 100px;
 }
 
 #textp-inicio
@@ -32,6 +33,12 @@
 {
     cursor: pointer;
 }
+
+.galeria
+{
+    padding: 0px 10px 100px;
+}
+
 
 .modal__galeria
 {
@@ -92,6 +99,12 @@
 }
 @media (max-width:768px)
 {
+    .imagen-galeria
+    {
+        width: 100%;  
+        height: 10%;
+        margin-top: 50px;
+    }
     #textp-inicio
     {
     h1
@@ -116,6 +129,12 @@
 
 @media (max-width:576px)
 {
+    .imagen-galeria
+    {
+        width: 100%;  
+        height: 10%;
+        margin-top: 50px;
+    }
  #textp-inicio
     {
     h1
