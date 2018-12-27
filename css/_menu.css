@@ -3,7 +3,8 @@
   #nav-menu .navbar-brand {
     position: absolute;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    right: 0; }
 
 #navbarSupportedContent ul {
   margin: 0 auto;
