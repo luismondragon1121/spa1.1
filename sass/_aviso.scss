@@ -1,4 +1,11 @@
 @import "variables";
+.imagen-politicas
+{
+    width: 100%;
+    height: 10%;
+    margin-top: 100px;
+}
+
 #texto-aviso
 {
     h1 
@@ -48,6 +55,12 @@
 }
 @media (max-width:768px)
 {
+    .imagen-politicas
+    {
+        width: 100%;
+        height: 10%;
+        margin-top: 50px;
+    }
     #texto-aviso
     {
         h1 
@@ -65,6 +78,12 @@
 
 @media (max-width:576px)
 {
+    .imagen-politicas
+    {
+        width: 100%;
+        height: 10%;
+        margin-top: 60px;
+    }
     #texto-aviso
     {
         h1 

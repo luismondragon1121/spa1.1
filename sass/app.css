@@ -37,6 +37,68 @@ video {
       margin-top: -40px;
       margin-left: 100px; }
 
+.active-spa {
+  background-color: white;
+  z-index: 99;
+  border-radius: 50%;
+  -webkit-box-shadow: -3px 0 4px 1px #d1d1d1;
+  box-shadow: -3px 0 4px 1px #d1d1d1;
+  opacity: 1; }
+
+#contenedor_carga {
+  background: rgba(209, 174, 133, 0.9);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 10000; }
+
+.titulo_carga {
+  font-family: 'Poppins', sans-serif;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 200px; }
+
+#carga {
+  border: 15px solid  #664936;
+  border-top-color: antiquewhite;
+  border-top-style: groove;
+  max-height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation: girar 1.5s linear infinite;
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation: girar 1.5s linear infinite; }
+
+@-webkit-keyframes girar {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes girar {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
 /*-----------------------
     diseños banner
 -------------------------*/
@@ -427,7 +489,8 @@ video {
     text-align: center;
     font-family: "Poppins", sans-serif;
     padding: 150px 0px 10px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bold; }
   #seccion-bienestar h2 {
     font-family: "Poppins", sans-serif;
     color: #876bb2;
@@ -643,11 +706,12 @@ video {
     margin-top: 50px; }
 
 #nav-menu {
-  background-color: #b1875a; }
+  background-color: #d1ae85; }
   #nav-menu .navbar-brand {
     position: absolute;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    right: 0; }
 
 #navbarSupportedContent ul {
   margin: 0 auto;
@@ -725,7 +789,8 @@ video {
 
 .imagen-galeria {
   width: 100%;
-  height: 10%; }
+  height: 10%;
+  margin-top: 100px; }
 
 #textp-inicio h1 {
   color: #c68659;
@@ -796,6 +861,10 @@ video {
     media querys
 ---------------------------*/
 @media (max-width: 768px) {
+  .imagen-galeria {
+    width: 100%;
+    height: 10%;
+    margin-top: 50px; }
   #textp-inicio h1 {
     font-weight: bold;
     margin-top: -100px; }
@@ -806,6 +875,10 @@ video {
     margin-bottom: 30px; } }
 
 @media (max-width: 576px) {
+  .imagen-galeria {
+    width: 100%;
+    height: 10%;
+    margin-top: 50px; }
   #textp-inicio h1 {
     color: #c68659;
     text-align: center;
@@ -870,7 +943,8 @@ video {
 
 .imagen-galeria {
   width: 100%;
-  height: 10%; }
+  height: 10%;
+  margin-top: 100px; }
 
 #textp-inicio h1 {
   color: #c68659;
@@ -941,6 +1015,10 @@ video {
     media querys
 ---------------------------*/
 @media (max-width: 768px) {
+  .imagen-galeria {
+    width: 100%;
+    height: 10%;
+    margin-top: 50px; }
   #textp-inicio h1 {
     font-weight: bold;
     margin-top: -100px; }
@@ -951,6 +1029,10 @@ video {
     margin-bottom: 30px; } }
 
 @media (max-width: 576px) {
+  .imagen-galeria {
+    width: 100%;
+    height: 10%;
+    margin-top: 50px; }
   #textp-inicio h1 {
     color: #c68659;
     text-align: center;
@@ -1183,6 +1265,11 @@ video {
     font-family: "Poppins", sans-serif;
     margin-bottom: 30px; } }
 
+.imagen-politicas {
+  width: 100%;
+  height: 10%;
+  margin-top: 100px; }
+
 #texto-aviso h1 {
   text-align: center;
   color: #c68659;
@@ -1212,6 +1299,10 @@ video {
     media querys
 ---------------------------*/
 @media (max-width: 768px) {
+  .imagen-politicas {
+    width: 100%;
+    height: 10%;
+    margin-top: 50px; }
   #texto-aviso h1 {
     text-align: center;
     color: #c68659;
@@ -1221,6 +1312,10 @@ video {
     margin-bottom: 20px; } }
 
 @media (max-width: 576px) {
+  .imagen-politicas {
+    width: 100%;
+    height: 10%;
+    margin-top: 60px; }
   #texto-aviso h1 {
     text-align: center;
     color: #c68659;
