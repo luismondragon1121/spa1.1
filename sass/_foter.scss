@@ -1,12 +1,15 @@
 @import "variables";
+footer{
+    padding: 30px 0px;
+    background-color: #664936;
+}
 .foter
 {
     font-family: $tipografia;
-    background-color: #664936;
     ul
     {
         list-style: none;
-        padding: 40px 0px 40px;
+         display: inline-block;
         li a
         {
             list-style: none;
