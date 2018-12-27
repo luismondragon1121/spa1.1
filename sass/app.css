@@ -14,7 +14,8 @@ video {
     text-align: justify;
     margin-top: 0px;
     font-weight: bold;
-    padding: 150px 0px 0px; }
+    padding: 50px 0px 20px;
+    text-transform: uppercase; }
   #conocenos .texto-conocenos p {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
@@ -138,7 +139,9 @@ video {
     color: #7aa9da;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    padding: 150px 0px 10px; }
+    padding: 150px 0px 10px;
+    font-weight: bold;
+    text-transform: uppercase; }
   #centrobelleza h2 {
     color: #4f6a90;
     font-family: "Poppins", sans-serif;
@@ -211,22 +214,27 @@ video {
     display: block;
     padding: 20px;
     margin-bottom: 50px; }
-  #centrobelleza .slider img {
-    margin: auto;
-    left: 0;
-    top: 0; }
-  #centrobelleza .slider p {
-    text-align: justify;
-    padding: 0px 20px 0px;
-    font-family: 'Poppins', sans-serif; }
-  #centrobelleza .slider h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: center;
-    color: #7aa9da;
-    font-weight: bold;
-    margin-bottom: 10px;
-    padding: 50px 0 10px; }
+    #centrobelleza .slider a {
+      font-size: 18px;
+      font-weight: bold; }
+    #centrobelleza .slider img {
+      margin: auto;
+      left: 0;
+      top: 0; }
+    #centrobelleza .slider p {
+      text-align: justify;
+      padding: 0px 20px 0px;
+      font-family: 'Poppins', sans-serif; }
+    #centrobelleza .slider h1 {
+      font-size: 28px;
+      text-align: center;
+      color: #7aa9da;
+      font-weight: bold;
+      margin-bottom: 10px;
+      padding: 50px 0 10px; }
+
+#carouselExampleSlidesOnly1 {
+  padding: 30px 0px; }
 
 /*--------------------------
     media querys
@@ -246,11 +254,18 @@ video {
     width: 100%; } }
 
 @media (max-width: 576px) {
-  #centrobelleza video {
-    margin-top: 0px;
-    position: relative;
-    margin-left: 0px;
-    width: 100%; } }
+  #centrobelleza {
+    background-size: contain; }
+    #centrobelleza video {
+      margin-top: 0px;
+      position: relative;
+      margin-left: 0px;
+      width: 100%; }
+    #centrobelleza h2 {
+      font-size: 18px;
+      padding: 0px 0px 20px; }
+    #centrobelleza .slider p {
+      padding: 0; } }
 
 #seccion-spa {
   background: url(../img/cb/bannerspa.jpg);
@@ -271,7 +286,8 @@ video {
     font-family: "Poppins", sans-serif;
     text-align: center;
     padding: 150px 0px 10px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-transform: uppercase; }
   #seccion-spa h2 {
     font-family: "Poppins", sans-serif;
     color: #c68659;
@@ -345,7 +361,7 @@ video {
     display: block;
     padding: 20px; }
     #seccion-spa .slider1 h1 {
-      font-size: 20px;
+      font-size: 28px;
       text-align: center;
       color: #c68659;
       font-weight: bold;
@@ -354,6 +370,12 @@ video {
       text-align: justify;
       padding: 0px 20px 0px;
       font-family: "Poppins", sans-serif; }
+    #seccion-spa .slider1 a {
+      font-size: 18;
+      font-weight: bold; }
+
+#carouselExampleSlidesOnly {
+  padding: 30px 0px; }
 
 /*--------------------------
     media querys
@@ -373,11 +395,18 @@ video {
     width: 100%; } }
 
 @media (max-width: 576px) {
-  #seccion-spa video {
-    margin-top: 0px;
-    position: relative;
-    margin-left: 0px;
-    width: 100%; } }
+  #seccion-spa {
+    background-size: contain; }
+    #seccion-spa h1 {
+      padding: 50px 0px 0px; }
+    #seccion-spa h2 {
+      font-size: 18px;
+      padding: 0px 0px 20px; }
+    #seccion-spa video {
+      margin-top: 0px;
+      position: relative;
+      margin-left: 0px;
+      width: 100%; } }
 
 #seccion-bienestar {
   background: url(../img/cb/bannerbienestar.jpg);
@@ -397,7 +426,8 @@ video {
     color: #876bb2;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    padding: 150px 0px 10px; }
+    padding: 150px 0px 10px;
+    text-transform: uppercase; }
   #seccion-bienestar h2 {
     font-family: "Poppins", sans-serif;
     color: #876bb2;
@@ -467,7 +497,7 @@ video {
     padding: 20px; }
     #seccion-bienestar .slider2 h1 {
       font-family: 'Poppins', sans-serif;
-      font-size: 20px;
+      font-size: 28px;
       text-align: center;
       font-weight: bold;
       padding: 50px 0 10px; }
@@ -475,6 +505,9 @@ video {
       text-align: justify;
       padding: 0px 20px 0px;
       font-family: "Poppins", sans-serif; }
+    #seccion-bienestar .slider2 a {
+      font-weight: bold;
+      font-size: 18px; }
 
 /*--------------------------
     media querys
@@ -494,6 +527,11 @@ video {
     width: 100%; } }
 
 @media (max-width: 576px) {
+  #seccion-bienestar h1 {
+    padding: 50px 0px 0px; }
+  #seccion-bienestar h2 {
+    font-size: 18px;
+    padding: 0px 0px 20px; }
   #seccion-bienestar video {
     margin-top: 0px;
     position: relative;
@@ -606,9 +644,177 @@ video {
 
 #nav-menu {
   background-color: #b1875a; }
+  #nav-menu .navbar-brand {
+    position: absolute;
+    text-align: center;
+    width: 100%; }
 
 #navbarSupportedContent ul {
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  margin-top: 60px; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 992px) {
+  #nav-menu .navbar-brand {
+    position: relative;
+    width: 0%; }
+  #navbarSupportedContent ul {
+    margin-top: 0px; } }
+
+@media (max-width: 768px) {
+  #nav-menu .navbar-brand {
+    position: relative;
+    width: 0%; }
+  #navbarSupportedContent ul {
+    margin-top: 0px; } }
+
+.foter {
+  font-family: "Poppins", sans-serif;
+  background-color: #664936; }
+  .foter ul {
+    list-style: none;
+    padding: 40px 0px 40px; }
+    .foter ul li a {
+      list-style: none;
+      margin-top: 10px;
+      font-size: 14px;
+      color: white;
+      padding: 5px; }
+  .foter #foter-redes {
+    background-color: #664936;
+    padding: 10px 60px 10px; }
+    .foter #foter-redes ul {
+      list-style: none;
+      margin: 5px;
+      margin-top: 0px;
+      float: right;
+      font-family: "Poppins", sans-serif; }
+    .foter #foter-redes a {
+      list-style: none;
+      margin: 5px;
+      margin-top: 0px; }
+    .foter #foter-redes li {
+      margin-left: 20px;
+      margin-top: 10px;
+      color: white;
+      font-size: 12px; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 1200px) {
+  .foter {
+    text-align: left; } }
+
+@media (max-width: 992px) {
+  .foter {
+    text-align: left; } }
+
+@media (max-width: 768px) {
+  .foter li {
+    text-align: center; }
+    .foter li #foter-redes {
+      padding: 0px 50px;
+      margin-left: -5px; } }
+
+.imagen-galeria {
+  width: 100%;
+  height: 10%; }
+
+#textp-inicio h1 {
+  color: #c68659;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: -230px;
+  padding: 10px; }
+
+#textp-inicio h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px; }
+
+/*------------------------------
+        ventanas emergentes galeria
+-------------------------------*/
+.galeria__img {
+  cursor: pointer; }
+
+.modal__galeria {
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+.modal__img {
+  width: 70%;
+  max-width: 900px; }
+
+.modal__boton {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  background-color: rgba(135, 42, 40, 0.9);
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif; }
+
+/*------------------------------
+       fin  ventanas emergentes galeria 
+-------------------------------*/
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 768px) {
+  #textp-inicio h1 {
+    font-weight: bold;
+    margin-top: -100px; }
+  #textp-inicio h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px; } }
+
+@media (max-width: 576px) {
+  #textp-inicio h1 {
+    color: #c68659;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 10px; }
+  #textp-inicio h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px; } }
 
 .foter {
   font-family: "Poppins", sans-serif;
@@ -864,3 +1070,84 @@ video {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .linea-servicios {
+    position: absolute;
+    width: 1px;
+    height: 186px;
+    margin-left: 40px;
+    background-color: #d1d1d1;
+    margin-top: 100px;
+    margin-bottom: 10px; }
+  #cuadros-servicios .serviciost article {
+    padding: 10px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 10px;
+    cursor: pointer; }
+  #cuadros-servicios .serviciost h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #c68659;
+    margin-top: 50px;
+    margin-bottom: 10px; }
+  #cuadros-servicios .serviciost .masaje {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .plus {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .faciales {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .vanguardia {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .rituales {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .cera {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .corporal {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; }
+
+.img-masajes-modal {
+  width: 100%; }
+
+.btn-reserva {
+  background-color: #d1ae85;
+  border: 1px solid #d1ae85;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+.btn-reserva:hover {
+  background-color: #fff;
+  border: 1px solid #d1ae85;
+  color: #664936;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  cursor: pointer; }
+
+.contenido-servicios-card {
+  text-align: justify;
+  padding: 30px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; }

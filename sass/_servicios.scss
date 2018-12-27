@@ -146,6 +146,110 @@
         margin-bottom: 30px;
         font-family:'Poppins', sans-serif;
     }  
+    .linea-servicios
+    {
+        position: absolute;
+        width: 1px;
+        height: 186px;
+        margin-left:40px;
+        background-color: #d1d1d1;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    .serviciost 
+    {
+       article
+       {
+        padding: 10px;
+        position: relative;
+        margin-top:0px;
+        margin-left: 10px;
+        cursor: pointer;
+       }
+       h1
+       {
+        font-size: 28px;
+        text-align: center;
+        color: #c68659;
+        margin-top: 50px;
+        margin-bottom: 10px;
+       }
+       .masaje
+        {
+            list-style: none;
+             text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+        .plus
+        {
+            list-style: none;
+            text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+        .faciales
+        {
+            list-style: none;
+            text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+        .vanguardia
+        {
+            list-style: none;
+            text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+        .rituales
+        {
+            list-style: none;
+            text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+        .cera
+        {
+            list-style: none;
+            text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+        .corporal
+        {
+            list-style: none;
+            text-decoration: none;
+            font-family:'Poppins', sans-serif;
+        }
+    }
+}
 
+.img-masajes-modal
+{
+    width: 100%;
+}
+
+.btn-reserva
+{
+     background-color: #d1ae85;
+    border: 1px solid #d1ae85;
+    color: #fff;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btn-reserva:hover
+{
+     background-color: #fff;
+    border: 1px solid #d1ae85;
+    color: #664936;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+.contenido-servicios-card
+{
+    text-align: justify;
+    padding: 30px;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
 }
 
