@@ -1146,6 +1146,61 @@ video {
   font-size: 16px;
   font-family: 'Poppins', sans-serif; }
 
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 768px) {
+  #textos-principales-servicios h1 {
+    text-align: center;
+    color: #c68659;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-top: -100px;
+    margin-bottom: 20px; }
+  #textos-principales-servicios h2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px; } }
+
+@media (max-width: 576px) {
+  #textos-principales-servicios h1 {
+    text-align: center;
+    color: #c68659;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-top: -50px;
+    margin-bottom: 20px; }
+  #textos-principales-servicios h2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px; } }
+
+#texto-aviso h1 {
+  text-align: center;
+  color: #c68659;
+  font-weight: bold;
+  margin-top: -230px;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+.cuadro-politicas {
+  background-color: white;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 0 60px 1px #afafaf;
+  box-shadow: 0 0 60px 1px #afafaf;
+  max-width: 100%;
+  max-width: 90%;
+  margin: 30px;
+  height: auto; }
+  .cuadro-politicas .contenido-politicas {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: justify; }
+
 body {
   font-family: 'Poppins', sans-serif; }
 

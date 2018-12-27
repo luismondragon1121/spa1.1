@@ -253,3 +253,62 @@
     font-family:'Poppins', sans-serif;
 }
 
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+   
+
+}
+@media (max-width:768px)
+{
+    #textos-principales-servicios
+{
+    h1
+    {
+        text-align: center;
+        color: $color-titulos;
+        font-weight: bold;
+        font-family: $tipografia;
+        margin-top:-100px;
+        margin-bottom: 20px;
+    }
+    h2 
+    {
+        text-align: center;
+        font-size:16px;
+        font-family: $tipografia;
+        margin-bottom: 30px;
+    }
+}
+  
+}
+
+@media (max-width:576px)
+{
+    #textos-principales-servicios
+    {
+        h1
+        {
+            text-align: center;
+            color: $color-titulos;
+            font-weight: bold;
+            font-family: $tipografia;
+            margin-top:-50px;
+            margin-bottom: 20px;
+        }
+        h2 
+        {
+            text-align: center;
+            font-size: 16px;
+            font-family: $tipografia;
+            margin-bottom: 30px;
+        }
+    }
+}
