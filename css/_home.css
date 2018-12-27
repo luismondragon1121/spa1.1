@@ -1,0 +1,6 @@
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 576px) {
+  video {
+    margin-top: 60px; } }

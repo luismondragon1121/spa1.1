@@ -19,6 +19,7 @@ video
             font-weight: bold;
             padding: 50px 0px 20px;
             text-transform: uppercase;
+            letter-spacing: 10px;
         }
         p
         {
@@ -122,7 +123,15 @@ video
 
 @media (max-width:992px)
 {
-    
+    #conocenos{
+        .texto-conocenos{
+            h1
+            {
+                font-size: 30px;
+                letter-spacing: 5px;
+            }
+        }
+    }
 }
 
 
@@ -136,6 +145,8 @@ video
             {
                 padding: 50px 0px 0px;
                 text-align: center;
+                font-size: 30px;
+                letter-spacing: 5px;
             }
             p{
                 padding: 0px 20px;
@@ -164,6 +175,7 @@ video
             {
                 padding: 50px 0px 0px;
                 text-align: center;
+                font-size: 30px;
             }
             p{
                 padding: 0px 20px;

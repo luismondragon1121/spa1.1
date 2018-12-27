@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
     background-size:cover;
     max-width: 100%;
+
+   
     video
     {
         margin-top: 50px;
@@ -22,14 +24,23 @@
         padding: 150px 0px 10px;
         font-weight: bold;
         text-transform: uppercase;
+        letter-spacing: 5px;
     }
     h2
     {
         color: $contenidos-belleza;
         font-family: $tipografia;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
+        font-weight: 500;
         padding: 0px 0px 10px;
+    }
+    a{
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 0px;
     }
     .cuadrosbelleza
     {
@@ -90,7 +101,7 @@
                      font-family: $tipografia;
                      color: $contenidos-belleza;
                      padding: 10px 50px;
-                     font-size: 14px;
+                     font-size: 15px;
                      text-align: justify;
                 }
                 a
@@ -161,12 +172,20 @@
 {
      #centrobelleza
     {
+        h1{
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+        h2{
+            font-size: 18px;
+        }
+
         video
         {
             margin-top:0px;
-            position: relative;
             margin-left:0px;
-            width: 500px;
+            width: 100%;
+            padding: 20px;
         }
     } 
 }
@@ -176,12 +195,20 @@
 {
     #centrobelleza
     {
+        h1{
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+        h2{
+            font-size: 18px;
+        }
         video
         {
             margin-top:0px;
             position: relative;
             margin-left:0px;
             width: 100%;
+            padding: 20px;
         }
     } 
   
@@ -193,6 +220,10 @@
     #centrobelleza
     {
         background-size: contain;
+        h1{
+            padding: 50px 0px 0px;
+            font-size: 30px;
+        }
         video
         {
             margin-top:0px;

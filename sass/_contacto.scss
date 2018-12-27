@@ -14,6 +14,7 @@
         text-align: center;
         font-size: 28px;
         font-weight: bold;
+        text-transform: uppercase;
     }
     .textos-contacto
     {
@@ -142,4 +143,36 @@
         margin-top: 50px;
     }
 
+}
+
+
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+  
+}
+
+@media (max-width:992px)
+{
+    
+}
+
+
+@media (max-width:768px)
+{
+    #contacto{
+        .titulo-contacto{
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+    } 
+   
+}
+
+@media (max-width:576px)
+{
+  
 }

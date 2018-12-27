@@ -2,6 +2,13 @@
 /*------------------
 importando variables
 --------------------*/
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 576px) {
+  video {
+    margin-top: 60px; } }
+
 video {
   width: 100%;
   height: auto; }
@@ -15,7 +22,8 @@ video {
     margin-top: 0px;
     font-weight: bold;
     padding: 50px 0px 20px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 10px; }
   #conocenos .texto-conocenos p {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
@@ -83,10 +91,17 @@ video {
 /*--------------------------
     media querys
 ---------------------------*/
+@media (max-width: 992px) {
+  #conocenos .texto-conocenos h1 {
+    font-size: 30px;
+    letter-spacing: 5px; } }
+
 @media (max-width: 768px) {
   #conocenos .texto-conocenos h1 {
     padding: 50px 0px 0px;
-    text-align: center; }
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px; }
   #conocenos .texto-conocenos p {
     padding: 0px 20px; }
   #conocenos .contenedor-imagenes {
@@ -97,7 +112,8 @@ video {
 @media (max-width: 576px) {
   #conocenos .texto-conocenos h1 {
     padding: 50px 0px 0px;
-    text-align: center; }
+    text-align: center;
+    font-size: 30px; }
   #conocenos .texto-conocenos p {
     padding: 0px 20px; }
   .contenedor-imagenes {
@@ -141,13 +157,21 @@ video {
     text-align: center;
     padding: 150px 0px 10px;
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 5px; }
   #centrobelleza h2 {
     color: #4f6a90;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 500;
     padding: 0px 0px 10px; }
+  #centrobelleza a {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0px; }
   #centrobelleza .cuadrosbelleza {
     background-color: white;
     margin-top: 20px;
@@ -194,7 +218,7 @@ video {
           font-family: "Poppins", sans-serif;
           color: #4f6a90;
           padding: 10px 50px;
-          font-size: 14px;
+          font-size: 15px;
           text-align: justify; }
         #centrobelleza .cuadrosbelleza .circulos-secciones_belleza article a {
           text-align: center; }
@@ -240,22 +264,36 @@ video {
     media querys
 ---------------------------*/
 @media (max-width: 992px) {
+  #centrobelleza h1 {
+    font-size: 30px;
+    letter-spacing: 5px; }
+  #centrobelleza h2 {
+    font-size: 18px; }
   #centrobelleza video {
     margin-top: 0px;
-    position: relative;
     margin-left: 0px;
-    width: 500px; } }
+    width: 100%;
+    padding: 20px; } }
 
 @media (max-width: 768px) {
+  #centrobelleza h1 {
+    font-size: 30px;
+    letter-spacing: 5px; }
+  #centrobelleza h2 {
+    font-size: 18px; }
   #centrobelleza video {
     margin-top: 0px;
     position: relative;
     margin-left: 0px;
-    width: 100%; } }
+    width: 100%;
+    padding: 20px; } }
 
 @media (max-width: 576px) {
   #centrobelleza {
     background-size: contain; }
+    #centrobelleza h1 {
+      padding: 50px 0px 0px;
+      font-size: 30px; }
     #centrobelleza video {
       margin-top: 0px;
       position: relative;
@@ -279,20 +317,27 @@ video {
     margin-top: 200px;
     position: relative;
     margin-left: -70px; }
-  #seccion-spa .link-spa {
-    color: #c68659; }
+  #seccion-spa a {
+    color: #c68659;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0px;
+    text-align: center !important; }
   #seccion-spa h1 {
     color: #c68659;
     font-family: "Poppins", sans-serif;
     text-align: center;
     padding: 150px 0px 10px;
     font-weight: bold;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 5px; }
   #seccion-spa h2 {
     font-family: "Poppins", sans-serif;
     color: #c68659;
     text-align: center;
-    font-size: 22px; }
+    font-size: 20px; }
   #seccion-spa .cuadrospa {
     background-color: white;
     margin-top: -20px;
@@ -341,7 +386,7 @@ video {
         #seccion-spa .cuadrospa .circulos-secciones article p {
           font-family: "Poppins", sans-serif;
           padding: 10px 50px;
-          font-size: 14px;
+          font-size: 15px;
           text-align: justify; }
   #seccion-spa .cuadrobelleza1 {
     background-color: white;
@@ -381,24 +426,37 @@ video {
     media querys
 ---------------------------*/
 @media (max-width: 992px) {
+  #seccion-spa h1 {
+    font-size: 30px;
+    letter-spacing: 5px; }
+  #seccion-spa h2 {
+    font-size: 18px; }
   #seccion-spa video {
     margin-top: 0px;
     position: relative;
     margin-left: 0px;
-    width: 500px; } }
+    width: 100%;
+    padding: 20px; } }
 
 @media (max-width: 768px) {
+  #seccion-spa h1 {
+    font-size: 30px;
+    letter-spacing: 5px; }
+  #seccion-spa h2 {
+    font-size: 18px; }
   #seccion-spa video {
     margin-top: 0px;
     position: relative;
     margin-left: 0px;
-    width: 100%; } }
+    width: 100%;
+    padding: 20px; } }
 
 @media (max-width: 576px) {
   #seccion-spa {
     background-size: contain; }
     #seccion-spa h1 {
-      padding: 50px 0px 0px; }
+      padding: 50px 0px 0px;
+      font-size: 30px; }
     #seccion-spa h2 {
       font-size: 18px;
       padding: 0px 0px 20px; }
@@ -416,8 +474,14 @@ video {
   background-size: cover;
   max-width: 100%;
   margin-top: -8px; }
-  #seccion-bienestar .link-bienestar {
-    color: #876bb2; }
+  #seccion-bienestar a {
+    color: #876bb2;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0px;
+    text-align: center !important; }
   #seccion-bienestar video {
     margin-top: 200px;
     position: relative;
@@ -427,12 +491,14 @@ video {
     text-align: center;
     font-family: "Poppins", sans-serif;
     padding: 150px 0px 10px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px; }
   #seccion-bienestar h2 {
     font-family: "Poppins", sans-serif;
     color: #876bb2;
     text-align: center;
-    font-size: 22px; }
+    font-size: 20px; }
   #seccion-bienestar .cuadrobienestar {
     background-color: white;
     margin-top: -20px;
@@ -513,22 +579,35 @@ video {
     media querys
 ---------------------------*/
 @media (max-width: 992px) {
+  #seccion-bienestar h1 {
+    font-size: 30px;
+    letter-spacing: 5px; }
+  #seccion-bienestar h2 {
+    font-size: 18px; }
   #seccion-bienestar video {
     margin-top: 0px;
     position: relative;
     margin-left: 0px;
-    width: 500px; } }
+    width: 100%;
+    padding: 20px; } }
 
 @media (max-width: 768px) {
+  #seccion-bienestar h1 {
+    font-size: 30px;
+    letter-spacing: 5px; }
+  #seccion-bienestar h2 {
+    font-size: 18px; }
   #seccion-bienestar video {
     margin-top: 0px;
     position: relative;
     margin-left: 0px;
-    width: 100%; } }
+    width: 100%;
+    padding: 20px; } }
 
 @media (max-width: 576px) {
   #seccion-bienestar h1 {
-    padding: 50px 0px 0px; }
+    padding: 50px 0px 0px;
+    font-size: 30px; }
   #seccion-bienestar h2 {
     font-size: 18px;
     padding: 0px 0px 20px; }
@@ -550,7 +629,8 @@ video {
     padding: 100px 0px 10px;
     text-align: center;
     font-size: 28px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-transform: uppercase; }
   #contacto .textos-contacto {
     color: #b1875a;
     font-family: "Poppins", sans-serif; }
@@ -641,6 +721,14 @@ video {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     margin-top: 50px; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 768px) {
+  #contacto .titulo-contacto {
+    font-size: 30px;
+    letter-spacing: 5px; } }
 
 #nav-menu {
   background-color: #b1875a; }
