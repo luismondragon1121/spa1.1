@@ -751,3 +751,116 @@ video {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     margin-bottom: 30px; } }
+
+.imagen-politicas {
+  width: 100%;
+  height: 10%; }
+
+#textos-principales-servicios h1 {
+  text-align: center;
+  color: #c68659;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-top: -200px;
+  margin-bottom: 20px; }
+
+#textos-principales-servicios h2 {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px; }
+
+#carrousel-servicios h1 {
+  color: #c68659;
+  text-align: center;
+  font-size: 26px; }
+
+#carrousel-servicios .masaje {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#carrousel-servicios .mr {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+#carrousel-servicios .plus {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#carrousel-servicios .sr {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+#carrousel-servicios .faciales {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#carrousel-servicios .fr {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+#carrousel-servicios .vanguardia {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#carrousel-servicios .vr {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+#carrousel-servicios .cera {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#carrousel-servicios .rituales {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#carrousel-servicios .rr {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px; }
+
+#carrousel-servicios .corporal {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+#cuadros-servicios {
+  margin-bottom: 100px; }
+  #cuadros-servicios .cuadros-1 {
+    margin-top: 100px; }
+  #cuadros-servicios .cuadros {
+    width: 100%;
+    border: #c68659 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 5px; }
+    #cuadros-servicios .cuadros a {
+      color: #c68659; }
+  #cuadros-servicios .cuadros:hover {
+    background-color: #c68659;
+    color: white;
+    border: #c68659 1px solid;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; }
+  #cuadros-servicios .cuadros a:hover {
+    color: white; }
+  #cuadros-servicios .cuadros_texto {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif; }

@@ -1,0 +1,151 @@
+.imagen-politicas
+{
+    width: 100%;
+    height: 10%;
+}
+
+#textos-principales-servicios
+{
+    h1
+    {
+        text-align: center;
+        color: $color-titulos;
+        font-weight: bold;
+        font-family: $tipografia;
+        margin-top:-200px;
+        margin-bottom: 20px;
+    }
+    h2 
+    {
+        text-align: center;
+        font-size: 22px;
+        font-family: $tipografia;
+        margin-bottom: 30px;
+    }
+}
+
+#carrousel-servicios
+{
+    h1 
+    {
+        color: $color-titulos;
+        text-align: center;
+        font-size: 26px;
+    }
+    .masaje
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif; 
+    }
+    .mr
+    {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px; 
+    }
+    .plus
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+    }
+    .sr
+    {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .faciales
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+    }
+    .fr
+    {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .vanguardia
+    {
+         list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+    }
+    .vr
+    {
+         text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .cera
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+    }
+    .rituales
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+    }
+    .rr
+    {
+       text-align: left;
+        margin-left: 20px;
+        margin-top: 30px;  
+    }
+    .corporal
+    {
+        list-style: none;
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+    }
+}
+
+#cuadros-servicios
+{
+    margin-bottom: 100px;
+    .cuadros-1
+    {
+        margin-top: 100px;
+    }
+    .cuadros
+    {
+        width: 100%;
+        border: #c68659 1px solid;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;  
+        margin-bottom: 5px;
+        a
+        {
+            color: $color-titulos;
+        }
+    }
+    .cuadros:hover
+    {
+         background-color:#c68659;
+         color: white;
+        border: #c68659 1px solid;
+        transition-duration: 1s;
+    }
+    .cuadros a:hover
+    {
+        color: white;
+    }
+    .cuadros_texto
+    {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family:'Poppins', sans-serif;
+    }  
+
+}
+
