@@ -26,6 +26,7 @@
         text-align: center;
         padding: 150px 0px 10px;
         font-weight: bold;
+        text-transform: uppercase;
     }
     h2
     {
@@ -126,7 +127,7 @@
         padding: 20px;
         h1
         {
-            font-size: 20px;
+            font-size: 28px;
             text-align: center;
             color: #c68659;
             font-weight: bold;
@@ -138,8 +139,16 @@
             padding: 0px 20px 0px;
             font-family: $tipografia;
         }
+        a{
+            font-size: 18;
+            font-weight: bold;
+        }
     }
 
+}
+
+#carouselExampleSlidesOnly{
+    padding: 30px 0px;
 }
 
 /*--------------------------
@@ -185,6 +194,14 @@
  
     #seccion-spa
     {
+        background-size: contain;
+        h1{
+            padding: 50px 0px 0px;
+        }
+        h2{
+            font-size: 18px;
+            padding: 0px 0px 20px;
+        }
         video
         {
             margin-top:0px;
