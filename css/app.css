@@ -912,12 +912,18 @@ video {
   #navbarSupportedContent ul {
     margin-top: 0px; } }
 
-.foter {
-  font-family: "Poppins", sans-serif;
+footer {
+  padding: 30px 0px;
   background-color: #664936; }
+
+.foter {
+  font-family: "Poppins", sans-serif; }
   .foter ul {
     list-style: none;
+<<<<<<< HEAD
     padding: 40px 10px 40px;
+=======
+>>>>>>> eda476f7f1f984269c5672e57f97992debf2012a
     display: inline-block; }
     .foter ul li a {
       list-style: none;
@@ -1085,12 +1091,18 @@ video {
     font-size: 16px;
     margin-bottom: 30px; } }
 
-.foter {
-  font-family: "Poppins", sans-serif;
+footer {
+  padding: 30px 0px;
   background-color: #664936; }
+
+.foter {
+  font-family: "Poppins", sans-serif; }
   .foter ul {
     list-style: none;
+<<<<<<< HEAD
     padding: 40px 10px 40px;
+=======
+>>>>>>> eda476f7f1f984269c5672e57f97992debf2012a
     display: inline-block; }
     .foter ul li a {
       list-style: none;
