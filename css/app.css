@@ -362,6 +362,8 @@ video {
     margin: 0 auto;
     display: block;
     padding: 20px 0px; }
+  #centrobelleza .txt-belleza {
+    margin-right: 30px; }
   #centrobelleza .cuadrosbelleza {
     background-color: white;
     margin-top: 20px;
