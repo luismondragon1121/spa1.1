@@ -51,8 +51,13 @@
         max-width: 90%;
         margin:0px;
         height: auto;
-        margin-bottom: 150px;
+        margin-bottom: 10px;
         text-align:left;
+    }
+
+    .mr1 
+    {
+        margin-left: 20px;
     }
 
     .mr
@@ -62,6 +67,7 @@
         margin-top: 30px; 
         padding: 10px 0px;
     }
+
     .plus
     {
         list-style: none;
@@ -286,13 +292,21 @@
 
 @media (max-width:992px)
 {
-   
-
+    .contenido-carrusel
+    {
+        margin-left: 50px;
+        position: relative;
+    }
+    .mr1 
+    {
+        margin-left: 40px;
+    }
 }
+
 @media (max-width:768px)
 {
     #textos-principales-servicios
-{
+    {
     h1
     {
         text-align: center;
@@ -309,8 +323,16 @@
         font-family: $tipografia;
         margin-bottom: 30px;
     }
-}
-  
+    }
+    .contenido-carrusel
+    {
+        margin-left: 20px;
+        position: relative;
+    }
+    .mr1 
+    {
+        margin-left: 40px;
+    }
 }
 
 @media (max-width:576px)
@@ -333,5 +355,10 @@
             font-family: $tipografia;
             margin-bottom: 30px;
         }
+    }
+    .contenido-carrusel
+    {
+        margin-left: 10px;
+        padding: 10px;
     }
 }
