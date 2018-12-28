@@ -58,12 +58,36 @@
         }
       }
 }
+ #carrousel-servicios
+ {
+    .owl-nav{
+        .owl-prev{
+           span{
+                position: absolute;
+                top: 150px;
+                left: 30px;
+            }
+        }
+        .owl-next{
+            span{
+                position: absolute;
+                top: 150px;
+                right: 20px;
+            }
+        }
+       
+    }
+ }
     
 .owl-theme .owl-dot span{
     background-color: #d1ae85!important;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background-color: #664936!important;
+}
+.owl-dots
+{
+    display: none;
 }
 
 /*----- end style navs slider-------*/
