@@ -175,11 +175,11 @@ video {
 .active-spa {
   background-color: white;
   z-index: 99;
-  border-radius: 50%;
+  border-radius: 65%;
   -webkit-box-shadow: -3px 0 4px 1px #d1d1d1;
   box-shadow: -3px 0 4px 1px #d1d1d1;
   opacity: 1;
-  width: 95px; }
+  width: 100px; }
 
 #contenedor_carga {
   background: rgba(209, 174, 133, 0.9);
@@ -381,7 +381,7 @@ video {
     #centrobelleza .cuadrosbelleza ul.cir_be li {
       width: 150px;
       margin-left: -115px;
-      margin-top: 30px;
+      margin-top: 60px;
       margin-bottom: 150px; }
     #centrobelleza .cuadrosbelleza ul.cir_be li a {
       color: #fff;
@@ -401,7 +401,7 @@ video {
         #centrobelleza .cuadrosbelleza .circulos-secciones_belleza article h1 {
           position: relative;
           text-align: center;
-          margin-top: -50px;
+          margin-top: -20px;
           margin-bottom: 10px;
           font-size: 25px; }
         #centrobelleza .cuadrosbelleza .circulos-secciones_belleza article p {
@@ -506,7 +506,7 @@ video {
   max-width: 100%;
   margin-top: -8px; }
   #seccion-spa video {
-    margin-top: 200px;
+    margin-top: 120px;
     position: relative;
     margin-left: -70px; }
   #seccion-spa a {
@@ -572,7 +572,7 @@ video {
         #seccion-spa .cuadrospa .circulos-secciones article h1 {
           position: relative;
           text-align: center;
-          margin-top: -550px;
+          margin-top: -450px;
           margin-bottom: 10px;
           font-size: 25px; }
         #seccion-spa .cuadrospa .circulos-secciones article p {
@@ -677,9 +677,9 @@ video {
     padding: 20px 0px;
     text-align: center !important; }
   #seccion-bienestar video {
-    margin-top: 200px;
+    margin-top: 80px;
     position: relative;
-    margin-left: -70px; }
+    margin-left: -90px; }
   #seccion-bienestar h1 {
     color: #876bb2;
     text-align: center;
@@ -724,13 +724,13 @@ video {
       #seccion-bienestar .cuadrobienestar .circulos-secciones_bienestar article {
         position: relative;
         margin-left: 50px;
-        margin-top: -500px;
+        margin-top: -400px;
         margin-bottom: 150px;
         padding: 0px 20px; }
         #seccion-bienestar .cuadrobienestar .circulos-secciones_bienestar article h1 {
           position: relative;
           text-align: center;
-          margin-top: -350px;
+          margin-top: -250px;
           margin-bottom: 10px;
           font-size: 25px;
           font-weight: bold; }
