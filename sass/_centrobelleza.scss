@@ -54,12 +54,13 @@
         height: auto;
         margin-bottom: 150px;
         position: relative;
-        
+         
          ul.cir_be
         {
             width: 100%;
             list-style: none; 
-            position: relative
+            position: relative;
+            top: 50px;
         /*display: iline-block; Alinea las imagenes verticalmente*/
         }
         ul.cir_be li
@@ -111,6 +112,7 @@
             }
         }
     } 
+    
     
     .img-circulos
     {
@@ -167,9 +169,28 @@
 /*--------------------------
     media querys
 ---------------------------*/
+@media (min-width:1200px)
+{
+    #centrobelleza {
+        video {
+           
+            top: 0px;
+            width: 500px;
+        }
+    }
+}
+
 @media (max-width:1200px)
 {
-   
+    #centrobelleza {
+        video {
+            margin-top: 50px;
+            position: relative;
+            margin-left: -70px;
+            top: 10px;
+            width: 400px;
+        }
+    }
 }
 
 @media (max-width:992px)
