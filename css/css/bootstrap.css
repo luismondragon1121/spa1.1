@@ -3884,6 +3884,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  color: #664936 !important;
 }
 
 .nav-link.disabled {
@@ -3906,6 +3907,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #ffffff #e9ecef #dee2e6;
+  
 }
 
 .nav-tabs .nav-link.disabled {

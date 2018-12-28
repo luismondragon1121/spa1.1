@@ -58,12 +58,61 @@
         }
       }
 }
+ #carrousel-servicios
+ {
+    .owl-nav{
+        .owl-prev{
+           span{
+                position: absolute;
+                top: 150px;
+                left: 30px;
+            }
+        }
+        .owl-next{
+            span{
+                position: absolute;
+                top: 150px;
+                right: 20px;
+            }
+        }
+       
+    }
+ }
+
+ #carrusel-galeria
+ {
+    .owl-nav{
+        .owl-prev{
+           span{
+                position: absolute;
+                top: 60px;
+                left: 30px;
+                color: #fff;
+                font-size: 60px;
+            }
+        }
+        .owl-next{
+            span{
+                position: absolute;
+                top: 60px;
+                right: 30px;
+                color: #fff;
+                font-size: 60px;
+            }
+        }
+       
+    }
+ }
     
 .owl-theme .owl-dot span{
     background-color: #d1ae85!important;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background-color: #664936!important;
+}
+.owl-dots
+{
+    display: none;
 }
 
 /*----- end style navs slider-------*/
@@ -113,6 +162,30 @@
             }
            
         }
+    }
+    #carrusel-galeria
+    {
+    .owl-nav{
+        .owl-prev{
+           span{
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                color: #fff;
+                font-size: 50px;
+            }
+        }
+        .owl-next{
+            span{
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                color: #fff;
+                font-size: 50px;
+            }
+        }
+       
+    }
     }   
 }
 
@@ -150,6 +223,31 @@
             }
            
         }
+    }
+
+    #carrusel-galeria
+    {
+    .owl-nav{
+        .owl-prev{
+           span{
+                position: absolute;
+                top: 40px;
+                left: 30px;
+                color: #fff;
+                font-size: 50px;
+            }
+        }
+        .owl-next{
+            span{
+                position: absolute;
+                top: 40px;
+                right: 30px;
+                color: #fff;
+                font-size: 50px;
+            }
+        }
+       
+    }
     }
 }
 
@@ -190,5 +288,29 @@
             }
            
         }
+    }
+    #carrusel-galeria
+    {
+    .owl-nav{
+        .owl-prev{
+           span{
+                position: absolute;
+                top: 60px;
+                left: 30px;
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+        .owl-next{
+            span{
+                position: absolute;
+                top: 60px;
+                right: 30px;
+                color: #fff;
+                font-size: 40px;
+            }
+        }
+       
+    }
     }
 }

@@ -805,13 +805,13 @@ video {
     font-family: 'Questrial', sans-serif;
     background: transparent;
     color: #c68659;
-    border: 1px solid #664936; }
+    border: 1px solid #d1ae85; }
   #contacto textarea {
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
     border-bottom: 10px;
-    border-bottom: 1px solid #664936; }
+    border-bottom: 1px solid #d1ae85; }
   #contacto input::-webkit-input-placeholder {
     color: #664936; }
   #contacto input:-ms-input-placeholder {
@@ -932,7 +932,7 @@ footer {
     .foter #foter-redes .content-icons {
       text-align: center;
       font-family: "Poppins", sans-serif;
-      padding: 30px 0px; }
+      padding: 0px 0px; }
     .foter #foter-redes a {
       list-style: none;
       margin: 5px;
@@ -982,17 +982,21 @@ footer {
 
 #textp-inicio h1 {
   color: #c68659;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
   font-weight: bold;
-  margin-top: -230px;
-  padding: 10px; }
+  padding: 50px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: -230px; }
 
 #textp-inicio h2 {
-  text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
-  margin-bottom: 30px; }
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 0px 10px; }
 
 /*------------------------------
         ventanas emergentes galeria
@@ -1008,7 +1012,7 @@ footer {
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1020,7 +1024,7 @@ footer {
   align-items: center;
   top: 0;
   left: 0;
-  z-index: 1; }
+  z-index: 9999; }
 
 .modal__img {
   width: 70%;
@@ -1030,17 +1034,18 @@ footer {
   width: 40px;
   height: 40px;
   color: white;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 25px;
   line-height: 40px;
   text-align: center;
-  background-color: rgba(135, 42, 40, 0.9);
+  background-color: rgba(209, 174, 133, 0.9);
   border-radius: 50%;
   position: absolute;
-  right: 20px;
+  right: 60px;
   top: 100px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  z-index: 1; }
 
 /*------------------------------
        fin  ventanas emergentes galeria 
@@ -1054,13 +1059,13 @@ footer {
     height: 10%;
     margin-top: 50px; }
   #textp-inicio h1 {
-    font-weight: bold;
-    margin-top: -100px; }
-  #textp-inicio h2 {
+    padding: 50px 0px 0px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    margin-bottom: 30px; } }
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -20px; }
+  #textp-inicio h2 {
+    font-size: 18px; } }
 
 @media (max-width: 576px) {
   .imagen-galeria {
@@ -1068,17 +1073,13 @@ footer {
     height: 10%;
     margin-top: 50px; }
   #textp-inicio h1 {
-    color: #c68659;
+    padding: 50px 0px 0px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    margin-top: 0px;
-    padding: 10px; }
+    font-size: 30px;
+    margin-top: 20px; }
   #textp-inicio h2 {
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    margin-bottom: 30px; } }
+    font-size: 18px;
+    padding: 0px 0px 20px; } }
 
 footer {
   background-color: #664936; }
@@ -1104,7 +1105,7 @@ footer {
     .foter #foter-redes .content-icons {
       text-align: center;
       font-family: "Poppins", sans-serif;
-      padding: 30px 0px; }
+      padding: 0px 0px; }
     .foter #foter-redes a {
       list-style: none;
       margin: 5px;
@@ -1154,17 +1155,21 @@ footer {
 
 #textp-inicio h1 {
   color: #c68659;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
   font-weight: bold;
-  margin-top: -230px;
-  padding: 10px; }
+  padding: 50px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: -230px; }
 
 #textp-inicio h2 {
-  text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
-  margin-bottom: 30px; }
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 0px 10px; }
 
 /*------------------------------
         ventanas emergentes galeria
@@ -1180,7 +1185,7 @@ footer {
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1192,7 +1197,7 @@ footer {
   align-items: center;
   top: 0;
   left: 0;
-  z-index: 1; }
+  z-index: 9999; }
 
 .modal__img {
   width: 70%;
@@ -1202,17 +1207,18 @@ footer {
   width: 40px;
   height: 40px;
   color: white;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 25px;
   line-height: 40px;
   text-align: center;
-  background-color: rgba(135, 42, 40, 0.9);
+  background-color: rgba(209, 174, 133, 0.9);
   border-radius: 50%;
   position: absolute;
-  right: 20px;
+  right: 60px;
   top: 100px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  z-index: 1; }
 
 /*------------------------------
        fin  ventanas emergentes galeria 
@@ -1226,13 +1232,13 @@ footer {
     height: 10%;
     margin-top: 50px; }
   #textp-inicio h1 {
-    font-weight: bold;
-    margin-top: -100px; }
-  #textp-inicio h2 {
+    padding: 50px 0px 0px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    margin-bottom: 30px; } }
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -20px; }
+  #textp-inicio h2 {
+    font-size: 18px; } }
 
 @media (max-width: 576px) {
   .imagen-galeria {
@@ -1240,35 +1246,39 @@ footer {
     height: 10%;
     margin-top: 50px; }
   #textp-inicio h1 {
-    color: #c68659;
+    padding: 50px 0px 0px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    margin-top: 0px;
-    padding: 10px; }
+    font-size: 30px;
+    margin-top: 20px; }
   #textp-inicio h2 {
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    margin-bottom: 30px; } }
+    font-size: 18px;
+    padding: 0px 0px 20px; } }
 
 .imagen-politicas {
   width: 100%;
   height: 10%; }
 
+.active-circulos {
+  background-color: #d1ae85;
+  color: white; }
+
 #textos-principales-servicios h1 {
-  text-align: center;
   color: #c68659;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 0px;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  margin-top: -200px;
-  margin-bottom: 20px; }
+  padding: 50px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: -230px; }
 
 #textos-principales-servicios h2 {
-  text-align: center;
-  font-size: 22px;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 30px; }
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 0px 10px; }
 
 #carrousel-servicios {
   -webkit-box-pack: center;
@@ -1365,15 +1375,9 @@ footer {
     margin-bottom: 5px; }
     #cuadros-servicios .cuadros a {
       color: #c68659; }
-  #cuadros-servicios .cuadros:hover {
-    background-color: #c68659;
-    color: white;
-    border: #c68659 1px solid;
-    -webkit-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s; }
   #cuadros-servicios .cuadros a:hover {
-    color: white; }
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .cuadros_texto {
     text-align: center;
     font-size: 16px;
@@ -1405,30 +1409,51 @@ footer {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .masaje li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .plus {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .plus li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .faciales {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .faciales li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .vanguardia {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .vanguardia li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .rituales {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .rituales li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .cera {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .cera li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .corporal {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .corporal li:hover {
+    color: #664936;
+    font-weight: bold; }
 
 .img-masajes-modal {
   width: 100%; }
@@ -1469,17 +1494,13 @@ footer {
 
 @media (max-width: 768px) {
   #textos-principales-servicios h1 {
+    padding: 50px 0px 0px;
     text-align: center;
-    color: #c68659;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    margin-top: -100px;
-    margin-bottom: 20px; }
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -20px; }
   #textos-principales-servicios h2 {
-    text-align: center;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 30px; }
+    font-size: 18px; }
   .contenido-carrusel {
     margin-left: 20px;
     position: relative;
@@ -1489,17 +1510,13 @@ footer {
 
 @media (max-width: 576px) {
   #textos-principales-servicios h1 {
+    padding: 50px 0px 0px;
     text-align: center;
-    color: #c68659;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    margin-top: -50px;
-    margin-bottom: 20px; }
+    font-size: 30px;
+    margin-top: 20px; }
   #textos-principales-servicios h2 {
-    text-align: center;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 30px; }
+    font-size: 18px;
+    padding: 0px 0px 20px; }
   .contenido-carrusel {
     margin-left: 10px;
     padding: 0px 0px 20px; } }
@@ -1510,12 +1527,15 @@ footer {
   margin-top: 100px; }
 
 #texto-aviso h1 {
-  text-align: center;
   color: #c68659;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 0px;
   font-weight: bold;
-  margin-top: -230px;
-  padding: 10px;
-  margin-bottom: 20px; }
+  padding: 50px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: -230px; }
 
 .cuadro-politicas {
   background-color: white;
@@ -1543,12 +1563,11 @@ footer {
     height: 10%;
     margin-top: 50px; }
   #texto-aviso h1 {
+    padding: 50px 0px 0px;
     text-align: center;
-    color: #c68659;
-    font-weight: bold;
-    margin-top: -100px;
-    padding: 10px;
-    margin-bottom: 20px; } }
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -20px; } }
 
 @media (max-width: 576px) {
   .imagen-politicas {
@@ -1556,12 +1575,10 @@ footer {
     height: 10%;
     margin-top: 60px; }
   #texto-aviso h1 {
+    padding: 50px 0px 0px;
     text-align: center;
-    color: #c68659;
-    font-weight: bold;
-    margin-top: -50px;
-    padding: 10px;
-    margin-bottom: 20px; }
+    font-size: 30px;
+    margin-top: 20px; }
   .cuadro-politicas {
     background-color: white;
     margin-top: -20px;
@@ -1587,10 +1604,14 @@ footer {
 
 #texto-preguntas h1 {
   color: #c68659;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
+  margin-top: 0px;
   font-weight: bold;
-  margin-top: -230px;
-  padding: 10px; }
+  padding: 50px 0px 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: -230px; }
 
 .aticulos-preguntas {
   width: 100%;
@@ -1628,31 +1649,32 @@ footer {
 ---------------------------*/
 @media (max-width: 768px) {
   #texto-preguntas h1 {
-    color: #c68659;
+    padding: 50px 0px 0px;
     text-align: center;
-    font-weight: bold;
-    margin-top: -50px;
-    padding: 10px; }
-  .aticulos-preguntas .pregun {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: -20px; }
+  #texto-preguntas .aticulos-preguntas .pregun {
     font-family: "Poppins", sans-serif;
     margin-bottom: 10px;
     color: #d1ae85;
     font-weight: bold;
     font-size: 16px; }
-  .aticulos-preguntas .respuesta {
+  #texto-preguntas .aticulos-preguntas .respuesta {
     margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
     padding: 0px 0px 10px;
     border-bottom: 1px solid #d1d1d1;
-    font-size: 14px; } }
+    font-size: 14px; }
+  #texto-preguntas .aticulos-preguntas a {
+    font-size: 16px; } }
 
 @media (max-width: 576px) {
   #texto-preguntas h1 {
-    color: #c68659;
+    padding: 50px 0px 0px;
     text-align: center;
-    font-weight: bold;
-    margin-top: -50px;
-    padding: 10px; }
+    font-size: 30px;
+    margin-top: 20px; }
   .aticulos-preguntas .pregun {
     font-family: "Poppins", sans-serif;
     margin-bottom: 10px;
@@ -1664,7 +1686,9 @@ footer {
     font-family: "Poppins", sans-serif;
     padding: 0px 0px 10px;
     border-bottom: 1px solid #d1d1d1;
-    font-size: 14px; } }
+    font-size: 14px; }
+  .aticulos-preguntas a {
+    font-size: 12px; } }
 
 .imagen-correo {
   width: 100%;
