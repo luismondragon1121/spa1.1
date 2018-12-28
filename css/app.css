@@ -1324,6 +1324,10 @@ footer {
   width: 100%;
   height: 10%; }
 
+.active-circulos {
+  background-color: #d1ae85;
+  color: white; }
+
 #textos-principales-servicios h1 {
   color: #c68659;
   font-family: 'Poppins', sans-serif;
@@ -1437,15 +1441,9 @@ footer {
     margin-bottom: 5px; }
     #cuadros-servicios .cuadros a {
       color: #c68659; }
-  #cuadros-servicios .cuadros:hover {
-    background-color: #c68659;
-    color: white;
-    border: #c68659 1px solid;
-    -webkit-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s; }
   #cuadros-servicios .cuadros a:hover {
-    color: white; }
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .cuadros_texto {
     text-align: center;
     font-size: 16px;
@@ -1477,30 +1475,51 @@ footer {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .masaje li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .plus {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .plus li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .faciales {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .faciales li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .vanguardia {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .vanguardia li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .rituales {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .rituales li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .cera {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .cera li:hover {
+    color: #664936;
+    font-weight: bold; }
   #cuadros-servicios .serviciost .corporal {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif; }
+  #cuadros-servicios .serviciost .corporal li:hover {
+    color: #664936;
+    font-weight: bold; }
 
 .img-masajes-modal {
   width: 100%; }

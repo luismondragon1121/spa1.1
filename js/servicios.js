@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('div.cuadros a:first').addClass('active-circulos active-textos');
+   $('div.cuadros a:first').addClass('active-circulos');
     $('.serviciost article').hide();
     $('.serviciost article:first').show();
     

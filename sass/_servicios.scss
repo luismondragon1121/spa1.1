@@ -4,6 +4,12 @@
     height: 10%;
 }
 
+.active-circulos
+{
+    background-color:#d1ae85;
+    color: white;
+}
+
 #textos-principales-servicios
 {
     h1
@@ -45,6 +51,7 @@
         text-align: left;
         padding: 0px 20px 30px;
     }
+    
     .contorno
     {
         background-color: white;
@@ -142,6 +149,8 @@
     }
 }
 
+
+
 #cuadros-servicios
 {
     margin-bottom: 100px;
@@ -162,17 +171,13 @@
             color: $color-titulos;
         }
     }
-    .cuadros:hover
-    {
-         background-color:#c68659;
-         color: white;
-        border: #c68659 1px solid;
-        transition-duration: 1s;
-    }
     .cuadros a:hover
     {
-        color: white;
+       
+        color: #664936;
+        font-weight: bold;
     }
+  
     .cuadros_texto
     {
         text-align: center;
@@ -216,11 +221,21 @@
              text-decoration: none;
             font-family:'Poppins', sans-serif;
         }
+        .masaje li:hover
+        {
+            color: #664936;
+            font-weight: bold;
+        }
         .plus
         {
             list-style: none;
             text-decoration: none;
             font-family:'Poppins', sans-serif;
+        }
+        .plus li:hover
+        {
+            color: #664936;
+            font-weight: bold;
         }
         .faciales
         {
@@ -228,11 +243,21 @@
             text-decoration: none;
             font-family:'Poppins', sans-serif;
         }
+        .faciales li:hover
+        {
+            color: #664936;
+            font-weight: bold;
+        }
         .vanguardia
         {
             list-style: none;
             text-decoration: none;
             font-family:'Poppins', sans-serif;
+        }
+        .vanguardia li:hover
+        {
+            color: #664936;
+            font-weight: bold;
         }
         .rituales
         {
@@ -240,17 +265,32 @@
             text-decoration: none;
             font-family:'Poppins', sans-serif;
         }
+        .rituales li:hover
+        {
+            color: #664936;
+            font-weight: bold;
+        }
         .cera
         {
             list-style: none;
             text-decoration: none;
             font-family:'Poppins', sans-serif;
         }
+        .cera li:hover
+        {
+            color: #664936;
+            font-weight: bold;
+        }
         .corporal
         {
             list-style: none;
             text-decoration: none;
             font-family:'Poppins', sans-serif;
+        }
+        .corporal li:hover
+        {
+            color: #664936;
+            font-weight: bold;
         }
     }
 }
