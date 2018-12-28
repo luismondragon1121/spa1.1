@@ -181,7 +181,8 @@ video {
   border-radius: 50%;
   -webkit-box-shadow: -3px 0 4px 1px #d1d1d1;
   box-shadow: -3px 0 4px 1px #d1d1d1;
-  opacity: 1; }
+  opacity: 1;
+  width: 110px; }
 
 #contenedor_carga {
   background: rgba(209, 174, 133, 0.9);
@@ -414,6 +415,11 @@ video {
           text-align: justify; }
         #centrobelleza .cuadrosbelleza .circulos-secciones_belleza article a {
           text-align: center; }
+  #centrobelleza .img-circulos {
+    width: 100px;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out; }
   #centrobelleza .cuadrobelleza1 {
     background-color: white;
     margin-top: -20px;
@@ -555,7 +561,7 @@ video {
       color: #fff;
       text-decoration: none;
       display: block;
-      padding: 5px 0px; }
+      padding: 1px 0px; }
     #seccion-spa .cuadrospa .circulos-secciones {
       width: 100%;
       position: absolute;
@@ -577,6 +583,11 @@ video {
           padding: 10px 50px;
           font-size: 15px;
           text-align: justify; }
+  #seccion-spa .img-circulos {
+    width: 100px;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out; }
   #seccion-spa .cuadrobelleza1 {
     background-color: white;
     margin-top: -20px;
@@ -708,7 +719,7 @@ video {
       color: #fff;
       text-decoration: none;
       display: block;
-      padding: 5px 0px; }
+      padding: 1px 0px; }
     #seccion-bienestar .cuadrobienestar .circulos-secciones_bienestar {
       width: 100%;
       position: absolute;
@@ -732,6 +743,11 @@ video {
           padding: 10px 50px;
           font-size: 14px;
           text-align: justify; }
+  #seccion-bienestar .img-circulos {
+    width: 100px;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out; }
   #seccion-bienestar .cuadrobelleza1 {
     background-color: white;
     margin-top: -20px;

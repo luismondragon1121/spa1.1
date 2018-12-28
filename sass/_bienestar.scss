@@ -71,7 +71,7 @@
                 color:#fff;
                 text-decoration: none;
                 display: block;
-                padding: 5px 0px;   
+                padding: 1px 0px;   
             }
             .circulos-secciones_bienestar
             {
@@ -105,6 +105,12 @@
                 }
             }
         }
+
+        .img-circulos
+    {
+        width: 100px;
+        transition: opacity 1.5s ease-in-out;
+    }
         .cuadrobelleza1
         {
             background-color: white;
