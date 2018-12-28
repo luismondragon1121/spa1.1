@@ -1290,7 +1290,7 @@ footer {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding: 10px 20px; }
+    padding: 0px 20px 30px; }
   #carrousel-servicios .contorno {
     background-color: white;
     margin-top: -20px;
@@ -1314,7 +1314,7 @@ footer {
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    padding: 10px 20px; }
+    padding: 0px 20px 30px; }
   #carrousel-servicios .sr {
     text-align: left;
     margin-left: 20px;
@@ -1322,7 +1322,8 @@ footer {
   #carrousel-servicios .faciales {
     list-style: none;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif; }
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 20px 30px; }
   #carrousel-servicios .fr {
     text-align: left;
     margin-left: 20px;
@@ -1330,7 +1331,8 @@ footer {
   #carrousel-servicios .vanguardia {
     list-style: none;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif; }
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 20px 30px; }
   #carrousel-servicios .vr {
     text-align: left;
     margin-left: 20px;
@@ -1340,11 +1342,12 @@ footer {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding: 10px 20px; }
+    padding: 0px 20px 30px; }
   #carrousel-servicios .rituales {
     list-style: none;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif; }
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 20px 30px; }
   #carrousel-servicios .rr {
     text-align: left;
     margin-left: 20px;
@@ -1354,7 +1357,7 @@ footer {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding: 0px 20px 10px; }
+    padding: 0px 20px 30px; }
 
 #cuadros-servicios {
   margin-bottom: 100px; }
@@ -1486,7 +1489,8 @@ footer {
     margin-bottom: 30px; }
   .contenido-carrusel {
     margin-left: 20px;
-    position: relative; }
+    position: relative;
+    padding: 0px 0px 20px; }
   .mr1 {
     margin-left: 40px; } }
 
@@ -1505,7 +1509,7 @@ footer {
     margin-bottom: 30px; }
   .contenido-carrusel {
     margin-left: 10px;
-    padding: 10px; } }
+    padding: 0px 0px 20px; } }
 
 .imagen-politicas {
   width: 100%;
