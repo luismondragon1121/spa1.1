@@ -386,9 +386,6 @@ video {
       margin-bottom: 10px;
       padding: 50px 0 10px; }
 
-#carouselExampleSlidesOnly1 {
-  padding: 30px 0px; }
-
 /*--------------------------
     media querys
 ---------------------------*/
@@ -547,9 +544,6 @@ video {
     #seccion-spa .slider1 a {
       font-size: 18;
       font-weight: bold; }
-
-#carouselExampleSlidesOnly {
-  padding: 30px 0px; }
 
 /*--------------------------
     media querys
