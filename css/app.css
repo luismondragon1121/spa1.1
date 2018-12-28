@@ -902,6 +902,8 @@ video {
   #nav-menu .navbar-brand {
     position: relative;
     width: 0%; }
+  #nav-menu .navbar-nav {
+    text-align: left; }
   #navbarSupportedContent ul {
     margin-top: 0px; } }
 
@@ -909,22 +911,24 @@ video {
   #nav-menu .navbar-brand {
     position: relative;
     width: 0%; }
+  #nav-menu .navbar-nav {
+    text-align: left; }
   #navbarSupportedContent ul {
     margin-top: 0px; } }
 
 footer {
-  padding: 30px 0px;
   background-color: #664936; }
+
+footer {
+  padding: 30px 0px; }
 
 .foter {
   font-family: "Poppins", sans-serif; }
   .foter ul {
     list-style: none;
-<<<<<<< HEAD
-    padding: 40px 10px 40px;
-=======
->>>>>>> eda476f7f1f984269c5672e57f97992debf2012a
-    display: inline-block; }
+    display: inline-block;
+    -webkit-padding-start: 0px;
+    padding-inline-start: 0px; }
     .foter ul li a {
       list-style: none;
       margin-top: 10px;
@@ -932,23 +936,22 @@ footer {
       color: white;
       padding: 5px; }
   .foter #foter-redes {
-    background-color: #664936;
-    padding: 10px 60px 10px; }
-    .foter #foter-redes ul {
-      list-style: none;
-      margin: 5px;
-      margin-top: 0px;
-      float: right;
-      font-family: "Poppins", sans-serif; }
+    background-color: #664936; }
+    .foter #foter-redes .content-icons {
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      padding: 30px 0px; }
     .foter #foter-redes a {
       list-style: none;
       margin: 5px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      padding: 20px 0px; }
     .foter #foter-redes li {
       margin-left: 20px;
       margin-top: 10px;
       color: white;
-      font-size: 12px; }
+      font-size: 12px;
+      list-style: none; }
 
 /*--------------------------
     media querys
@@ -962,9 +965,8 @@ footer {
     text-align: left; }
   ul {
     list-style: none;
-    padding: 10px 0px 10px;
     display: block;
-    text-align: center; } }
+    text-align: left; } }
 
 @media (max-width: 768px) {
   .foter {
@@ -972,19 +974,14 @@ footer {
     background-color: #664936; }
     .foter ul {
       list-style: none;
-      padding: 20px 0px 10px;
       display: block;
       text-align: center; } }
 
 @media (max-width: 576px) {
-  .foter {
-    font-family: "Poppins", sans-serif;
-    background-color: #664936; }
-    .foter ul {
-      list-style: none;
-      padding: 20px 10px 10px;
-      display: block;
-      text-align: center; } }
+  .foter ul {
+    list-style: none;
+    display: block;
+    text-align: center; } }
 
 .imagen-galeria {
   width: 100%;
@@ -1092,18 +1089,18 @@ footer {
     margin-bottom: 30px; } }
 
 footer {
-  padding: 30px 0px;
   background-color: #664936; }
+
+footer {
+  padding: 30px 0px; }
 
 .foter {
   font-family: "Poppins", sans-serif; }
   .foter ul {
     list-style: none;
-<<<<<<< HEAD
-    padding: 40px 10px 40px;
-=======
->>>>>>> eda476f7f1f984269c5672e57f97992debf2012a
-    display: inline-block; }
+    display: inline-block;
+    -webkit-padding-start: 0px;
+    padding-inline-start: 0px; }
     .foter ul li a {
       list-style: none;
       margin-top: 10px;
@@ -1111,23 +1108,22 @@ footer {
       color: white;
       padding: 5px; }
   .foter #foter-redes {
-    background-color: #664936;
-    padding: 10px 60px 10px; }
-    .foter #foter-redes ul {
-      list-style: none;
-      margin: 5px;
-      margin-top: 0px;
-      float: right;
-      font-family: "Poppins", sans-serif; }
+    background-color: #664936; }
+    .foter #foter-redes .content-icons {
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      padding: 30px 0px; }
     .foter #foter-redes a {
       list-style: none;
       margin: 5px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      padding: 20px 0px; }
     .foter #foter-redes li {
       margin-left: 20px;
       margin-top: 10px;
       color: white;
-      font-size: 12px; }
+      font-size: 12px;
+      list-style: none; }
 
 /*--------------------------
     media querys
@@ -1141,9 +1137,8 @@ footer {
     text-align: left; }
   ul {
     list-style: none;
-    padding: 10px 0px 10px;
     display: block;
-    text-align: center; } }
+    text-align: left; } }
 
 @media (max-width: 768px) {
   .foter {
@@ -1151,19 +1146,14 @@ footer {
     background-color: #664936; }
     .foter ul {
       list-style: none;
-      padding: 20px 0px 10px;
       display: block;
       text-align: center; } }
 
 @media (max-width: 576px) {
-  .foter {
-    font-family: "Poppins", sans-serif;
-    background-color: #664936; }
-    .foter ul {
-      list-style: none;
-      padding: 20px 10px 10px;
-      display: block;
-      text-align: center; } }
+  .foter ul {
+    list-style: none;
+    display: block;
+    text-align: center; } }
 
 .imagen-galeria {
   width: 100%;
