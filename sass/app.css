@@ -44,6 +44,20 @@ importando variables
   top: 150px;
   right: 20px; }
 
+#carrusel-galeria .owl-nav .owl-prev span {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  color: #fff;
+  font-size: 60px; }
+
+#carrusel-galeria .owl-nav .owl-next span {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  color: #fff;
+  font-size: 60px; }
+
 .owl-theme .owl-dot span {
   background-color: #d1ae85 !important; }
 
@@ -65,7 +79,19 @@ importando variables
   #sl .owl-nav .owl-prev span {
     left: 100px; }
   #sl .owl-nav .owl-next span {
-    right: 100px; } }
+    right: 100px; }
+  #carrusel-galeria .owl-nav .owl-prev span {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+    font-size: 50px; }
+  #carrusel-galeria .owl-nav .owl-next span {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 50px; } }
 
 @media (max-width: 768px) {
   #spa-carousel .owl-nav .owl-prev span {
@@ -75,7 +101,19 @@ importando variables
   #sl .owl-nav .owl-prev span {
     left: 80px; }
   #sl .owl-nav .owl-next span {
-    right: 80px; } }
+    right: 80px; }
+  #carrusel-galeria .owl-nav .owl-prev span {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color: #fff;
+    font-size: 50px; }
+  #carrusel-galeria .owl-nav .owl-next span {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    color: #fff;
+    font-size: 50px; } }
 
 @media (max-width: 576px) {
   video {
@@ -87,7 +125,19 @@ importando variables
   #sl .owl-nav .owl-prev span {
     left: 40px; }
   #sl .owl-nav .owl-next span {
-    right: 40px; } }
+    right: 40px; }
+  #carrusel-galeria .owl-nav .owl-prev span {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: #fff;
+    font-size: 40px; }
+  #carrusel-galeria .owl-nav .owl-next span {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px; } }
 
 video {
   width: 100%;
