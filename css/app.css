@@ -501,7 +501,7 @@ video {
   #centrobelleza {
     background-size: contain; }
     #centrobelleza h1 {
-      padding: 50px 0px 0px;
+      padding: 70px 0px 0px;
       font-size: 30px; }
     #centrobelleza video {
       margin-top: 0px;
@@ -670,13 +670,14 @@ video {
     position: relative;
     margin-left: 0px;
     width: 100%;
-    padding: 20px; } }
+    padding: 20px;
+    margin-bottom: 38px; } }
 
 @media (max-width: 576px) {
   #seccion-spa {
     background-size: contain; }
     #seccion-spa h1 {
-      padding: 50px 0px 0px;
+      padding: 70px 0px 0px;
       font-size: 30px; }
     #seccion-spa h2 {
       font-size: 18px;
@@ -685,7 +686,8 @@ video {
       margin-top: 0px;
       position: relative;
       margin-left: 0px;
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 38px; } }
 
 #seccion-bienestar {
   background: url(../img/cb/bannerbienestar.jpg);
@@ -706,7 +708,7 @@ video {
   #seccion-bienestar video {
     margin-top: 80px;
     position: relative;
-    margin-left: -90px;
+    margin-left: -70px;
     top: 50px; }
   #seccion-bienestar h1 {
     color: #876bb2;
@@ -843,7 +845,7 @@ video {
 
 @media (max-width: 576px) {
   #seccion-bienestar h1 {
-    padding: 50px 0px 0px;
+    padding: 70px 0px 0px;
     font-size: 30px; }
   #seccion-bienestar h2 {
     font-size: 18px;
@@ -1164,6 +1166,32 @@ footer {
   font-family: 'Poppins', sans-serif;
   z-index: 1; }
 
+#bt-prev, #bt-next {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer; }
+
+#bt-prev:hover, #bt-next:hover {
+  background-color: white; }
+
+#bt-prev {
+  left: 10px; }
+
+#bt-next {
+  right: 10px; }
+
 /*------------------------------
        fin  ventanas emergentes galeria 
 -------------------------------*/
@@ -1354,6 +1382,32 @@ footer {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   z-index: 1; }
+
+#bt-prev, #bt-next {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer; }
+
+#bt-prev:hover, #bt-next:hover {
+  background-color: white; }
+
+#bt-prev {
+  left: 10px; }
+
+#bt-next {
+  right: 10px; }
 
 /*------------------------------
        fin  ventanas emergentes galeria 
@@ -1557,7 +1611,7 @@ footer {
     text-align: center;
     color: #c68659;
     margin-top: 50px;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   #cuadros-servicios .serviciost .masaje {
     list-style: none;
     text-decoration: none;
