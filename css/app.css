@@ -1806,8 +1806,11 @@ footer {
     box-shadow: 0 0 60px 1px #afafaf;
     max-width: 100%;
     max-width: 90%;
-    margin: 20px;
-    height: auto; }
+    margin: 0px;
+    height: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
     .cuadro-politicas .contenido-politicas {
       font-family: 'Poppins', sans-serif;
       margin-bottom: 30px;
