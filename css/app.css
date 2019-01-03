@@ -1039,7 +1039,8 @@ footer {
     list-style: none;
     display: inline-block;
     -webkit-padding-start: 0px;
-    padding-inline-start: 0px; }
+    padding-inline-start: 0px;
+    margin-right: 30px; }
     .foter ul li a {
       list-style: none;
       margin-top: 10px;
@@ -1086,13 +1087,15 @@ footer {
     .foter ul {
       list-style: none;
       display: block;
-      text-align: center; } }
+      text-align: center;
+      margin-right: 0px; } }
 
 @media (max-width: 576px) {
   .foter ul {
     list-style: none;
     display: block;
-    text-align: center; } }
+    text-align: center;
+    margin-right: 0px; } }
 
 .imagen-galeria {
   width: 100%;
@@ -1143,7 +1146,7 @@ footer {
   align-items: center;
   top: 0;
   left: 0;
-  z-index: 9999; }
+  z-index: 1111111111; }
 
 .modal__img {
   width: 70%;
@@ -1242,7 +1245,12 @@ footer {
     margin-top: 20px; }
   #textp-inicio h2 {
     font-size: 18px;
-    padding: 0px 0px 20px; } }
+    padding: 0px 0px 20px; }
+  .modal__img {
+    width: 95%;
+    max-width: 900px;
+    cursor: pointer;
+    height: 35%; } }
 
 footer {
   background-color: #664936; }
@@ -1256,7 +1264,8 @@ footer {
     list-style: none;
     display: inline-block;
     -webkit-padding-start: 0px;
-    padding-inline-start: 0px; }
+    padding-inline-start: 0px;
+    margin-right: 30px; }
     .foter ul li a {
       list-style: none;
       margin-top: 10px;
@@ -1303,13 +1312,15 @@ footer {
     .foter ul {
       list-style: none;
       display: block;
-      text-align: center; } }
+      text-align: center;
+      margin-right: 0px; } }
 
 @media (max-width: 576px) {
   .foter ul {
     list-style: none;
     display: block;
-    text-align: center; } }
+    text-align: center;
+    margin-right: 0px; } }
 
 .imagen-galeria {
   width: 100%;
@@ -1360,7 +1371,7 @@ footer {
   align-items: center;
   top: 0;
   left: 0;
-  z-index: 9999; }
+  z-index: 1111111111; }
 
 .modal__img {
   width: 70%;
@@ -1459,7 +1470,12 @@ footer {
     margin-top: 20px; }
   #textp-inicio h2 {
     font-size: 18px;
-    padding: 0px 0px 20px; } }
+    padding: 0px 0px 20px; }
+  .modal__img {
+    width: 95%;
+    max-width: 900px;
+    cursor: pointer;
+    height: 35%; } }
 
 .imagen-politicas {
   width: 100%;

@@ -13,7 +13,9 @@ footer{
     {
         list-style: none;
         display: inline-block;
-        padding-inline-start: 0px;
+        padding-inline-start: 0px; margin-right: 30px;
+       
+
     li a
         {
             list-style: none;
@@ -91,6 +93,7 @@ footer{
         list-style: none;
         display:block;
         text-align: center;
+        margin-right: 0px;
     } 
     }
 }
@@ -104,6 +107,7 @@ footer{
         list-style: none;
         display:block;
         text-align: center;
+        margin-right: 0px;
     } 
     }
 }

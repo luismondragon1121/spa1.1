@@ -55,7 +55,7 @@
     align-items: center;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 1111111111;
 }
 
 .modal__img
@@ -203,4 +203,12 @@
         padding: 0px 0px 20px;
     }
     }
+    .modal__img
+    {
+        width: 95%;
+        max-width: 900px;
+        cursor: pointer;
+        height: 35%;
+    }
+    
 }
