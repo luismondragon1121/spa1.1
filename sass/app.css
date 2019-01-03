@@ -1250,7 +1250,10 @@ footer {
     width: 95%;
     max-width: 900px;
     cursor: pointer;
-    height: 35%; } }
+    height: 35%; }
+  .modal__boton {
+    right: 10px;
+    top: 150px; } }
 
 footer {
   background-color: #664936; }
@@ -1475,7 +1478,10 @@ footer {
     width: 95%;
     max-width: 900px;
     cursor: pointer;
-    height: 35%; } }
+    height: 35%; }
+  .modal__boton {
+    right: 10px;
+    top: 150px; } }
 
 .imagen-politicas {
   width: 100%;
