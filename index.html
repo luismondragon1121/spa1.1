@@ -380,16 +380,16 @@
     <div class="row" style="padding: 100px 0px 10px;">
          <div class="col-md-1"></div>
             <div class="col-md-5 wow animated fadeIn" data-wow-duration = "2s" data-wow-delay = "1s">
-             <form action="correo/enviar.php" method="POST" onSubmit="return Valida(this);">
+             <form action="correo/enviar.php" method="POST" onSubmit="return validar();">
                <b class="titulo-contacto wow animated fadeInDown" data-wow-duration = "1s" data-wow-delay = "1s">Contacto</b>
-                <input class="con" style="margin-bottom: 10px;" id="pnombre" type="text" name="Nombre" placeholder="* Nombre" required><br>
-                <input class="con" style="margin-bottom: 10px;"  type="text" name="Correo" placeholder="* Correo" required>
-                <input class="con" style="margin-bottom: 10px;"  type="name" name="Telefono" placeholder="* Teléfono" required onSubmit="return Valida(this);"> <br><br>
-                <textarea  class="con" name="mensaje" placeholder="* Escriba aquí su mensaje"required></textarea>
+                <input id="nombre" class="con" style="margin-bottom: 10px;" id="pnombre" type="text" name="Nombre" placeholder="* Nombre" required><br>
+                <input id="correo" class="con" style="margin-bottom: 10px;"  type="email" name="Correo" placeholder="* Correo" required>
+                <input id="telefono" class="con" style="margin-bottom: 10px;"  type="name" name="Telefono" placeholder="* Teléfono" required> <br><br>
+                <textarea id="mensaje" class="con" name="mensaje" placeholder="* Escriba aquí su mensaje"required></textarea>
                 <label class="textos-contacto">Fecha de preferencia de cita</label>
-                <input class="con" type="date" name="cita" step="1" min="2018-10-16" max="2019-12-31" required>
+                <input id="cita" class="con" type="date" name="cita" step="1" min="2018-10-16" max="2019-12-31" required>
                 <label class="textos-contacto">Horario de preferencia de cita</label>
-                <input class="con" type="time" name="hora" value="09:00:00" max="19:00:00" min="09:00:00" step="1" required>
+                <input id="hora" class="con" type="time" name="hora" value="09:00:00" max="19:00:00" min="09:00:00" step="1" required>
                 <label class="textos-contacto" style="padding: 10px">Los campos con * son Obligatorios</label>
                 <input  class="con" type="submit" onclick="pregunta()"  value="Enviar" id="btn">
              </form>            
@@ -543,6 +543,7 @@ window.onload = function(){
 <script src="//code.tidio.co/uy23ltokujw1wykvn9t3ysx79t6rzzke.js"></script>
 <script src="js/belleza.js"></script>
 <script src="js/spa.js"></script>
+<script src="js/validar.js"></script>
 <script src="js/centrob.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
