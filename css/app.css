@@ -46,15 +46,15 @@ importando variables
 
 #carrusel-galeria .owl-nav .owl-prev span {
   position: absolute;
-  top: 60px;
-  left: 30px;
+  top: 40px;
+  left: 120px;
   color: #fff;
   font-size: 60px; }
 
 #carrusel-galeria .owl-nav .owl-next span {
   position: absolute;
-  top: 60px;
-  right: 30px;
+  top: 40px;
+  right: 120px;
   color: #fff;
   font-size: 60px; }
 
@@ -82,14 +82,14 @@ importando variables
     right: 100px; }
   #carrusel-galeria .owl-nav .owl-prev span {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 50px;
+    left: 120px;
     color: #fff;
     font-size: 50px; }
   #carrusel-galeria .owl-nav .owl-next span {
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 50px;
+    right: 120px;
     color: #fff;
     font-size: 50px; } }
 
@@ -104,14 +104,14 @@ importando variables
     right: 80px; }
   #carrusel-galeria .owl-nav .owl-prev span {
     position: absolute;
-    top: 40px;
-    left: 30px;
+    top: 50px;
+    left: 100px;
     color: #fff;
     font-size: 50px; }
   #carrusel-galeria .owl-nav .owl-next span {
     position: absolute;
-    top: 40px;
-    right: 30px;
+    top: 50px;
+    right: 100px;
     color: #fff;
     font-size: 50px; } }
 
@@ -1611,7 +1611,8 @@ footer {
 
 .modal__img {
   width: 70%;
-  max-width: 900px; }
+  max-width: 900px;
+  cursor: pointer; }
 
 .modal__boton {
   width: 40px;
@@ -1839,7 +1840,8 @@ footer {
 
 .modal__img {
   width: 70%;
-  max-width: 900px; }
+  max-width: 900px;
+  cursor: pointer; }
 
 .modal__boton {
   width: 40px;
