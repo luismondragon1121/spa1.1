@@ -13,6 +13,11 @@ $(document).ready(function(){
         return false;
     });
 
+    $('.variety-selector > a , .spa-gallery-selectors > a').on('click',function(){
+        $(this).addClass("active").siblings().removeClass('active');
+    });
+    });
+
     // $(document).ready(function(){
     //     $('ul.cir li a:first').addClass('active-spa');
     //      $('.circulos-secciones article').hide();
@@ -29,9 +34,3 @@ $(document).ready(function(){
     //      });
     
 /*=================== Selectors ===================*/  
-$('.variety-selector > a , .spa-gallery-selectors > a').on('click',function(){
-    $(this).addClass("active").siblings().removeClass('active');
-});
-
-
-});
