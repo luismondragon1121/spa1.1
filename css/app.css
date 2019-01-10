@@ -1249,11 +1249,6 @@ video {
     width: 500px;
     top: -10px; } }
 
-@media (max-width: 1200px) {
-  #seccion-bienestar video {
-    width: 400px;
-    top: 0px; } }
-
 @media (max-width: 992px) {
   #section-two-bienestar video {
     position: relative;
