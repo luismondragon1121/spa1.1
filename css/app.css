@@ -44,19 +44,27 @@ importando variables
   top: 150px;
   right: 20px; }
 
+#carrusel-galeria button {
+  background-color: #d1ae85 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 1px;
+  text-align: center;
+  margin-left: 30px; }
+
 #carrusel-galeria .owl-nav .owl-prev span {
-  position: absolute;
-  top: 40px;
-  left: 120px;
-  color: #fff;
-  font-size: 60px; }
+  left: 0px;
+  color: white;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif; }
 
 #carrusel-galeria .owl-nav .owl-next span {
-  position: absolute;
-  top: 40px;
-  right: 120px;
-  color: #fff;
-  font-size: 60px; }
+  right: 20px;
+  color: white;
+  font-size: 60px;
+  padding: 20px 0px;
+  font-family: 'Poppins', sans-serif; }
 
 .owl-theme .owl-dot span {
   background-color: #d1ae85 !important; }
@@ -79,19 +87,7 @@ importando variables
   #sl .owl-nav .owl-prev span {
     left: 100px; }
   #sl .owl-nav .owl-next span {
-    right: 100px; }
-  #carrusel-galeria .owl-nav .owl-prev span {
-    position: absolute;
-    top: 50px;
-    left: 120px;
-    color: #fff;
-    font-size: 50px; }
-  #carrusel-galeria .owl-nav .owl-next span {
-    position: absolute;
-    top: 50px;
-    right: 120px;
-    color: #fff;
-    font-size: 50px; } }
+    right: 100px; } }
 
 @media (max-width: 768px) {
   #spa-carousel .owl-nav .owl-prev span {
@@ -101,19 +97,7 @@ importando variables
   #sl .owl-nav .owl-prev span {
     left: 80px; }
   #sl .owl-nav .owl-next span {
-    right: 80px; }
-  #carrusel-galeria .owl-nav .owl-prev span {
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    color: #fff;
-    font-size: 50px; }
-  #carrusel-galeria .owl-nav .owl-next span {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    color: #fff;
-    font-size: 50px; } }
+    right: 80px; } }
 
 @media (max-width: 576px) {
   video {
@@ -125,19 +109,7 @@ importando variables
   #sl .owl-nav .owl-prev span {
     left: 40px; }
   #sl .owl-nav .owl-next span {
-    right: 40px; }
-  #carrusel-galeria .owl-nav .owl-prev span {
-    position: absolute;
-    top: 60px;
-    left: 30px;
-    color: #fff;
-    font-size: 40px; }
-  #carrusel-galeria .owl-nav .owl-next span {
-    position: absolute;
-    top: 60px;
-    right: 30px;
-    color: #fff;
-    font-size: 40px; } }
+    right: 40px; } }
 
 video {
   width: 100%;

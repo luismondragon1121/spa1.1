@@ -80,27 +80,35 @@
  }
 
  #carrusel-galeria
- {
-    .owl-nav{
+ {  
+     button{
+            background-color:  #d1ae85 !important;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            line-height: 1px;
+            text-align: center;
+            margin-left: 30px;
+     }
+    .owl-nav
+    { 
         .owl-prev{
            span{
-                position: absolute;
-                top: 40px;
-                left: 120px;
-                color: #fff;
-                font-size: 60px;
+            left: 0px;              
+            color: white;
+            font-size: 60px;  
+            font-family: 'Poppins', sans-serif;
             }
         }
         .owl-next{
             span{
-                position: absolute;
-                top: 40px;
-                right: 120px;
-                color: #fff;
+                right: 20px;              
+                color: white;
                 font-size: 60px;
+                padding: 20px 0px; 
+                font-family: 'Poppins', sans-serif;
             }
         }
-       
     }
  }
     
@@ -126,7 +134,7 @@
 ---------------------------*/
 @media (max-width:1200px)
 {
-   
+    
 }
 
 @media (max-width:992px)
@@ -163,30 +171,7 @@
            
         }
     }
-    #carrusel-galeria
-    {
-    .owl-nav{
-        .owl-prev{
-           span{
-                position: absolute;
-                top: 50px;
-                left: 120px;
-                color: #fff;
-                font-size: 50px;
-            }
-        }
-        .owl-next{
-            span{
-                position: absolute;
-                top: 50px;
-                right:120px;
-                color: #fff;
-                font-size: 50px;
-            }
-        }
-       
-    }
-    }   
+      
 }
 
 
@@ -223,31 +208,6 @@
             }
            
         }
-    }
-
-    #carrusel-galeria
-    {
-    .owl-nav{
-        .owl-prev{
-           span{
-                position: absolute;
-                top: 50px;
-                left: 100px;
-                color: #fff;
-                font-size: 50px;
-            }
-        }
-        .owl-next{
-            span{
-                position: absolute;
-                top: 50px;
-                right: 100px;
-                color: #fff;
-                font-size: 50px;
-            }
-        }
-       
-    }
     }
 }
 
@@ -289,28 +249,5 @@
            
         }
     }
-    #carrusel-galeria
-    {
-    .owl-nav{
-        .owl-prev{
-           span{
-                position: absolute;
-                top: 60px;
-                left: 30px;
-                color: #fff;
-                font-size: 40px;
-            }
-        }
-        .owl-next{
-            span{
-                position: absolute;
-                top: 60px;
-                right: 30px;
-                color: #fff;
-                font-size: 40px;
-            }
-        }
-       
-    }
-    }
+
 }
