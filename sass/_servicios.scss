@@ -191,9 +191,9 @@
     {
         position: absolute;
         width: 1px;
-        height: 186px;
+        height: 286px;
         margin-left:40px;
-        background-color: #d1d1d1;
+        background-color: #c68659;
         margin-top: 100px;
         margin-bottom: 10px;
     }
@@ -210,10 +210,14 @@
        h1
        {
         font-size: 28px;
-        text-align: center;
         color: #c68659;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 5px;
         margin-top: 50px;
-        margin-bottom: 20px;
+       
        }
        .masaje
         {
@@ -293,6 +297,18 @@
             font-weight: bold;
         }
     }
+}
+
+.modal-title
+{
+    color: #c68659;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 20px;
 }
 
 .img-masajes-modal
