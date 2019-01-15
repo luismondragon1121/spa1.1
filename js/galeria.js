@@ -1,13 +1,9 @@
 $('.galeria__img').click(function(e){
     var img =e.target.src;
-    var modal = '<section class="container-fluid"><div class="row"><div class="modal__galeria" id="modal__galeria"><img src="'+ img +'" class="modal__img" onclick="cambiar(this);"><div class="modal__boton" id="modal__boton">X</div></div></div></section>'
+    var modal = '<section class="container-fluid"><div class="row"><div class="modal__galeria" id="modal__galeria"><img src="'+ img +'" class="modal__img" onclick="cambiar(this);"><div id="bt-next" onclick="next(this);">></div><div id="bt-prev">&#60;</div><div class="modal__boton" id="modal__boton">X</div></div></div></section>'
     $('body').append(modal);
     $('#modal__boton').click(function(){
         $('#modal__galeria').remove();  
-    })
-    $('#bt-next').click(function(e){
-       var imagen_old = $('modal__img').replaceWith('<img src="'+ img +'" class="modal__img">');
-		$('#modal__galeria').append(imagen_old);
     })
 })
 
@@ -36,6 +32,18 @@ $('.galeria__img').click(function(e){
 		img.src=imagenes[imagenVisible];
 		cargarSiguienteImagen();
 	}
+
+	function next(img)
+	{
+		imagenVisible++;
+		if(imagenVisible>=imagenes.length)
+		{
+			imagenVisible =0;
+		}
+		img.src=imagenes[imagenVisible];
+		cargarSiguienteImagen();
+	}
+	console.log(next);
  
 	/**
 	 * Esta función carga la siguiente imagen para no tener que esperar su carga
