@@ -1,4 +1,4 @@
-function validar() {    
+function validar() {     
     var nombre, correo, telefono, mensaje, hora, cita, expresion;
     nombre =document.getElementById("nombre").value;
     correo =document.getElementById("correo").value;
@@ -12,10 +12,13 @@ function validar() {
         if(nombre === "" || correo === "" || telefono ==="" || mensaje === "" || hora === "" || cita=== ""){
            alert("todos los campos son obligatorios");
         return false;
-           }
-        else if(nombre.length>30)          
+        }
+           $("span.help-block").hide();
+         if(nombre.length>30)          
         {
-            alert("el nombre es muy largo");
+            alert("ingresa nombre");
+            //$("#nombre").parent().parent().attr("clas", "form-group has-error ");
+            //$("#nombre").parent().children("span").text("debes ingresar un nombre ").show();
             return false;
         }
           else if(correo.length>100)          
@@ -31,6 +34,11 @@ function validar() {
            else if(telefono.length>10)          
         {
             alert("el telefono es muy largo");
+            return false;
+        }
+        else if (telefono.length<8)
+        {
+            alert("el numero de telefono es invalido")
             return false;
         }
         
