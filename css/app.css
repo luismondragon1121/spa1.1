@@ -226,13 +226,14 @@ video {
   font-weight: bold;
   letter-spacing: 5px;
   font-size: 28px;
-  padding: 20px; }
+  padding: 20px;
+  border-radius: 20px; }
 
 @-webkit-keyframes anim1 {
   0% {
-    bottom: -250px; }
+    bottom: 150px; }
   100% {
-    bottom: 150px; } }
+    bottom: 50px; } }
 
 /*-----------------------
     diseños banner
@@ -274,6 +275,9 @@ video {
   left: 0px;
   top: 0px; }
 
+.tp-banner-container {
+  margin-top: -85px; }
+
 /*-------------------------
         fin ventanas modal
 ---------------------------*/
@@ -288,9 +292,11 @@ video {
       font-size: 20px; }
   @-webkit-keyframes anim1 {
     0% {
-      bottom: -200px; }
+      bottom: -150px; }
     100% {
-      bottom: 100px; } } }
+      bottom: 50px; } }
+  .tp-banner-container {
+    margin-top: -150px; } }
 
 @media (max-width: 992px) {
   #conocenos .texto-conocenos h1 {
@@ -309,7 +315,9 @@ video {
     0% {
       bottom: -150px; }
     100% {
-      bottom: 100px; } } }
+      bottom: 50px; } }
+  .tp-banner-container {
+    margin-top: -150px; } }
 
 @media (max-width: 768px) {
   #conocenos .texto-conocenos h1 {
@@ -347,7 +355,9 @@ video {
     0% {
       bottom: -150px; }
     100% {
-      bottom: 50px; } } }
+      bottom: 50px; } }
+  .tp-banner-container {
+    margin-top: -150px; } }
 
 @media (max-width: 576px) {
   #conocenos .texto-conocenos h1 {
@@ -384,6 +394,10 @@ video {
     height: 100%;
     margin-top: 0px; }
   .flotante {
+    display: none; }
+  .tp-banner-container {
+    margin-top: -150px; }
+  .tp-caption {
     display: none; } }
 
 #centrobelleza {

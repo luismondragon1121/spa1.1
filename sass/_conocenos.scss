@@ -103,11 +103,13 @@ video
 #slider
 {
    
+   
     img
     {
         width: 100%;
         height: 100%;
         margin-top: 115px;
+        
     }
 }
 
@@ -137,15 +139,16 @@ video
     letter-spacing: 5px;
     font-size: 28px;
     padding: 20px;
+    border-radius: 20px;
 }
 
 @-webkit-keyframes anim1{
     0%{
-       bottom:-250px;
+       bottom:150px;
     }
   
     100%{
-        bottom: 150px;
+        bottom: 50px;
     }
 }
 
@@ -206,6 +209,11 @@ video
     top: 0px;
 }
 
+
+.tp-banner-container
+    {
+        margin-top: -85px;
+    }
 /*-------------------------
         fin ventanas modal
 ---------------------------*/
@@ -226,12 +234,16 @@ video
     
     @-webkit-keyframes anim1{
         0%{
-           bottom:-200px;
+           bottom:-150px;
         }
       
         100%{
-            bottom: 100px;
+            bottom: 50px;
         }
+    }
+    .tp-banner-container
+    {
+        margin-top: -150px;
     }
 }
 
@@ -271,8 +283,12 @@ video
         }
       
         100%{
-            bottom: 100px;
+            bottom: 50px;
         }
+    }
+    .tp-banner-container
+    {
+        margin-top: -150px;
     }
 }
 
@@ -340,6 +356,11 @@ video
         100%{
             bottom: 50px;
         }
+    }
+
+    .tp-banner-container
+    {
+        margin-top: -150px;
     }
 }
 
@@ -411,4 +432,16 @@ video
     {
         display: none;
     }
+
+
+    .tp-banner-container
+    {
+        margin-top: -150px;
+    }
+
+    .tp-caption
+    {
+        display: none;
+    }
+    
 }

@@ -24,6 +24,8 @@
     <link type="image/x-icon" href="img/LOGO-01.jpg" rel="icon"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/settings.css" media="screen">
+
     <!--Links-->
     
     <title>CSC Wellness Center | SPA</title>
@@ -86,7 +88,7 @@
 <!--<video src="video/Intro_fxW.mp4" autoplay muted loop type="video/mp4"></video>-->
 <!-- fin video -->
 
-
+<!-- seccion slider 
 <section id="slider">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -138,8 +140,75 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
 </section>
+-->
+
+<div class="tp-banner-container">
+    <div class="tp-banner" >
+        <ul>
+            <!-- SLIDE  -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                <!-- MAIN IMAGE -->
+                <img src="img/slider/csc-1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption  skewfromrightshort fadeout large_text"
+                    data-x="0"
+                    data-y="124"
+                    data-speed="1000"
+                    data-start="1200"
+                    data-easing="Power4.easeOut">Vive una experiencia CSC
+                </div>
+                ...
+
+            </li>
+            <!-- SLIDE  -->
+            <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" >
+                <!-- MAIN IMAGE -->
+                <img src="img/slider/csc-2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption  skewfromrightshort fadeout large_text"
+                    data-x="0"
+                    data-y="124"
+                    data-speed="1000"
+                    data-start="1200"
+                    data-easing="Power4.easeOut"> Consigue un equilibrio integral entre mente y cuerpo
+                </div>
+                ...
+            </li>
+            ....
+            <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" >
+                <!-- MAIN IMAGE -->
+                <img src="img/slider/csc-3.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption  skewfromrightshort fadeout large_text"
+                    data-x="0"
+                    data-y="124"
+                    data-speed="1000"
+                    data-start="1200"
+                    data-easing="Power4.easeOut">Disfruta de todos los beneficios que CSC te ofrece<br> de la mano de terapeutas especializadas<br> con servicios exclusivos.
+                </div>
+                ...
+            </li>
+            <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" >
+                <!-- MAIN IMAGE -->
+                <img src="img/slider/csc-4.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <!-- LAYERS -->
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption skewfromrightshort fadeout large_text"
+                    data-x="0"
+                    data-y="124"
+                    data-speed="1000"
+                    data-start="1200"
+                    data-easing="Power4.easeOut">CSC Wellness Center… <br>Donde necesitas estar
+                </div>
+                ...
+            </li>
+    </div>
+</div>
+
 <!--seccion de conocenos-->
 <section id="conocenos">
 <div class="container">
@@ -874,7 +943,27 @@ $('.18').owlCarousel({
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script defer src="https://i.icomoon.io/public/temp/78b0634b88/UntitledProject/svgxuse.js"></script>
+<script src="js/js/jquery.themepunch.plugins.min.js" type="text/javascript"></script>
+<script src="js/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+					var revapi;
 
+				jQuery(document).ready(function() {
+
+					   revapi = jQuery('.tp-banner').revolution(
+						{
+							delay:4000,
+							startwidth:1000,
+							startheight:400,
+							hideThumbs:10,
+                            autoHeight: "off",
+							fullWidth:"off",
+							forceFullWidth:"on"
+
+						});
+
+				});	//ready
+			</script>
 <!-- fin script--> 
 </body>
 </html>    
