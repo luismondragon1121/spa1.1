@@ -117,10 +117,10 @@ video
     left:50px;
     z-index: 1;
     border: none;
+    margin-top: -300px;
     font-family: 'Questrial', sans-serif;
     -webkit-animation-name:anim1;
     -webkit-animation-duration: 4s;
-    margin-top: -250px;
 }
 
 
@@ -134,25 +134,18 @@ video
     text-align: justify;
     margin-top: 0px;
     font-weight: bold;
-    
     letter-spacing: 5px;
     font-size: 28px;
     padding: 20px;
 }
 
-@media (max-width:1200px){
-    .flotante {
-    display:none;
-}
-}
-
 @-webkit-keyframes anim1{
     0%{
-       bottom:-150px;
+       bottom:-250px;
     }
   
     100%{
-        bottom: 50px;
+        bottom: 150px;
     }
 }
 
@@ -222,7 +215,24 @@ video
 ---------------------------*/
 @media (max-width:1200px)
 {
-  
+    .flotante {
+        margin-top: -200px;
+        h2 
+        {
+        color: white;
+        font-size: 20px;
+        }
+    }
+    
+    @-webkit-keyframes anim1{
+        0%{
+           bottom:-200px;
+        }
+      
+        100%{
+            bottom: 100px;
+        }
+    }
 }
 
 @media (max-width:992px)
@@ -238,11 +248,30 @@ video
     }
     #slider
     {
-        margin-top: 65px;
+        
         img
         {
             width: 100%;
             height: 100%;
+            margin-top: 60px;
+        }
+    }
+    .flotante {
+        margin-top: -150px;
+        h2 
+        {
+        color: white;
+        font-size: 20px;
+        }
+    }
+    
+    @-webkit-keyframes anim1{
+        0%{
+           bottom:-150px;
+        }
+      
+        100%{
+            bottom: 100px;
         }
     }
 }
@@ -282,6 +311,34 @@ video
         {
             width: 100%;
             height: 100%;
+            margin-top: 5px;
+        }
+    }
+    .flotante {
+        position:relative;
+        color: white;
+        left:30px;
+        z-index: 1;
+        border: none;
+        padding: 0px;
+        font-family: 'Questrial', sans-serif;
+        -webkit-animation-name:anim1;
+        -webkit-animation-duration: 4s;
+        margin-top: -150px;
+        h2 
+        {
+        color: white;
+        font-size: 18px;
+        }
+    }
+    
+    @-webkit-keyframes anim1{
+        0%{
+           bottom:-150px;
+        }
+      
+        100%{
+            bottom: 50px;
         }
     }
 }
@@ -342,11 +399,16 @@ video
     }
     #slider
     {
-        margin-top: 65px;
+        
         img
         {
             width: 100%;
             height: 100%;
+            margin-top: 0px;
         }
+    }
+    .flotante
+    {
+        display: none;
     }
 }
