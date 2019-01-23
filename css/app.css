@@ -276,7 +276,7 @@ video {
   top: 0px; }
 
 .tp-banner-container {
-  margin-top: -85px; }
+  margin-top: 50px; }
 
 /*-------------------------
         fin ventanas modal
@@ -296,7 +296,7 @@ video {
     100% {
       bottom: 50px; } }
   .tp-banner-container {
-    margin-top: -150px; } }
+    margin-top: 66px; } }
 
 @media (max-width: 992px) {
   #conocenos .texto-conocenos h1 {
@@ -317,7 +317,7 @@ video {
     100% {
       bottom: 50px; } }
   .tp-banner-container {
-    margin-top: -150px; } }
+    margin-top: 15px; } }
 
 @media (max-width: 768px) {
   #conocenos .texto-conocenos h1 {
@@ -357,7 +357,7 @@ video {
     100% {
       bottom: 50px; } }
   .tp-banner-container {
-    margin-top: -150px; } }
+    margin-top: 16px; } }
 
 @media (max-width: 576px) {
   #conocenos .texto-conocenos h1 {
@@ -396,7 +396,7 @@ video {
   .flotante {
     display: none; }
   .tp-banner-container {
-    margin-top: -150px; }
+    margin-top: 15px; }
   .tp-caption {
     display: none; } }
 
