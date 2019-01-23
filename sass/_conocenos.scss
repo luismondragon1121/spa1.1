@@ -102,13 +102,60 @@ video
 
 #slider
 {
-    margin-top: 110px;
+   
     img
     {
         width: 100%;
         height: 100%;
+        margin-top: 115px;
     }
 }
+
+.flotante {
+    position:relative;
+    color: white;
+    left:50px;
+    z-index: 1;
+    border: none;
+    font-family: 'Questrial', sans-serif;
+    -webkit-animation-name:anim1;
+    -webkit-animation-duration: 4s;
+    margin-top: -250px;
+}
+
+
+.flotante h2
+{
+    text-decoration: underline transparent !important;
+    background-color: rgba(169, 111, 55, 0.8);
+    text-decoration: underline transparent !important;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-top: 0px;
+    font-weight: bold;
+    
+    letter-spacing: 5px;
+    font-size: 28px;
+    padding: 20px;
+}
+
+@media (max-width:1200px){
+    .flotante {
+    display:none;
+}
+}
+
+@-webkit-keyframes anim1{
+    0%{
+       bottom:-150px;
+    }
+  
+    100%{
+        bottom: 50px;
+    }
+}
+
 /*-----------------------
     diseños banner
 -------------------------*/
