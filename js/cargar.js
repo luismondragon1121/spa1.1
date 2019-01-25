@@ -8,11 +8,11 @@
  //}
 //});
 
-function cargar(){
+function cargar()
+{
   var contenedor = document.getElementById('contenedor_carga');
   contenedor.style.visibility ='hidden';
   contenedor.style.opacity ='0';
 }
-window.onload = cargar;
 
-   
+window.onload = cargar;

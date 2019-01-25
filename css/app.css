@@ -128,7 +128,8 @@ video {
     letter-spacing: 10px; }
   #conocenos .texto-conocenos p {
     font-family: 'Poppins', sans-serif;
-    text-align: justify; }
+    text-align: justify;
+    font-size: 18px; }
   #conocenos .contenedor-imagenes {
     padding: 80px 0px 0px; }
     #conocenos .contenedor-imagenes .img1 {
@@ -163,40 +164,46 @@ video {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
-  z-index: 10000; }
+  z-index: 1000000;
+  -webkit-animation-delay: 5sg;
+  animation-delay: 5sg; }
 
-#carga {
-  border: 15px solid  #664936;
-  border-top-color: antiquewhite;
-  border-top-style: groove;
-  max-height: 100px;
-  width: 100px;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  animation: girar 1.5s linear infinite;
-  -webkit-animation: girar 1.5s linear infinite;
-  -o-animation: girar 1.5s linear infinite; }
-
+/*#carga
+//{
+    border: 15px solid  #664936;
+    border-top-color: antiquewhite;
+    border-top-style: groove;
+    max-height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: girar 1.5s linear infinite;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+}*/
 @-webkit-keyframes girar {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
+    transform: rotate(360deg); }
+  to {
+    top: -100%; } }
 @keyframes girar {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(360deg); }
+  to {
+    top: -100%; } }
 
 #slider img {
   width: 100%;
@@ -405,7 +412,7 @@ video {
   .flotante {
     display: none; }
   .tp-banner-container {
-    margin-top: 15px; }
+    margin-top: 30px; }
   .tp-caption {
     display: none; } }
 
@@ -633,7 +640,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  padding: 100px 0px; }
+  padding: 100px 0px 150px; }
   #section-one-belleza .content-title {
     padding: 30px 0px; }
     #section-one-belleza .content-title h2 {
@@ -928,7 +935,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  padding: 100px 0px;
+  padding: 100px 0px 150px;
   margin-top: -8px; }
   #section-two-spa .content-title {
     padding: 30px 0px; }
@@ -1250,7 +1257,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  padding: 100px 0px;
+  padding: 100px 0px 150px;
   margin-top: -8px; }
   #section-two-bienestar .content-title {
     padding: 30px 0px; }
@@ -2148,7 +2155,7 @@ footer {
     position: absolute;
     width: 1px;
     height: 286px;
-    margin-left: 40px;
+    margin-left: 15px;
     background-color: #c68659;
     margin-top: 100px;
     margin-bottom: 10px; }
@@ -2156,7 +2163,7 @@ footer {
     padding: 10px;
     position: relative;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     cursor: pointer; }
   #cuadros-servicios .serviciost h1 {
     font-size: 26px;

@@ -25,6 +25,7 @@ video
         {
             font-family: 'Poppins', sans-serif;
             text-align: justify;
+            font-size: 18px;
         }
     }
     .contenedor-imagenes
@@ -70,11 +71,12 @@ video
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-    z-index: 10000;
+    z-index: 1000000;
+    animation-delay: 5sg;
 }
 
-#carga
-{
+/*#carga
+//{
     border: 15px solid  #664936;
     border-top-color: antiquewhite;
     border-top-style: groove;
@@ -90,14 +92,15 @@ video
     animation: girar 1.5s linear infinite;
     -webkit-animation: girar 1.5s linear infinite;
     -o-animation: girar 1.5s linear infinite;
-}
+}*/
 
 @keyframes girar
 {
-    
+     
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
-    
+    to{top:-100%;}
+        
 }
 
 #slider
@@ -446,7 +449,7 @@ video
 
     .tp-banner-container
     {
-        margin-top: 15px;
+        margin-top: 30px;
     }
 
     .tp-caption
