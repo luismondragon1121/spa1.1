@@ -131,7 +131,7 @@ video {
     text-align: justify;
     font-size: 18px; }
   #conocenos .contenedor-imagenes {
-    padding: 80px 0px 0px; }
+    padding: 100px 0px 0px; }
     #conocenos .contenedor-imagenes .img1 {
       width: 250px;
       height: 250px;
@@ -145,7 +145,8 @@ video {
       -moz-border-radius: 150px;
       -webkit-border-radius: 150px;
       margin-top: -40px;
-      margin-left: 100px; }
+      margin-left: 100px;
+      margin-bottom: 50px; }
 
 .active-spa {
   background-color: white;
