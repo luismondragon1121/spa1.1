@@ -158,7 +158,7 @@ video {
   width: 100px; }
 
 #contenedor_carga {
-  background: rgba(209, 174, 133, 0.9);
+  background: white;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -166,8 +166,7 @@ video {
   -o-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 1000000;
-  -webkit-animation-delay: 5sg;
-  animation-delay: 5sg; }
+  top: 0px; }
 
 /*#carga
 //{
