@@ -116,38 +116,46 @@
 
 @media (max-width:576px)
 {
+    .cuadro-politicas
+    {
+        margin-bottom: 50px;
+    }
+    .espacio-reguntas
+    {
+        padding: 0px 0px 0px;
+    }
     
     #texto-preguntas
     {
-    h1
-    {
-        padding: 50px 0px 0px;
-        text-align: center;
-        font-size: 30px;
-        margin-top: 20px;
-    }
+        h1
+        {
+            padding: 50px 0px 0px;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
     }
     .aticulos-preguntas
     {
-    .pregun
-    {
-        font-family:$tipografia;
-        margin-bottom: 10px;
-        color:$texto-preguntas;
-        font-weight: bold;
-        font-size: 16px;
+        .pregun
+        {
+            font-family:$tipografia;
+            margin-bottom: 10px;
+            color:$texto-preguntas;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .respuesta
+        {
+            margin-bottom: 20px;
+            font-family:$tipografia;
+            padding: 0px 0px 10px;
+            border-bottom: 1px solid #d1d1d1;
+            font-size: 14px;
+        }
+        a 
+        {
+            font-size: 12px;
+        }
     }
-    .respuesta
-    {
-        margin-bottom: 20px;
-        font-family:$tipografia;
-        padding: 0px 0px 10px;
-        border-bottom: 1px solid #d1d1d1;
-        font-size: 14px;
-    }
-    a 
-    {
-        font-size: 12px;
-    }
-}
 }

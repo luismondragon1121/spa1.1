@@ -23,6 +23,7 @@ background-color: #d1ae85;
 
 
 
+
 /*--------------------------
     media querys
 ---------------------------*/
@@ -33,13 +34,16 @@ background-color: #d1ae85;
 
 @media (max-width:992px)
 {
-    #nav-menu{
-        .navbar-brand{
+    #nav-menu
+    {
+        .navbar-brand
+        {
             position: relative;
             width: 0%;
             top: 0px;
         }
-        .navbar-nav{
+        .navbar-nav
+        {
             text-align: left;
         }
     }
@@ -49,30 +53,61 @@ background-color: #d1ae85;
            margin-top: 0px;
            }
        }
-    
+       .navbar-collapse
+       {
+           text-align: center;
+           width: 100%;
+           ul
+           {
+            width: 80%;
+               .nav-item 
+                {
+                   text-align: center;
+                   width: 100%;
+                }  
+            }
+        }
+    .navbar .nav-item.arriba::before
+    {
+        background: rgba(255, 255, 255, 0) linear-gradient(to right, transparent,  #fff, transparent) repeat scroll 0 ;
+        content:"";
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
 }
 
 
 @media (max-width:768px)
 {
-    #nav-menu{
-        .navbar-brand{
-            position: relative;
-            width: 0%;
-        } 
-        .navbar-nav{
-            text-align: left;
-        }
-    }
-    #navbarSupportedContent{
+    .navbar-collapse
+    {
+        text-align: center;
+        width: 100%;
+        
         ul{
-           margin-top: 0px;
-           }
-       }
-   
+            width: 80%;
+            .nav-item {
+                text-align: center;
+                width: 100%;      
+            }
+        }   
+    }
 }
 
 @media (max-width:576px)
 {
- 
+    .navbar-collapse
+    {
+        text-align: center;
+        ul
+        {
+            width: 80%;
+            .nav-item 
+            {
+                text-align: center;    
+            }
+        }   
+    }
 }

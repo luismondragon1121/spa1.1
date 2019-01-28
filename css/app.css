@@ -1531,16 +1531,43 @@ video {
   #nav-menu .navbar-nav {
     text-align: left; }
   #navbarSupportedContent ul {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  .navbar-collapse {
+    text-align: center;
+    width: 100%; }
+    .navbar-collapse ul {
+      width: 80%; }
+      .navbar-collapse ul .nav-item {
+        text-align: center;
+        width: 100%; }
+  .navbar .nav-item.arriba::before {
+    background: rgba(255, 255, 255, 0) -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#fff), to(transparent)) repeat scroll 0;
+    background: rgba(255, 255, 255, 0) -webkit-linear-gradient(left, transparent, #fff, transparent) repeat scroll 0;
+    background: rgba(255, 255, 255, 0) -o-linear-gradient(left, transparent, #fff, transparent) repeat scroll 0;
+    background: rgba(255, 255, 255, 0) linear-gradient(to right, transparent, #fff, transparent) repeat scroll 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%; } }
 
 @media (max-width: 768px) {
-  #nav-menu .navbar-brand {
-    position: relative;
-    width: 0%; }
-  #nav-menu .navbar-nav {
-    text-align: left; }
-  #navbarSupportedContent ul {
-    margin-top: 0px; } }
+  .navbar-collapse {
+    text-align: center;
+    width: 100%; }
+    .navbar-collapse ul {
+      width: 80%; }
+      .navbar-collapse ul .nav-item {
+        text-align: center;
+        width: 100%; } }
+
+@media (max-width: 576px) {
+  .navbar-collapse {
+    text-align: center; }
+    .navbar-collapse ul {
+      width: 80%; }
+      .navbar-collapse ul .nav-item {
+        text-align: center; } }
 
 footer {
   background-color: #664936; }
@@ -2465,6 +2492,10 @@ footer {
     font-size: 16px; } }
 
 @media (max-width: 576px) {
+  .cuadro-politicas {
+    margin-bottom: 50px; }
+  .espacio-reguntas {
+    padding: 0px 0px 0px; }
   #texto-preguntas h1 {
     padding: 50px 0px 0px;
     text-align: center;
