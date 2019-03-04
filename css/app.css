@@ -44,27 +44,36 @@ importando variables
   top: 150px;
   right: 20px; }
 
-#carrusel-galeria button {
-  background-color: #d1ae85 !important;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  line-height: 1px;
-  text-align: center;
-  margin-left: 30px; }
+#carrusel-galeria {
+  position: relative; }
+  #carrusel-galeria .owl-next {
+    border: 1px solid #664936;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 18px !important;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
+  #carrusel-galeria .owl-prev {
+    border: 1px solid #664936;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 18px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
 
-#carrusel-galeria .owl-nav .owl-prev span {
-  left: 0px;
-  color: white;
-  font-size: 60px;
-  font-family: 'Poppins', sans-serif; }
+#carrusel-galeria .owl-next:hover {
+  background-color: #b1875a !important;
+  color: white !important;
+  border: 1px solid #664936 !important; }
 
-#carrusel-galeria .owl-nav .owl-next span {
-  right: 20px;
-  color: white;
-  font-size: 60px;
-  padding: 20px 0px;
-  font-family: 'Poppins', sans-serif; }
+#carrusel-galeria .owl-prev:hover {
+  background-color: #b1875a !important;
+  color: white !important;
+  border: 1px solid #664936 !important; }
 
 .owl-theme .owl-dot span {
   background-color: #d1ae85 !important; }
@@ -88,6 +97,9 @@ importando variables
     left: 100px; }
   #sl .owl-nav .owl-next span {
     right: 100px; } }
+
+.carousel img {
+  margin-top: 0px; }
 
 @media (max-width: 768px) {
   #spa-carousel .owl-nav .owl-prev span {
@@ -116,16 +128,17 @@ video {
   height: auto; }
 
 #conocenos {
-  padding: 50px 0px;
+  padding: 150px 0px 150px;
   position: relative; }
   #conocenos .texto-conocenos h1 {
     color: #c68659;
     font-family: 'Poppins', sans-serif;
-    text-align: justify;
+    text-align: center;
     margin-top: 0px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 10px; }
+    letter-spacing: 10px;
+    padding-bottom: 20px; }
   #conocenos .texto-conocenos p {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
@@ -147,6 +160,16 @@ video {
       margin-top: -40px;
       margin-left: 100px;
       margin-bottom: 50px; }
+
+#carrusel-principal {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  #carrusel-principal .tp-banner ul li img {
+    position: absolute; }
+    #carrusel-principal .tp-banner ul li img .revo-img .tp-bgimg {
+      width: 100%;
+      height: auto; }
 
 .active-spa {
   background-color: white;
@@ -213,34 +236,28 @@ video {
 .flotante {
   position: relative;
   color: white;
-  left: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   z-index: 1;
   border: none;
   margin-top: -300px;
   font-family: 'Questrial', sans-serif;
   -webkit-animation-name: anim1;
-  -webkit-animation-duration: 4s; }
+  -webkit-animation-duration: 4s;
+  left: 150; }
 
-.flotante h2 {
+.flotante h1 {
   -webkit-text-decoration: underline transparent !important;
-  text-decoration: underline transparent !important;
-  background-color: rgba(169, 111, 55, 0.8);
   text-decoration: underline transparent !important;
   color: white;
   font-family: 'Poppins', sans-serif;
-  text-align: justify;
+  text-align: center;
   margin-top: 0px;
   font-weight: bold;
   letter-spacing: 5px;
-  font-size: 28px;
   padding: 20px;
-  border-radius: 20px; }
-
-@-webkit-keyframes anim1 {
-  0% {
-    bottom: 150px; }
-  100% {
-    bottom: 50px; } }
+  position: absolute; }
 
 /*-----------------------
     diseños banner
@@ -649,7 +666,8 @@ video {
       text-align: center;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 5px; }
+      letter-spacing: 5px;
+      padding-top: 60px; }
   #section-one-belleza .colum-content {
     padding: 0px 50px; }
   #section-one-belleza .content-principal {
@@ -945,7 +963,8 @@ video {
       text-align: center;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 5px; }
+      letter-spacing: 5px;
+      padding-top: 60px; }
   #section-two-spa .colum-content {
     padding: 0px 50px; }
   #section-two-spa .content-principal {
@@ -1267,7 +1286,8 @@ video {
       text-align: center;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 5px; }
+      letter-spacing: 5px;
+      padding-top: 60px; }
   #section-two-bienestar .colum-content {
     padding: 0px 50px; }
   #section-two-bienestar .content-principal {
@@ -1376,7 +1396,8 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%; }
+  max-width: 100%;
+  padding: 169px 0px 10px; }
   #contacto .titulo-contacto {
     color: #c68659;
     font-family: "Poppins", sans-serif;
@@ -1549,7 +1570,9 @@ video {
     height: 1px;
     left: 0;
     position: absolute;
-    width: 100%; } }
+    width: 100%; }
+  .dropdown-item {
+    text-align: center !important; } }
 
 @media (max-width: 768px) {
   .navbar-collapse {
@@ -1565,6 +1588,7 @@ video {
   .navbar-collapse {
     text-align: center; }
     .navbar-collapse ul {
+      text-align: center;
       width: 80%; }
       .navbar-collapse ul .nav-item {
         text-align: center; } }
@@ -2190,10 +2214,10 @@ footer {
     padding: 10px;
     position: relative;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 20px;
     cursor: pointer; }
   #cuadros-servicios .serviciost h1 {
-    font-size: 26px;
+    font-size: 24px;
     color: #c68659;
     font-family: "Poppins", sans-serif;
     text-align: center;
@@ -2201,7 +2225,9 @@ footer {
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-top: 50px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 0px 30px 0px; }
   #cuadros-servicios .serviciost .masaje {
     list-style: none;
     text-decoration: none;
@@ -2587,6 +2613,10 @@ footer {
     font-size: 16px; }
   #boton .btn_1 {
     margin-bottom: 100px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 body {
   font-family: 'Poppins', sans-serif; }

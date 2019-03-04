@@ -28,17 +28,17 @@ date_default_timezone_set("America/Mexico_City");
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 	    $mail->Mailer = 'smtp';
-		$mail->Username = 'luismondragon545@gmail.com'; // Correo completo a utilizar
+		$mail->Username = '*************************'; // Correo completo a utilizar
 		$mail->Password = '*********'; // Contraseña
         $mail->SMTPSecure = 'tls';
 		$mail->Port = 587; // Puerto a utilizar
-		$mail->From = 'luismondragon545@gmail.com';
+		$mail->From = '************************************';
 		$mail->FromName = 'CSC | Nuevo correo';
-		$mail->AddAddress('luismondragon545@gmail.com'); // Esta es la dirección a donde enviamos
+		$mail->AddAddress('**************************+'); // Esta es la dirección a donde enviamos
 		$mail->isHTML(true);
 	    $mail->CharSet = 'UTF-8';
         $mail->MsgHTML($message);
-        $mail->SetFrom('luismondragon545@gmail.com', 'CSC');
+        $mail->SetFrom('********************************************', 'CSC');
 		$mail->Subject = 'Nuevo Correo'; 
         //$mail->AltBody =($contenido); 
          //var_dump($mail);

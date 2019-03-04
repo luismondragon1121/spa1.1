@@ -76,6 +76,10 @@ background-color: #d1ae85;
         position: absolute;
         width: 100%;
     }
+    .dropdown-item
+    {
+        text-align: center !important;
+    }
 }
 
 
@@ -103,6 +107,7 @@ background-color: #d1ae85;
         text-align: center;
         ul
         {
+            text-align: center;
             width: 80%;
             .nav-item 
             {
@@ -110,4 +115,5 @@ background-color: #d1ae85;
             }
         }   
     }
+   
 }

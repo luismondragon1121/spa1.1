@@ -7,7 +7,7 @@ video
 
 #conocenos
 {
-    padding: 50px 0px;
+    padding: 150px 0px 150px;
    position: relative;
     .texto-conocenos
     {
@@ -15,11 +15,12 @@ video
         {
             color: $color-titulos;
             font-family: 'Poppins', sans-serif;
-            text-align: justify;
+            text-align: center;
             margin-top: 0px;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 10px;
+            padding-bottom: 20px;
         }
         p
         {
@@ -49,6 +50,22 @@ video
             margin-top: -40px;
             margin-left: 100px;
             margin-bottom: 50px;
+        }
+    }
+}
+
+#carrusel-principal
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    .tp-banner ul li img
+    {
+        position: absolute;
+        .revo-img .tp-bgimg
+        {
+            width: 100%;
+            height: auto;
         }
     }
 }
@@ -121,41 +138,31 @@ video
 .flotante {
     position:relative;
     color: white;
-    left:50px;
+    justify-content: center;
     z-index: 1;
     border: none;
     margin-top: -300px;
     font-family: 'Questrial', sans-serif;
     -webkit-animation-name:anim1;
     -webkit-animation-duration: 4s;
+    left: 150;
 }
 
 
-.flotante h2
+.flotante h1
 {
-    text-decoration: underline transparent !important;
-    background-color: rgba(169, 111, 55, 0.8);
     text-decoration: underline transparent !important;
     color: white;
     font-family: 'Poppins', sans-serif;
-    text-align: justify;
+    text-align: center;
     margin-top: 0px;
     font-weight: bold;
     letter-spacing: 5px;
-    font-size: 28px;
     padding: 20px;
-    border-radius: 20px;
+    position: absolute;
 }
 
-@-webkit-keyframes anim1{
-    0%{
-       bottom:150px;
-    }
-  
-    100%{
-        bottom: 50px;
-    }
-}
+
 
 /*-----------------------
     diseños banner
