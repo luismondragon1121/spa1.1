@@ -20,6 +20,27 @@ video
         padding-bottom: 20px;
     
     }
+
+    img
+    {
+        cursor: pointer;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: inline-block;
+        background-size: 65% 100%;
+        background-color: #c68659;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 10px;
+    }  
+
+    .im-blog
+    {
+        max-width: 100%;
+        top: 18%;
+    }
 }
 
 .img-responsive{
@@ -405,6 +426,10 @@ video
     {
         margin-top: 16px;
     }
+    .im-blog
+    {
+        padding: 20px;
+    }
 }
 
 @media (max-width:576px)
@@ -486,5 +511,8 @@ video
     {
         display: none;
     }
-    
+    .im-blog
+    {
+        padding: 20px;
+    }
 }
