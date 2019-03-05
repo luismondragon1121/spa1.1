@@ -414,24 +414,65 @@
   
   <!--fin seccion blog-->
  <!-- Section post blog  -->
- <section id="blog-spas" class="content-section"  ng-controller="blog-spa">
+ <!--<section id="blog-spas" class="content-section"  ng-controller="blog-spa">
         <div class="container">
                 <h1 class="title title-sblog ">Nuestro Blog</h1>
           <div class="row content-noticias">
-            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postSpa | limitTo: 4">
+            <div class="col-md-8 col-lg-3 noticia" ng-repeat="x in postSpa | limitTo: 3">
+                
                  <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                         <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
                         <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
-                </div>
+                <!--</div>
                 <hr>
-                  <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+                  <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>-->
                  
-                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> -->
-                  <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
+                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> 
+                  <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>-->
+            <!--</div>
+            <div class="col-md-4">
+                <img src="img/inicio/belleza/jpg/aparatologia.png" alt="">
             </div>
           </div>
         </div>
-    </section>
+    </section>-->
+
+    <section id="blog-spas" >
+            <div class="container"  ng-controller="blog-spa">
+                    <div class="content-title">
+                            <h1 class="title title-sblog">Nuestro Blog</h1>
+                        </div>
+                <div class="row">
+                    <div class=" col-lg-8 col-md-8">
+                        
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  ng-controller="blog-spa" >
+                                    <!--<ul class="content-idicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" dir-paginate="x in postSpa | itemsPerPage: 4">
+                                            <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+                                         </li>
+                                    </ul>-->
+                                     <div class="carousel-inner parallax">
+                                         <div class="carousel-item" ng-class="{active:!$index}" dir-paginate="x in postSpa | itemsPerPage: 4">
+                                             <!-- <div class="bg-overlay"></div> -->
+                                             <a href="{{x.link}}" target="_blank"><img style="cursor:pointer;"  ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}"  class="d-block w-100 img_blog" alt="..."></a>
+                                       </div>
+                                     </div>
+                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                       <span class="sr-only">Previous</span>
+                                     </a>
+                                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                       <span class="sr-only">Next</span>
+                                     </a>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/ServiciosPlus/M_4elementos.jpg" alt="" class="im-blog">
+                    </div>
+                </div>
+            </div>
+        </section>
  <!-- End section post blog  -->
  <!--section spa-->
  
@@ -680,7 +721,7 @@ fin seccion spa-->
     <div class="container">
             <h1 class="title title-sblog ">Tips cscwellnesscenter</h1>
         <div class="row content-noticias">
-            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postTips | limitTo: 3">
+            <div class="col-md-8 col-lg-3 noticia" ng-repeat="x in postTips | limitTo: 3">
                 <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
                     <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
