@@ -83,7 +83,7 @@
       </div>
     </nav>
 <!--fin Menu-->
-<body>
+<body ng-app="app">
    
    <!--fin Menu-->
   <div id="contenedor_carga">
@@ -304,7 +304,6 @@
 <!-- fin seccion de conocenos -->
 
 
-
 <!--seccion centro de belleza -->
 <!-- <section class="container-fluid" id="centrobelleza">
     <h1>Centro de Belleza</h1>
@@ -411,7 +410,29 @@
   </div>
 </div>
  <!-- fin banner-->  
- 
+  <!--seccion blog-->
+  
+  <!--fin seccion blog-->
+ <!-- Section post blog  -->
+ <section id="blog-spas" class="content-section"  ng-controller="blog-spa">
+        <div class="container">
+                <h1 class="title title-sblog ">Nuestro Blog</h1>
+          <div class="row content-noticias">
+            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postSpa | limitTo: 4">
+                 <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
+                        <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
+                        <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
+                </div>
+                <hr>
+                  <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+                 
+                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> -->
+                  <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
+            </div>
+          </div>
+        </div>
+    </section>
+ <!-- End section post blog  -->
  <!--section spa-->
  
  <!--<a name="spa"></a>
@@ -654,6 +675,25 @@ fin seccion spa-->
 </div>
 <!-- fin banner--> 
 
+
+<section id="blog-spas" class="content-section"  ng-controller="tips">
+    <div class="container">
+            <h1 class="title title-sblog ">Tips cscwellnesscenter</h1>
+        <div class="row content-noticias">
+            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postTips | limitTo: 3">
+                <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
+                    <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
+                    <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
+                </div>
+                <hr>
+                  <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+                 
+                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> -->
+                  <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
+            </div>
+        </div>
+    </div>
+</section>
 
  <!--section bienestar-->
  <!--<a name="bienestar"></a>
@@ -1019,11 +1059,8 @@ $('.18').owlCarousel({
      });
  });
 </script>
-<!--<script src="//code.tidio.co/uy23ltokujw1wykvn9t3ysx79t6rzzke.js"></script>-->
-<script src="js/belleza.js"></script>
-<script src="js/spa.js" ></script>
+<script src="//code.tidio.co/uy23ltokujw1wykvn9t3ysx79t6rzzke.js"></script>
 <script src="js/validar.js"></script>
-<script src="js/centrob.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -1051,7 +1088,11 @@ $('.18').owlCarousel({
 
 				});	//ready
             </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.6/angular-sanitize.js"></script>
+<script src="js/angular/appPost.js"></script>
+<script src="js/angular/ngMask.min.js"></script>
+<script src="node_modules/angular-utils-pagination/dirPagination.js"></script>
 <!-- fin script--> 
 </body>
 </html>    

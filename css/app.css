@@ -127,6 +127,21 @@ video {
   width: 100%;
   height: auto; }
 
+#blog-spas {
+  padding: 150px 0px; }
+  #blog-spas h1 {
+    color: #c68659;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 20px; }
+
+.img-responsive {
+  width: 100%; }
+
 #conocenos {
   padding: 150px 0px 150px;
   position: relative; }
