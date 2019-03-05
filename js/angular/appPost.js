@@ -14,7 +14,7 @@ $http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/posts
  
 myApp.controller('tips',['$scope', '$window','$http', function($scope,$window,$http) {
 
-$http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/categories', {
+$http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/posts&_embed&categories=5', {
   headers: {'Authorization': 'basic' +btoa('user_noticias:DNHV$Dr0(*jJEg0uMV')}
       
 }).then(function (res){
@@ -23,17 +23,6 @@ $http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/categ
 });
 }]);
 
-
-myApp.controller('entradasNotices', ['$scope','$window','$http', function($scope,$window,$http) {
-
-  $http.get('http://www.coine.lat/coine_noticias/?rest_route=/wp/v2/posts&_embed', {
-    headers: {'Authorization': 'Basic '+btoa('user_noticias:DNHV$Dr0(*jJEg0uMV') }
-   
-  }).then(function (res){
-    $scope.postNotices = res.data;
-    console.log($scope.postNotices);
-  });
-}]);
 
 
 
