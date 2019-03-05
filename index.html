@@ -721,15 +721,14 @@ fin seccion spa-->
     <div class="container">
             <h1 class="title title-sblog ">Tips cscwellnesscenter</h1>
         <div class="row content-noticias">
-            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postTips ">
+            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postTips">
                 <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
                     <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
                 </div>
                 <hr>
                   <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
-                  <a href="{{x.link}}"><p class="titutlo-noticia"></p></a>
-                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> -->
+                  <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p>
                   <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
             </div>
         </div>
