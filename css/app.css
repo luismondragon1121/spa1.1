@@ -128,8 +128,8 @@ video {
   height: auto; }
 
 #blog-spas {
-  padding: 150px 0px; }
-  #blog-spas h1 {
+  padding: 70px 0px; }
+  #blog-spas h2 {
     color: #c68659;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -138,6 +138,18 @@ video {
     text-transform: uppercase;
     letter-spacing: 10px;
     padding-bottom: 20px; }
+  #blog-spas .linea-blog {
+    background-color: #664936;
+    bottom: 0;
+    width: 40px;
+    left: 0px;
+    height: 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  #blog-spas .subtitle-promo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; }
   #blog-spas img {
     cursor: pointer; }
   #blog-spas .carousel-control-prev-icon, #blog-spas .carousel-control-next-icon {
@@ -151,6 +163,86 @@ video {
   #blog-spas .im-blog {
     max-width: 100%;
     top: 18%; }
+
+#section-tips {
+  padding: 70px 0px;
+  background-color: #f6f6f6;
+  margin-top: -7px; }
+  #section-tips .title-sblog {
+    color: #c68659;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 20px; }
+  #section-tips .linea-blog {
+    background-color: #664936;
+    bottom: 0;
+    width: 40px;
+    left: 0px;
+    height: 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  #section-tips .subtitle-blog {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; }
+  #section-tips .tip {
+    background-color: transparent;
+    padding: 40px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    text-align: left;
+    overflow: hidden;
+    padding-bottom: 35px;
+    margin-left: 30px;
+    width: 513px;
+    margin-top: 40px; }
+  #section-tips .img-tip {
+    max-width: 230px;
+    max-height: 100%;
+    display: inline-block;
+    float: right;
+    margin-top: -40px;
+    margin-left: 20px;
+    margin-right: -50px;
+    margin-bottom: -90px; }
+    #section-tips .img-tip img {
+      float: left;
+      border-bottom-left-radius: 100%;
+      border-top-left-radius: 100%;
+      width: 250px;
+      height: 249px; }
+  #section-tips .txt-tip {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 1.6;
+    display: block;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    color: #664936; }
+  #section-tips .titulo-tip h5 {
+    font-family: 'Poppins', sans-serif; }
+  #section-tips .titulo-tip p {
+    font-family: 'Poppins', sans-serif;
+    color: #c68659; }
+  #section-tips .titulo-tip .seeMore {
+    font-family: 'Poppins', sans-serif;
+    color: #c68659; }
+  #section-tips .tips-star {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 20px; }
+    #section-tips .tips-star span i {
+      color: #c68659; }
 
 .img-responsive1 {
   width: 50%; }
@@ -463,7 +555,47 @@ video {
   .tp-caption {
     display: none; }
   .im-blog {
-    padding: 20px; } }
+    padding: 20px; }
+  #section-tips {
+    padding: 100px 0px; }
+    #section-tips .container {
+      padding: 30px; }
+    #section-tips .tip {
+      margin-left: 0px;
+      padding: 22px; }
+    #section-tips .img-tip {
+      max-width: 100%;
+      max-height: 100%;
+      margin-right: 0;
+      display: block;
+      margin: auto;
+      text-align: center;
+      float: none;
+      height: auto; }
+      #section-tips .img-tip img {
+        float: none;
+        height: auto;
+        border-bottom-left-radius: 0%;
+        border-top-left-radius: 0%; }
+    #section-tips .txt-tip {
+      text-align: center;
+      width: 100%; }
+    #section-tips .titulo-tip h5 {
+      text-align: center;
+      padding-top: 10px; }
+    #section-tips .titulo-tip p {
+      font-family: 'Poppins', sans-serif;
+      color: #c68659;
+      padding-top: 10px; }
+    #section-tips .titulo-tip .seeMore {
+      font-family: 'Poppins', sans-serif;
+      color: #c68659;
+      text-align: center;
+      display: block; }
+    #section-tips .tips-star {
+      text-align: center; }
+  #blog-spas .title-sblog {
+    font-size: 24px; } }
 
 #centrobelleza {
   background: url(../img/cb/bannerbelleza.jpg);

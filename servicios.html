@@ -42,25 +42,16 @@
     <li class="nav-item arriba">
       <a class="nav-link text-white" href="index.html#conocenos">Conócenos</a>
     </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="belleza.html">Centro de Belleza</a>
-    </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="spa.html">Spa</a>
-    </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="bienestar.html">Centro de Bienestar</a>
-    </li>
-    <!--<li class="nav-item dropdown arriba">
+    <li class="nav-item dropdown arriba">
       <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Wellness Center
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item text-white" href="index.html#section-one-belleza">Centro de Belleza</a>
-        <a class="dropdown-item text-white" href="index.html#spa">Spa</a>
-        <a class="dropdown-item text-white" href="index.html#bienestar">Centro de Bienestar</a>
+        <a class="dropdown-item text-white" href="belleza.html">Centro de Belleza</a>
+        <a class="dropdown-item text-white" href="spa.html">Spa</a>
+        <a class="dropdown-item text-white" href="bienestar.html">Centro de Bienestar</a>
       </div>
-    </li>-->
+    </li>
     <li class="nav-item arriba">
       <a class="nav-link text-white" href="galeria.html">Galería</a>
     </li>
@@ -80,7 +71,13 @@
 <!--fin Menu-->
 
 <body>
-   
+
+<!--fin Menu-->
+<div id="contenedor_carga">
+  <div id="carga">
+  </div>
+</div>
+<!--video-->
 
 
 <!--imagen inicio-->
@@ -1866,6 +1863,14 @@ $(document).ready(function(){
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript"> 
+  window.onload = function (){
+    var contenedor =document.getElementById('contenedor_carga');
+     contenedor.style.display = 'block'; 
+     contenedor.style.visibility ='hidden';
+     contenedor.style.opacity ='0';
+ }
+</script>
 <!--Script-->   
 </body>
 </html>    

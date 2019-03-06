@@ -44,25 +44,16 @@
     <li class="nav-item arriba">
       <a class="nav-link text-white" href="index.html#conocenos">Conócenos</a>
     </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="belleza.html">Centro de Belleza</a>
-    </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="spa.html">Spa</a>
-    </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="bienestar.html">Centro de Bienestar</a>
-    </li>
-    <!--<li class="nav-item dropdown arriba">
+    <li class="nav-item dropdown arriba">
       <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Wellness Center
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item text-white" href="index.html#section-one-belleza">Centro de Belleza</a>
-        <a class="dropdown-item text-white" href="index.html#spa">Spa</a>
-        <a class="dropdown-item text-white" href="index.html#bienestar">Centro de Bienestar</a>
+        <a class="dropdown-item text-white" href="belleza.html">Centro de Belleza</a>
+        <a class="dropdown-item text-white" href="spa.html">Spa</a>
+        <a class="dropdown-item text-white" href="bienestar.html">Centro de Bienestar</a>
       </div>
-    </li>-->
+    </li>
     <li class="nav-item arriba">
       <a class="nav-link text-white" href="galeria.html">Galería</a>
     </li>
@@ -82,7 +73,14 @@
 <!--fin Menu-->
 
 <body>
-   
+  
+<!--fin Menu-->
+<div id="contenedor_carga">
+  <div id="carga">
+  </div>
+</div>
+<!--video-->
+
 <!--imagen inicio-->
 <section class="container-fluid">
     <div class="row">
@@ -243,6 +241,14 @@ $().fancybox({
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript"> 
+  window.onload = function (){
+    var contenedor =document.getElementById('contenedor_carga');
+     contenedor.style.display = 'block'; 
+     contenedor.style.visibility ='hidden';
+     contenedor.style.opacity ='0';
+ }
+</script>
 <!--Script--> 
 </body>
 </html>    

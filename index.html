@@ -47,25 +47,16 @@
           <li class="nav-item arriba">
             <a class="nav-link text-white" href="index.html#conocenos">Conócenos</a>
           </li>
-          <li class="nav-item arriba">
-            <a class="nav-link text-white" href="belleza.html">Centro de Belleza</a>
-          </li>
-          <li class="nav-item arriba">
-            <a class="nav-link text-white" href="spa.html">Spa</a>
-          </li>
-          <li class="nav-item arriba">
-            <a class="nav-link text-white" href="bienestar.html">Centro de Bienestar</a>
-          </li>
-          <!--<li class="nav-item dropdown arriba">
+          <li class="nav-item dropdown arriba">
             <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Wellness Center
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-white" href="index.html#section-one-belleza">Centro de Belleza</a>
-              <a class="dropdown-item text-white" href="index.html#spa">Spa</a>
-              <a class="dropdown-item text-white" href="index.html#bienestar">Centro de Bienestar</a>
+              <a class="dropdown-item text-white" href="belleza.html">Centro de Belleza</a>
+              <a class="dropdown-item text-white" href="spa.html">Spa</a>
+              <a class="dropdown-item text-white" href="bienestar.html">Centro de Bienestar</a>
             </div>
-          </li>-->
+          </li>
           <li class="nav-item arriba">
             <a class="nav-link text-white" href="galeria.html">Galería</a>
           </li>
@@ -410,40 +401,15 @@
   </div>
 </div>
  <!-- fin banner-->  
-  <!--seccion blog-->
-  
-  <!--fin seccion blog-->
- <!-- Section post blog  -->
- <!--<section id="blog-spas" class="content-section"  ng-controller="blog-spa">
-        <div class="container">
-                <h1 class="title title-sblog ">Nuestro Blog</h1>
-          <div class="row content-noticias">
-            <div class="col-md-8 col-lg-3 noticia" ng-repeat="x in postSpa | limitTo: 3">
-                
-                 <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
-                        <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
-                        <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
-                <!--</div>
-                <hr>
-                  <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>-->
-                 
-                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> 
-                  <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>-->
-            <!--</div>
-            <div class="col-md-4">
-                <img src="img/inicio/belleza/jpg/aparatologia.png" alt="">
-            </div>
-          </div>
-        </div>
-    </section>-->
 
-    <section id="blog-spas" >
+<section id="blog-spas" >
             <div class="container"  ng-controller="blog-spa">
-                    <div class="content-title">
-                            <h1 class="title title-sblog">Nuestro Blog</h1>
-                        </div>
-                <div class="row">
-                    <div class=" col-lg-8 col-md-8">
+                <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Promociones</h2>
+                <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+                <p class="subtitle-promo wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">We pride ourselves on our level of customer service and we love hearing great<br>
+                            feedback from our happy clients.</p>
+                <div class="row" style="margin-top:40px">
+                    <div class="col-lg-8 col-md-8 wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  ng-controller="blog-spa" >
                                     <!--<ul class="content-idicators">
                                         <li data-target="#carouselExampleIndicators" data-slide-to="0" dir-paginate="x in postSpa | itemsPerPage: 4">
@@ -466,7 +432,7 @@
                                      </a>
                             </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
                         <img src="img/ServiciosPlus/M_4elementos.jpg" alt="" class="im-blog">
                     </div>
                 </div>
@@ -715,26 +681,96 @@ fin seccion spa-->
 </div>
 <!-- fin banner--> 
 
-
-<section id="blog-spas" class="content-section"  ng-controller="tips">
+<!--
+<section id="section-tips" class="content-section"  ng-controller="tips">
     <div class="container">
             <h1 class="title title-sblog ">Tips cscwellnesscenter</h1>
-        <div class="row content-noticias">
-            <div class="col-md-8 col-lg-8 noticia" ng-repeat="x in postTips | limitTo: 3">
+        <div class="row content-noticias justify-content-center">
+            <div class="col-md-12 col-lg-3 noticia" ng-repeat="x in postTips ">
                 <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive1" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
-                    <!-- <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
-                </div>
+                    <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
+                <!--</div>
                 <hr>
                   <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
-                 
-                  <!-- <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> -->
+                  <a href="{{x.link}}"><p class="titutlo-noticia"></p></a>
+                   <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> 
                   <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
+<!-- seccion tips-->
+<section id="section-tips" class="content-section"  ng-controller="tips">
+    <div class="container wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+        <h2 class="title title-sblog">Tips</h2>
+        <hr class="linea-blog">
+        <p class="subtitle-blog">We pride ourselves on our level of customer service and we love hearing great<br>
+        feedback from our happy clients.</p>
+        <div class="row d-flex justify-content-center" ng-class="{active:!$index}">
+            <div class="tip" ng-repeat="x in postTips | limitTo: 2">
+                <div class="img-tip" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
+                    <img class="img-responsive1" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
+                </div>
+                <div class="titulo-tip">
+                    <h5>
+                        <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+                    </h5>
+                    <p>
+                        <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
+                    </p>
+                </div>
+                <div class="txt-tip">
+                    <p  ng-bind-html="x.excerpt.rendered | limitTo: 50"></p>
+                </div>
+                <div class="tips-star">
+                    <span><i class="fas fa-star" ></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- fin seccion tips-->
+
+<!--<section id="section-tips" class="content-section"  ng-controller="tips">
+        <div class="container wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+            <h2 class="title title-sblog">Tips</h2>
+            <hr class="linea-blog">
+            <p class="subtitle-blog">We pride ourselves on our level of customer service and we love hearing great<br>
+            feedback from our happy clients.</p>
+            <div class="row d-flex justify-content-center" ng-class="{active:!$index}">
+                <div class="tip" ng-repeat="x in postTips | limitTo: 1">
+                    <div class="img-tip" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
+                        <img class="img-responsive-blog" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
+                    </div>
+                    <div class="titulo-tip">
+                        <h5>
+                            <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+                        </h5>
+                        <p>
+                            <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
+                        </p>
+                    </div>
+                    <div class="txt-tip">
+                        <p  ng-bind-html="x.excerpt.rendered | limitTo: 50"></p>
+                    </div>
+                    <div class="tips-star">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
  <!--section bienestar-->
  <!--<a name="bienestar"></a>
  <section id="section-two-bienestar">
@@ -1067,27 +1103,11 @@ var myLatLng = {lat: 19.3884264,lng: -99.17876319999999};
             items:1
         },
         1000:{
-            items:5
+            items:2
         }
     }
 });
-     
-$('.18').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:5
-        }
-    }
-})  ;      
+
 </script>
 <script type="text/javascript">
      $(function(){ 
