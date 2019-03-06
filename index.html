@@ -685,16 +685,25 @@ fin seccion spa-->
 <section id="section-tips" class="content-section"  ng-controller="tips">
     <div class="container">
             <h1 class="title title-sblog ">Tips cscwellnesscenter</h1>
+<<<<<<< HEAD
         <div class="row content-noticias justify-content-center">
             <div class="col-md-12 col-lg-3 noticia" ng-repeat="x in postTips ">
+=======
+        <div class="row content-noticias">
+            <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postTips">
+>>>>>>> 2f402a3cdd1c5514434989bfcdf730612b968b8b
                 <div class="content-img-noticia" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive1" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
                     <img ng-if="post.better_featured_image" ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" class="alignleft" /> -->
                 <!--</div>
                 <hr>
                   <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+<<<<<<< HEAD
                   <a href="{{x.link}}"><p class="titutlo-noticia"></p></a>
                    <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p> 
+=======
+                  <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p>
+>>>>>>> 2f402a3cdd1c5514434989bfcdf730612b968b8b
                   <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
             </div>
         </div>
