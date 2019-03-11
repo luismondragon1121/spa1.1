@@ -457,7 +457,7 @@ video
            width: 100%;
            border-radius: 50%;
        }
-        .view::before
+        .img-redo::before
        {
             content: " ";
             position: absolute;
@@ -513,6 +513,10 @@ video
             opacity: 1;
             visibility:visible;
             z-index:1 ;
+       }
+        .view:hover .img-redo::before 
+       {
+        border: 10px solid rgba(211, 175, 134, 0.5);
        }
     
     .txt-redondas

@@ -477,7 +477,7 @@ video {
       position: relative;
       width: 100%;
       border-radius: 50%; }
-    #im-redondas li .view::before {
+    #im-redondas li .img-redo::before {
       content: " ";
       position: absolute;
       border: 10px solid rgba(252, 186, 248, 0.5);
@@ -527,6 +527,8 @@ video {
       opacity: 1;
       visibility: visible;
       z-index: 1; }
+    #im-redondas li .view:hover .img-redo::before {
+      border: 10px solid rgba(211, 175, 134, 0.5); }
     #im-redondas li .txt-redondas {
       font-family: 'Poppins', sans-serif;
       padding-top: 20px;
