@@ -297,10 +297,6 @@
 <!--seccion circulos-->
 <section id="im-redondas">
     <div class="container">
-            <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Servicios</h2>
-            <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
-            <p class="subtitle-promo wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">We pride ourselves on our level of customer service and we love hearing great<br>
-                        feedback from our happy clients.</p>
         <div class="row d-flex justify-content-center">
             <ul class="wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
                 <li>
@@ -456,7 +452,7 @@
         <div class="overlay-int"></div>
         <div class="container-fluid">
             <div class="row">
-                <p>Cambios pequeños, grandes resultados</p>
+                <p class="wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Cambios pequeños, grandes resultados</p>
             </div>
         </div>
     </section>
@@ -746,7 +742,7 @@ fin banner-->
     <div class="container-fluid">
         <div class="row">
             <div class="container">
-                <p>Sentirte bien,es verte bien</p>
+                <p  class="wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Sentirte bien, es verte bien</p>
             </div>
         </div>
     </div>
@@ -773,12 +769,12 @@ fin banner-->
 
 <!-- seccion tips-->
 <section id="section-tips" class="content-section"  ng-controller="tips">
-    <div class="container wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
-        <h2 class="title title-sblog">Tips</h2>
-        <hr class="linea-blog">
-        <p class="subtitle-blog">We pride ourselves on our level of customer service and we love hearing great<br>
+    <div class="container">
+        <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Tips</h2>
+        <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+        <p class="subtitle-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">We pride ourselves on our level of customer service and we love hearing great<br>
         feedback from our happy clients.</p>
-        <div class="row d-flex justify-content-center" ng-class="{active:!$index}">
+        <div class="row d-flex justify-content-center wow animated fadeIn" ng-class="{active:!$index}" data-wow-duration = "1s" data-wow-delay = "1s">
             <div class="tip" ng-repeat="x in postTips | limitTo: 2">
                 <div class="img-tip" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive1" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">

@@ -231,6 +231,8 @@ video {
     color: #664936; }
   #section-tips .titulo-tip h5 {
     font-family: 'Poppins', sans-serif; }
+    #section-tips .titulo-tip h5 a {
+      text-decoration: none; }
   #section-tips .titulo-tip p {
     font-family: 'Poppins', sans-serif;
     color: #c68659; }
@@ -248,7 +250,7 @@ video {
   width: 50%; }
 
 #conocenos {
-  padding: 150px 0px 150px;
+  padding: 150px 0px 15px;
   position: relative; }
   #conocenos .texto-conocenos h1 {
     color: #c68659;
@@ -468,6 +470,7 @@ video {
     text-align: center;
     padding: 10px;
     position: relative;
+    margin-left: 30px;
     cursor: pointer; }
     #im-redondas li .view img {
       display: block;
