@@ -404,7 +404,8 @@ video {
     padding-top: 40px;
     padding: 100px 0px 100px;
     position: relative;
-    color: white; }
+    color: white;
+    margin: 0 auto; }
 
 #parallax {
   background-image: url(../img/parallax/cscwellnesscenter2.jpg);
@@ -428,34 +429,111 @@ video {
     padding-top: 40px;
     padding: 100px 0px 100px;
     position: relative;
-    color: white; }
+    color: white;
+    margin: 0 auto; }
 
-.banner1 {
-  background-color: #a99f94;
-  margin-bottom: 0px; }
-  .banner1 h1 {
-    text-align: center;
-    font-size: 50px;
+#im-redondas {
+  position: relative; }
+  #im-redondas h2 {
+    color: #c68659;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    padding-top: 50px;
-    padding: 50px 0px 50px; }
-
-.banner2 {
-  background-color: #a28f7b; }
-  .banner2 h1 {
     text-align: center;
-    font-size: 10px;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
     font-weight: bold;
-    padding-top: 50px;
-    padding: 50px 0px 50px; }
-
-.colorbanner1 {
-  color: #ddcec3; }
-
-.colorbanner2 {
-  color: #f5e4cf; }
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 20px; }
+  #im-redondas .linea-blog {
+    background-color: #664936;
+    bottom: 0;
+    width: 40px;
+    left: 0px;
+    height: 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  #im-redondas .subtitle-promo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; }
+  #im-redondas p {
+    text-align: center; }
+  #im-redondas ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
+  #im-redondas li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer; }
+    #im-redondas li .view img {
+      display: block;
+      position: relative;
+      width: 100%;
+      border-radius: 50%; }
+    #im-redondas li .view::before {
+      content: " ";
+      position: absolute;
+      border: 10px solid rgba(252, 186, 248, 0.5);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      z-index: 1;
+      -o-transition: 0.5s all;
+      transition: 0.5s all;
+      -webkit-transition: 0.5s all; }
+    #im-redondas li .view {
+      position: relative;
+      margin-bottom: 20px; }
+    #im-redondas li .mask {
+      position: absolute;
+      top: 39%;
+      text-align: center;
+      width: 100%; }
+      #im-redondas li .mask a {
+        text-decoration: none; }
+      #im-redondas li .mask .info {
+        width: 120px;
+        height: 46px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#c68659), color-stop(51%, #d1ae85), to(#c68659));
+        background-image: -webkit-linear-gradient(left, #c68659 0%, #d1ae85 51%, #c68659 100%);
+        background-image: -o-linear-gradient(left, #c68659 0%, #d1ae85 51%, #c68659 100%);
+        background-image: linear-gradient(to right, #c68659 0%, #d1ae85 51%, #c68659 100%);
+        background-size: 200% auto;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        line-height: 46px;
+        margin: 0 auto;
+        border-radius: 25px;
+        font-size: 14px;
+        letter-spacing: 0;
+        font-weight: 500;
+        opacity: 0;
+        -o-transition: 0.7s all;
+        transition: 0.7s all;
+        -webkit-transition: 0.7s all;
+        z-index: 1;
+        position: relative; }
+    #im-redondas li .view-first:hover p {
+      opacity: 1;
+      visibility: visible;
+      z-index: 1; }
+    #im-redondas li .txt-redondas {
+      font-family: 'Poppins', sans-serif;
+      padding-top: 20px;
+      font-size: 18px;
+      color: #c68659;
+      font-weight: 100;
+      text-decoration: none;
+      margin-top: 10px; }
+    #im-redondas li .txt-redondas:hover {
+      color: #664936; }
 
 /*-------------------------
         ventanas modal
@@ -560,7 +638,9 @@ video {
   .tp-banner-container {
     margin-top: 16px; }
   .im-blog {
-    padding: 20px; } }
+    padding: 20px; }
+  .im-blog {
+    display: none; } }
 
 @media (max-width: 576px) {
   #conocenos .texto-conocenos h1 {
