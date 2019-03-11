@@ -345,12 +345,30 @@
     padding: 10px;
     cursor: pointer;
 }
+
+.frases_especiales
+{
+    color: $textos-contacto;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px;
+}
 .contenido-servicios-card
 {
     text-align: justify;
     padding: 30px;
     font-size: 16px;
     font-family:'Poppins', sans-serif;
+}
+
+.t-espe
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    text-align:center;
+    padding: 0px 20px 10px;
 }
 
 
