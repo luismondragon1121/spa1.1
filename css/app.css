@@ -643,9 +643,12 @@ video {
   .tp-banner-container {
     margin-top: 16px; }
   .im-blog {
-    padding: 20px; }
-  .im-blog {
-    display: none; } }
+    padding: 10px 0px;
+    display: block;
+    margin: auto; }
+  #im-redondas li {
+    display: block;
+    margin-left: 0px; } }
 
 @media (max-width: 576px) {
   #conocenos .texto-conocenos h1 {
@@ -728,7 +731,21 @@ video {
     #section-tips .tips-star {
       text-align: center; }
   #blog-spas .title-sblog {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .im-blog {
+    display: none; }
+  #im-redondas li {
+    display: block;
+    margin-left: 0px; }
+  #parallax-inicio {
+    background-image: url(../img/parallax/cscwellnesscenter1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative; } }
 
 #centrobelleza {
   background: url(../img/cb/bannerbelleza.jpg);
