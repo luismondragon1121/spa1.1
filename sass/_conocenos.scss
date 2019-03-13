@@ -63,6 +63,8 @@ video
     padding: 70px 0px;
     background-color: #f6f6f6;
     margin-top: -7px;
+    width: 100%;
+    height: auto;
     .title-sblog
     {
         color: #c68659;
@@ -103,7 +105,7 @@ video
         overflow: hidden;
         padding-bottom: 35px;
         margin-left: 30px;
-        width: 513px;
+        width: 540px;
         margin-top: 40px;
     }
     .img-tip
@@ -114,15 +116,15 @@ video
         float: right;
         margin-top: -40px;
         margin-left: 20px;
-        margin-right: -50px;
+        margin-right: -22px;
         margin-bottom: -90px;
         img 
         {
             float: left;
             border-bottom-left-radius: 100%;
             border-top-left-radius: 100%;
-            width: 250px;
-            height: 249px;
+            width: 266px;
+            height: 257px;
         }
         
     }
@@ -134,7 +136,7 @@ video
         margin-bottom: 0;
         line-height: 1.6;
         display: block;
-        width: 70%;
+        width: 50%;
         font-family: 'Poppins', sans-serif;
         color: #664936;
     }
@@ -146,24 +148,27 @@ video
             a 
             {
                 text-decoration: none;
+                font-size: 16px;
             }
         }
         p 
         {
             font-family: 'Poppins', sans-serif;
             color: $color-titulos;
+            font-size: 17px;
         }
-        .seeMore
+        
+    }
+    .seeMore a label
         {
             font-family: 'Poppins', sans-serif;
             color: $color-titulos;        
         }
-    }
     .tips-star
     { 
         text-align: left;
-        margin-top: 0;
-        padding-top: 20px;
+        margin-top: -13px;
+        padding-top: 0px;
         span i
         {
             color: #c68659;
@@ -648,6 +653,10 @@ video
         margin: auto;
         padding: 20px 0px;
     }
+    .im-blog
+    {
+        display: none;
+    }
 }
 
 
@@ -720,10 +729,7 @@ video
     {
         margin-top: 16px;
     }
-    .im-blog
-    {
-        display: none;
-    }
+   
     #im-redondas li 
     {
         display: block;    
@@ -847,6 +853,7 @@ video
         {
             text-align: center;
             width: 100%;
+            
         }   
         .titulo-tip
         {
@@ -860,6 +867,7 @@ video
                 font-family: 'Poppins', sans-serif;
                 color: $color-titulos;
                 padding-top: 10px;
+                font-size: 17px;
             }
             .seeMore
             {
@@ -890,6 +898,11 @@ video
         margin-left: 0px;
   
     }
+    .seeMore a label
+        {
+            text-align: center;
+            display: block;     
+        }
     #parallax-inicio
     {
         background-image: url(../img/parallax/cscwellnesscenter1.jpg);
@@ -911,5 +924,9 @@ video
         width: 100%;
         height: 300px;
         position: relative;
+    }
+    .img-tip
+    {
+        margin-right: -22px;
     }
 }

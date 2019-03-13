@@ -167,7 +167,9 @@ video {
 #section-tips {
   padding: 70px 0px;
   background-color: #f6f6f6;
-  margin-top: -7px; }
+  margin-top: -7px;
+  width: 100%;
+  height: auto; }
   #section-tips .title-sblog {
     color: #c68659;
     font-family: 'Poppins', sans-serif;
@@ -202,7 +204,7 @@ video {
     overflow: hidden;
     padding-bottom: 35px;
     margin-left: 30px;
-    width: 513px;
+    width: 540px;
     margin-top: 40px; }
   #section-tips .img-tip {
     max-width: 230px;
@@ -211,14 +213,14 @@ video {
     float: right;
     margin-top: -40px;
     margin-left: 20px;
-    margin-right: -50px;
+    margin-right: -22px;
     margin-bottom: -90px; }
     #section-tips .img-tip img {
       float: left;
       border-bottom-left-radius: 100%;
       border-top-left-radius: 100%;
-      width: 250px;
-      height: 249px; }
+      width: 266px;
+      height: 257px; }
   #section-tips .txt-tip {
     padding-top: 0;
     padding-bottom: 0;
@@ -226,23 +228,25 @@ video {
     margin-bottom: 0;
     line-height: 1.6;
     display: block;
-    width: 70%;
+    width: 50%;
     font-family: 'Poppins', sans-serif;
     color: #664936; }
   #section-tips .titulo-tip h5 {
     font-family: 'Poppins', sans-serif; }
     #section-tips .titulo-tip h5 a {
-      text-decoration: none; }
+      text-decoration: none;
+      font-size: 16px; }
   #section-tips .titulo-tip p {
     font-family: 'Poppins', sans-serif;
-    color: #c68659; }
-  #section-tips .titulo-tip .seeMore {
+    color: #c68659;
+    font-size: 17px; }
+  #section-tips .seeMore a label {
     font-family: 'Poppins', sans-serif;
     color: #c68659; }
   #section-tips .tips-star {
     text-align: left;
-    margin-top: 0;
-    padding-top: 20px; }
+    margin-top: -13px;
+    padding-top: 0px; }
     #section-tips .tips-star span i {
       color: #c68659; }
 
@@ -605,7 +609,9 @@ video {
   .im-blog {
     display: block;
     margin: auto;
-    padding: 20px 0px; } }
+    padding: 20px 0px; }
+  .im-blog {
+    display: none; } }
 
 @media (max-width: 768px) {
   #conocenos .texto-conocenos h1 {
@@ -646,8 +652,6 @@ video {
       bottom: 50px; } }
   .tp-banner-container {
     margin-top: 16px; }
-  .im-blog {
-    display: none; }
   #im-redondas li {
     display: block;
     margin-left: 0px; } }
@@ -724,7 +728,8 @@ video {
     #section-tips .titulo-tip p {
       font-family: 'Poppins', sans-serif;
       color: #c68659;
-      padding-top: 10px; }
+      padding-top: 10px;
+      font-size: 17px; }
     #section-tips .titulo-tip .seeMore {
       font-family: 'Poppins', sans-serif;
       color: #c68659;
@@ -739,6 +744,9 @@ video {
   #im-redondas li {
     display: block;
     margin-left: 0px; }
+  .seeMore a label {
+    text-align: center;
+    display: block; }
   #parallax-inicio {
     background-image: url(../img/parallax/cscwellnesscenter1.jpg);
     background-position: center;
@@ -756,7 +764,9 @@ video {
     background-size: cover;
     width: 100%;
     height: 300px;
-    position: relative; } }
+    position: relative; }
+  .img-tip {
+    margin-right: -22px; } }
 
 #centrobelleza {
   background: url(../img/cb/bannerbelleza.jpg);

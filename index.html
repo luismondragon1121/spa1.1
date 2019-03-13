@@ -779,7 +779,7 @@ fin banner-->
     <div class="container">
         <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Tips</h2>
         <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
-        <p class="subtitle-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">En CSC Wellness Center te ayudamos a lucir y sentirte bien, <br>con nuestraos prácticos consejos lograrás un equilibrio entre mente y cuerpo.</p>
+        <p class="subtitle-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">En CSC Wellness Center te ayudamos a lucir y sentirte bien, <br>con nuestros prácticos consejos lograrás un equilibrio entre mente y cuerpo.</p>
         <div class="row d-flex justify-content-center wow animated fadeIn" ng-class="{active:!$index}" data-wow-duration = "1s" data-wow-delay = "1s">
             <div class="tip" ng-repeat="x in postTips | limitTo: 2">
                 <div class="img-tip" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
@@ -789,12 +789,14 @@ fin banner-->
                     <h5>
                         <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
                     </h5>
-                    <p>
-                        <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
-                    </p>
                 </div>
                 <div class="txt-tip">
-                    <p  ng-bind-html="x.excerpt.rendered | limitTo: 50"></p>
+                    <p ng-bind-html="x.excerpt.rendered | limitTo: 45"></p>
+                </div>
+                <div class="seeMore">
+                    <p>   
+                        <a href="{{x.link}}" target="_blank"><label>Ver más</label></a>
+                    </p>
                 </div>
                 <div class="tips-star">
                     <span><i class="fas fa-star" ></i></span>
