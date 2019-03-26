@@ -30,49 +30,52 @@
     
     <title>CSC Wellness Center | SPA</title>
 </head>
+
 <!--Menu-->
 <nav id="nav-menu" class="navbar navbar-expand-lg fixed-top navbar-light ">
-  <a class="navbar-brand" href="index.html">
-      <img src="img/logo.png" width="100px" height="" alt="">
-  </a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+    <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" width="100px" height="" alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <a class="nav-link text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="index.html#conocenos">Conócenos</a>
-    </li>
-    <li class="nav-item dropdown arriba">
-      <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Wellness Center
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item text-white" href="belleza.html">Centro de Belleza</a>
-        <a class="dropdown-item text-white" href="spa.html">Spa</a>
-        <a class="dropdown-item text-white" href="bienestar.html">Centro de Bienestar</a>
-      </div>
-    </li>
-    <li class="nav-item arriba">
-      <a class="nav-link text-white" href="galeria.html">Galería</a>
-    </li>
-    <li class="nav-item arriba">
-          <a class="nav-link text-white" href="servicios.html">Servicios</a>
-    </li>
-    <li class="nav-item arriba">
-          <a class="nav-link text-white" href="contacto.html">Contacto</a>
-     </li>
-  </ul>
-  <!-- <form class="form-inline my-2 my-lg-0">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form> -->
-</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item arriba">
+        <a class="nav-link text-white" href="index.html#conocenos">Conócenos</a>
+      </li>
+      <li class="nav-item dropdown arriba">
+        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Wellness Center
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-white" href="belleza.html">Centro de Belleza</a>
+          <a class="dropdown-item text-white" href="spa.html">Spa</a>
+          <a class="dropdown-item text-white" href="bienestar.html">Centro de Bienestar</a>
+        </div>
+      </li>
+      <li class="nav-item arriba">
+        <a class="nav-link text-white" href="galeria.html">Galería</a>
+      </li>
+      <li class="nav-item arriba">
+            <a class="nav-link text-white" href="servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item arriba">
+            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+       </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
 </nav>
+<!--fin Menu-->
+
 <body>
   
 <!--fin Menu-->
@@ -84,38 +87,40 @@
       
  
  <!--formulario y mapa-->
-<section class="container-fluid" id="contacto">
-    <div class="row">
-         <div class="col-md-1"></div>
-            <div class="col-md-5 wow animated fadeIn form-group" data-wow-duration = "2s" data-wow-delay = "1s">
-             <form action="correo/enviar.php" method="POST" onSubmit="return validar();">
-               <b class="titulo-contacto wow animated fadeInDown" data-wow-duration = "1s" data-wow-delay = "1s">Contacto</b><br>
-               <label class="textos-contacto" style="padding: 10px">Los campos con * son Obligatorios</label>
-                <input id="nombre" class="con form-control" style="margin-bottom: 10px;" id="pnombre" type="text" name="Nombre" placeholder="* Nombre">
-                <span class="help-block" style="color:red"></span>
-                <input id="correo" class="con" style="margin-bottom: 10px;"  type="email" name="Correo" placeholder="* Correo" >
-                <span class="help-block" style="color:red"></span>
-                <input id="telefono" class="con" style="margin-bottom: 10px;"  type="name" name="Telefono" placeholder="* Teléfono"> <br><br>
-                
-                <textarea id="mensaje" class="con" name="mensaje" placeholder="* Escriba aquí su mensaje"></textarea>
-                
-                <label class="textos-contacto">Fecha de preferencia de cita</label>
-                <input id="cita" class="con" type="date" name="cita" step="1" min="2018-10-16" max="2019-12-31">
-              
-                <label class="textos-contacto">Horario de preferencia de cita</label>
-                <input id="hora" class="con" type="time" name="hora" value="09:00:00" max="19:00:00" min="09:00:00" step="1">
-                <!--<div class="g-recaptcha" data-sitekey="6Lf00osUAAAAAOAKRFeuhlv2YUMNwnypE_EXcFjJ"></div>-->
-                <input  class="con" type="submit" onclick="pregunta()"  value="Enviar" id="btn">
-             </form>            
-         </div>
-          <div class="col-md-5 wow animated fadeIn" data-wow-duration = "2s" data-wow-delay = "1s">
-             <div id="mapa"></div><br>
-             <h5 class="contenidos-contacto-titulo">CSC WELLNESS CENTER</h5><br>
-             <p id="color-contacto" class="contenidos-contacto">Georgia #145, Col. Nápoles, CDMX, C.P 03810<p>
-             <p id="color-contacto" class="contenidos-contacto"> Teléfonos: 5543-1607 / 5543-1385</p>
-             <p id="color-contacto" class="contenidos-contacto">Whatsapp: 55-7754-9320</p>
-             <p id="color-contacto" class="contenidos-contacto">Correo: <a href="mailto:informescsc@cscwellnesscenter.com.mx">informescsc@cscwellnesscenter.com.mx</a></p>
-         </div>
+<section id="contacto">
+    <div class="container-fluid" >
+            <div class="row">
+                    <div class="col-md-1"></div>
+                       <div class="col-md-5 wow animated fadeIn form-group" data-wow-duration = "2s" data-wow-delay = "1s">
+                        <form action="correo/enviar.php" method="POST" onSubmit="return validar();">
+                          <b class="titulo-contacto wow animated fadeInDown" data-wow-duration = "1s" data-wow-delay = "1s">Contacto</b><br>
+                          <label class="textos-contacto" style="padding: 10px">Los campos con * son Obligatorios</label>
+                           <input id="nombre" class="con form-control" style="margin-bottom: 10px;" id="pnombre" type="text" name="Nombre" placeholder="* Nombre">
+                           <span class="help-block" style="color:red"></span>
+                           <input id="correo" class="con" style="margin-bottom: 10px;"  type="email" name="Correo" placeholder="* Correo" >
+                           <span class="help-block" style="color:red"></span>
+                           <input id="telefono" class="con" style="margin-bottom: 10px;"  type="name" name="Telefono" placeholder="* Teléfono"> <br><br>
+                           
+                           <textarea id="mensaje" class="con" name="mensaje" placeholder="* Escriba aquí su mensaje"></textarea>
+                           
+                           <label class="textos-contacto">Fecha de preferencia de cita</label>
+                           <input id="cita" class="con" type="date" name="cita" step="1" min="2018-10-16" max="2019-12-31">
+                         
+                           <label class="textos-contacto">Horario de preferencia de cita</label>
+                           <input id="hora" class="con" type="time" name="hora" value="09:00:00" max="19:00:00" min="09:00:00" step="1">
+                           <!--<div class="g-recaptcha" data-sitekey="6Lf00osUAAAAAOAKRFeuhlv2YUMNwnypE_EXcFjJ"></div>-->
+                           <input  class="con" type="submit" onclick="pregunta()"  value="Enviar" id="btn">
+                        </form>            
+                    </div>
+                     <div class="col-md-5 wow animated fadeIn" data-wow-duration = "2s" data-wow-delay = "1s">
+                        <div id="mapa"></div><br>
+                        <h5 class="contenidos-contacto-titulo">CSC WELLNESS CENTER</h5><br>
+                        <p id="color-contacto" class="contenidos-contacto">Georgia #145, Col. Nápoles, CDMX, C.P 03810<p>
+                        <p id="color-contacto" class="contenidos-contacto"> Teléfonos: 5543-1607 / 5543-1385</p>
+                        <p id="color-contacto" class="contenidos-contacto">Whatsapp: 55-7754-9320</p>
+                        <p id="color-contacto" class="contenidos-contacto">Correo: <a href="mailto:informescsc@cscwellnesscenter.com.mx">informescsc@cscwellnesscenter.com.mx</a></p>
+                    </div>
+               </div>
     </div>
 </section>
 <!--fin formulario y mapa-->
@@ -263,7 +268,7 @@ $('.18').owlCarousel({
      });
  });
 </script>
-<!--<script src="//code.tidio.co/uy23ltokujw1wykvn9t3ysx79t6rzzke.js"></script>-->
+<script src="//code.tidio.co/uy23ltokujw1wykvn9t3ysx79t6rzzke.js"></script>
 <script src="js/belleza.js"></script>
 <script src="js/spa.js" ></script>
 <script src="js/validar.js"></script>

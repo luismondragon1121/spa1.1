@@ -52,9 +52,9 @@
               Wellness Center
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-white" href="belleza.html">Centro de Belleza</a>
-              <a class="dropdown-item text-white" href="spa.html">Spa</a>
-              <a class="dropdown-item text-white" href="bienestar.html">Centro de Bienestar</a>
+              <a class="dropdown-item text-white " href="belleza.html">Centro de Belleza</a>
+              <a class="dropdown-item text-white " href="spa.html">Spa</a>
+              <a class="dropdown-item text-white " href="bienestar.html">Centro de Bienestar</a>
             </div>
           </li>
           <li class="nav-item arriba">
@@ -282,7 +282,7 @@
                 <p class="contenidos-ti wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Olvídate de la rutina diaria, descubre en CSC Wellness Center un nuevo concepto integral que combina la belleza, bienestar y salud, donde te ofreceremos un espacio exclusivo para conectar tus sentidos, y crear armonía entre mente y cuerpo, permitiendo vivir una experiencia CSC.
                 </p>
                 <p class="contenidos-ti wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
-                    Disfruta de los beneficios en CSC Wellness Center de la mano de nuestras terapeutas, especializadas en brindarte la atención que necesitas, ayudando de manera natural a mantener la salud de tu cuerpo.
+                        Disfruta de los beneficios en CSC Wellness Center de la mano de nuestros terapeutas, especializados en brindarte la atención que necesitas, ayudando de manera natural a mantener la salud de tu cuerpo.
                 </p>
         </div>
         <!--<div class="col-md-6 contenedor-imagenes text-center ">
@@ -293,6 +293,60 @@
     </div>
 </section>
 <!-- fin seccion de conocenos -->
+
+<!--seccion circulos-->
+<section id="im-redondas">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <ul class="wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+                <li>
+                    <div class="view view-first">
+                        <div class="img-redo">
+                        <img src="img/inicio/centrodebelleza.jpg" alt="">
+                        </div>
+                        <div class="mask">
+                            <!-- <p>Prueba para realizar informacion en sectores </p> -->
+                            <a href="belleza.html"><p class="info">Ver más</p></a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="belleza.html" class="txt-redondas"><p>Centro de Belleza</p></a>
+                    </div>
+                </li>
+                <li>
+                        <div class=" view view-first">
+                            <div class="img-redo">
+                                <img src="img/inicio/spa.jpg" alt="">
+                            </div>
+                            <div class="mask">
+                                <!-- <p>Prueba para realizar informacion en sectores </p> -->
+                                <a href="spa.html"><p class="info">Ver más </p></a>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="txt-redondas" href="spa.html"><p>SPA</p></a>
+                        </div>
+                    </li>
+                    <li>
+                            <div class=" view view-first">
+                                <div class="img-redo">
+                                    
+                                <img src="img/inicio/centrodebienestar.jpg" alt="">
+                                </div>
+                                <div class="mask">
+                                    <!-- <p>Prueba para realizar informacion en sectores </p> -->
+                                    <a href="bienestar.html"><p class="info">Ver más </p></a>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="txt-redondas" href="bienestar.html"><p>Centro de Bienestar</p></a>
+                            </div>
+                        </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--seccion circulos-->
 
 
 <!--seccion centro de belleza -->
@@ -392,24 +446,33 @@
      </section>-->
     <!--section centro de belleza-->
 
-<!-- banner-->
+<!--+ banner
 <div id="carouselExampleSlidesOnly1" class="carousel-slide" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active banner1">
+    <div id="parallax-inicio" class="carousel-item active banner1">
        <h1><font class ="colorbanner1">Cambios pequeños,</font><br><font class ="colorbanner2"> resultados permanentes</font></h1>
     </div>
   </div>
-</div>
- <!-- fin banner-->  
+</div>-->
+ 
+ <section id="parallax-inicio">
+        <div class="overlay-int"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <p class="wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Cambios pequeños, grandes resultados</p>
+            </div>
+        </div>
+    </section>
+    
 
 <section id="blog-spas" >
             <div class="container"  ng-controller="blog-spa">
                 <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Promociones</h2>
                 <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
-                <p class="subtitle-promo wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">We pride ourselves on our level of customer service and we love hearing great<br>
-                            feedback from our happy clients.</p>
+                <p class="subtitle-promo wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">En CSC Wellness Center queremos que siempre luzcas espectacular. <br>
+                    Aprovecha nuestras promociones del mes y agenda tu cita hoy.</p>
                 <div class="row" style="margin-top:40px">
-                    <div class="col-lg-8 col-md-8 wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+                    <div class="col-lg-8 col-md-12 col-sm-12 wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  ng-controller="blog-spa" >
                                     <!--<ul class="content-idicators">
                                         <li data-target="#carouselExampleIndicators" data-slide-to="0" dir-paginate="x in postSpa | itemsPerPage: 4">
@@ -671,7 +734,7 @@ fin seccion spa-->
 
 
 
-<!-- banner-->
+<!-- banner
 <div id="carouselExampleSlidesOnly" class="carousel-slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active banner1">
@@ -679,7 +742,18 @@ fin seccion spa-->
     </div>
   </div>
 </div>
-<!-- fin banner--> 
+fin banner--> 
+
+<section id="parallax">
+    <div class="overlay-int"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <p  class="wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Sentirte bien, es verte bien</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--
 <section id="section-tips" class="content-section"  ng-controller="tips">
@@ -703,12 +777,11 @@ fin seccion spa-->
 
 <!-- seccion tips-->
 <section id="section-tips" class="content-section"  ng-controller="tips">
-    <div class="container wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
-        <h2 class="title title-sblog">Tips</h2>
-        <hr class="linea-blog">
-        <p class="subtitle-blog">We pride ourselves on our level of customer service and we love hearing great<br>
-        feedback from our happy clients.</p>
-        <div class="row d-flex justify-content-center" ng-class="{active:!$index}">
+    <div class="container">
+        <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Tips</h2>
+        <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
+        <p class="subtitle-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">En CSC Wellness Center te ayudamos a lucir y sentirte bien, <br>con nuestros prácticos consejos lograrás un equilibrio entre mente y cuerpo.</p>
+        <div class="row d-flex justify-content-center wow animated fadeIn" ng-class="{active:!$index}" data-wow-duration = "1s" data-wow-delay = "1s">
             <div class="tip" ng-repeat="x in postTips | limitTo: 2">
                 <div class="img-tip" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive1" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
@@ -717,12 +790,14 @@ fin seccion spa-->
                     <h5>
                         <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
                     </h5>
-                    <p>
-                        <a href="{{x.link}}" target="_blank"><label class="seeMore">Ver más</label></a>
-                    </p>
                 </div>
                 <div class="txt-tip">
-                    <p  ng-bind-html="x.excerpt.rendered | limitTo: 50"></p>
+                    <p ng-bind-html="x.excerpt.rendered | limitTo: 45"></p>
+                </div>
+                <div class="seeMore">
+                    <p>   
+                        <a href="{{x.link}}" target="_blank"><label>Ver más</label></a>
+                    </p>
                 </div>
                 <div class="tips-star">
                     <span><i class="fas fa-star" ></i></span>
