@@ -88,7 +88,13 @@ importando variables
 /*--------------------------
     media querys
 ---------------------------*/
+@media (max-width: 1200px) {
+  .modal-dialog {
+    max-width: 800px !important; } }
+
 @media (max-width: 992px) {
+  .modal-dialog {
+    max-width: 800px !important; }
   #spa-carousel .owl-nav .owl-prev span {
     left: 100px; }
   #spa-carousel .owl-nav .owl-next span {
@@ -122,6 +128,85 @@ importando variables
     left: 40px; }
   #sl .owl-nav .owl-next span {
     right: 40px; } }
+
+#section-elite {
+  background-image: url("../img/promoSpa/banner elite health.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px; }
+  #section-elite .text-princ {
+    text-align: center;
+    padding: 50px 0px; }
+  #section-elite h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #4c4b50;
+    font-size: 60px; }
+  #section-elite h2 {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 5px; }
+  #section-elite h3 {
+    margin-top: 60px;
+    text-align: center;
+    color: #d1ae85;
+    font-size: 20px;
+    margin-bottom: 30px; }
+  #section-elite .funcion {
+    color: #4c4b50;
+    font-weight: 100;
+    font-size: 40px; }
+  #section-elite hr {
+    margin-top: 20px; }
+  #section-elite ul {
+    margin-bottom: 30px; }
+    #section-elite ul li {
+      list-style: none; }
+  #section-elite .modal-heade {
+    width: 100%;
+    height: 300px;
+    background-image: url("./img/promoSpa/banner spa.jpg"); }
+
+.header-img {
+  background-image: url(../img/parallax/cscwellnesscenter2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  position: relative; }
+
+#mostrarmodal .modal-body {
+  padding: 0; }
+
+#mostrarmodal img {
+  width: 100%; }
+
+#mostrarmodal .modal-dialog {
+  max-width: 1000px; }
+
+#mostrarmodal .modal-content {
+  position: relative;
+  border: 1px solid transparent; }
+  #mostrarmodal .modal-content .btn-close {
+    color: #c68659; }
+
+#mostrarmodal button.close {
+  z-index: 9;
+  padding: 0;
+  width: 30px;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white; }
+
+#mostrarmodal .content-btm article {
+  text-align: center;
+  padding: 20px;
+  background-color: blue; }
 
 video {
   width: 100%;
@@ -481,10 +566,37 @@ video {
       position: relative;
       width: 100%;
       border-radius: 50%; }
-    #im-redondas li .img-redo::before {
+    #im-redondas li .img-redo-belleza::before {
       content: " ";
       position: absolute;
-      border: 10px solid rgba(252, 186, 248, 0.5);
+      border: 10px solid rgba(122, 169, 218, 0.3);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      z-index: 1;
+      -o-transition: 0.5s all;
+      transition: 0.5s all;
+      -webkit-transition: 0.5s all; }
+    #im-redondas li .img-redo-spa::before {
+      content: " ";
+      position: absolute; }
+    #im-redondas li .img-redo-spa::before {
+      border: 10px solid rgba(198, 134, 89, 0.3);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      z-index: 1;
+      -o-transition: 0.5s all;
+      transition: 0.5s all;
+      -webkit-transition: 0.5s all; }
+    #im-redondas li .img-redo-bienestar::before {
+      content: " ";
+      position: absolute;
+      border: 10px solid rgba(135, 107, 178, 0.3);
       top: 0;
       left: 0;
       width: 100%;
@@ -504,13 +616,59 @@ video {
       width: 100%; }
       #im-redondas li .mask a {
         text-decoration: none; }
-      #im-redondas li .mask .info {
+      #im-redondas li .mask .info-spa {
         width: 120px;
         height: 46px;
-        background-image: -webkit-gradient(linear, left top, right top, from(#c68659), color-stop(51%, #d1ae85), to(white));
-        background-image: -webkit-linear-gradient(left, #c68659 0%, #d1ae85 51%, white 100%);
-        background-image: -o-linear-gradient(left, #c68659 0%, #d1ae85 51%, white 100%);
-        background-image: linear-gradient(to right, #c68659 0%, #d1ae85 51%, white 100%);
+        background-image: -webkit-gradient(linear, left top, right top, from(#c68659), color-stop(51%, #e6c9a9), to(white));
+        background-image: -webkit-linear-gradient(left, #c68659 0%, #e6c9a9 51%, white 100%);
+        background-image: -o-linear-gradient(left, #c68659 0%, #e6c9a9 51%, white 100%);
+        background-image: linear-gradient(to right, #c68659 0%, #e6c9a9 51%, white 100%);
+        background-size: 200% auto;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        line-height: 46px;
+        margin: 0 auto;
+        border-radius: 25px;
+        font-size: 14px;
+        letter-spacing: 0;
+        font-weight: 500;
+        opacity: 0;
+        -o-transition: 0.7s all;
+        transition: 0.7s all;
+        -webkit-transition: 0.7s all;
+        z-index: 1;
+        position: relative; }
+      #im-redondas li .mask .info-belleza {
+        width: 120px;
+        height: 46px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#7aa9da), color-stop(51%, #c3d6eb), to(white));
+        background-image: -webkit-linear-gradient(left, #7aa9da 0%, #c3d6eb 51%, white 100%);
+        background-image: -o-linear-gradient(left, #7aa9da 0%, #c3d6eb 51%, white 100%);
+        background-image: linear-gradient(to right, #7aa9da 0%, #c3d6eb 51%, white 100%);
+        background-size: 200% auto;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        line-height: 46px;
+        margin: 0 auto;
+        border-radius: 25px;
+        font-size: 14px;
+        letter-spacing: 0;
+        font-weight: 500;
+        opacity: 0;
+        -o-transition: 0.7s all;
+        transition: 0.7s all;
+        -webkit-transition: 0.7s all;
+        z-index: 1;
+        position: relative; }
+      #im-redondas li .mask .info-bienestar {
+        width: 120px;
+        height: 46px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#876bb2), color-stop(51%, #bfa3e9), to(white));
+        background-image: -webkit-linear-gradient(left, #876bb2 0%, #bfa3e9 51%, white 100%);
+        background-image: -o-linear-gradient(left, #876bb2 0%, #bfa3e9 51%, white 100%);
+        background-image: linear-gradient(to right, #876bb2 0%, #bfa3e9 51%, white 100%);
         background-size: 200% auto;
         color: #fff;
         text-transform: uppercase;
@@ -533,11 +691,33 @@ video {
       z-index: 1; }
     #im-redondas li .view:hover .img-redo::before {
       border: 10px solid rgba(211, 175, 134, 0.5); }
+    #im-redondas li .view:hover .img-redo-belleza::before {
+      border: 10px solid rgba(122, 169, 218, 0.7); }
+    #im-redondas li .view:hover .img-redo-spa::before {
+      border: 10px solid rgba(198, 134, 89, 0.7); }
+    #im-redondas li .view:hover .img-redo-bienestar::before {
+      border: 10px solid rgba(135, 107, 178, 0.7); }
+    #im-redondas li .txt-redondas-belleza {
+      font-family: 'Poppins', sans-serif;
+      padding-top: 20px;
+      font-size: 18px;
+      color: #7aa9da;
+      font-weight: 100;
+      text-decoration: none;
+      margin-top: 10px; }
     #im-redondas li .txt-redondas {
       font-family: 'Poppins', sans-serif;
       padding-top: 20px;
       font-size: 18px;
       color: #c68659;
+      font-weight: 100;
+      text-decoration: none;
+      margin-top: 10px; }
+    #im-redondas li .txt-redondas-bienestar {
+      font-family: 'Poppins', sans-serif;
+      padding-top: 20px;
+      font-size: 18px;
+      color: #876bb2;
       font-weight: 100;
       text-decoration: none;
       margin-top: 10px; }

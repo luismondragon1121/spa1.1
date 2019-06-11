@@ -28,13 +28,14 @@ date_default_timezone_set("America/Mexico_City");
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 	    $mail->Mailer = 'smtp';
-		$mail->Username = '*************************'; // Correo completo a utilizar
-		$mail->Password = '*********'; // Contraseña
+		$mail->Username = 'cclusterc@gmail.com'; // Correo completo a utilizar
+		$mail->Password = 'zA422/*1x'; // Contraseña
         $mail->SMTPSecure = 'tls';
 		$mail->Port = 587; // Puerto a utilizar
-		$mail->From = '************************************';
+		$mail->From = 'cclusterc@gmail.com';
 		$mail->FromName = 'CSC | Nuevo correo';
-		$mail->AddAddress('**************************+'); // Esta es la dirección a donde enviamos
+		$mail->AddAddress('informescsc@cscwellnesscenter.com.mx'); // Esta es la dirección a donde enviamos
+		$mail->AddAddress('miguel.moreno@cclusterc.com.mx'); // Esta es la dirección a donde enviamos
 		$mail->isHTML(true);
 	    $mail->CharSet = 'UTF-8';
         $mail->MsgHTML($message);

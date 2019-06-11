@@ -1,4 +1,4 @@
-
+@import 'variables';
     
 
 /*-----style navs slider-------*/
@@ -145,11 +145,21 @@
 ---------------------------*/
 @media (max-width:1200px)
 {
+    .modal-dialog{
+        max-width: 800px!important;
+    }
+}
+
+@media (max-width:1200px){
     
 }
 
+
 @media (max-width:992px)
 {
+.modal-dialog{
+    max-width: 800px!important;
+}
     #spa-carousel{
         .owl-nav{
             .owl-prev{
@@ -267,3 +277,101 @@
     }
 
 }
+
+#section-elite{
+    background-image: url('../img/promoSpa/banner elite health.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+
+    .text-princ{
+        text-align: center;
+        padding: 50px 0px;
+    }
+    h1{
+        text-align: center;
+        font-weight: 100;
+        color: #4c4b50;
+        font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+h3{
+    margin-top: 60px;
+    text-align: center;
+    color: $texto-preguntas;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.funcion {
+    color: #4c4b50;
+    font-weight: 100;
+    font-size: 40px;
+
+}
+hr{
+    margin-top:20px;
+}
+
+ul{
+    margin-bottom: 30px;
+    li{
+        list-style: none;
+    }
+}
+    .modal-heade{
+        width: 100%;
+        height: 300px;
+        background-image: url('./img/promoSpa/banner spa.jpg');
+    }
+}
+
+.header-img{
+    background-image: url(../img/parallax/cscwellnesscenter2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+
+#mostrarmodal{
+    .modal-body {
+        padding: 0;
+    }img {
+        width: 100%;
+    }
+    .modal-dialog {
+        max-width: 1000px;
+    }
+    .modal-content {
+        position: relative;
+        border: 1px solid transparent;
+        .btn-close{
+            color:#c68659;
+        }
+    }
+    button.close {
+        z-index: 9;
+        padding: 0;
+        width: 30px;
+        background-color: transparent;
+        border: 0;
+        -webkit-appearance: none;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: white;
+    }
+    .content-btm article {
+        text-align: center;
+        padding: 20px;
+        background-color:blue;
+    }
+}
+
